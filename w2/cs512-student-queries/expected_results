@@ -1,0 +1,10 @@
+125 rows with 2 columns, the first value is ZOOLANDER FICTION, 5
+1 row with 2 columns, the tuple is TRAIN BUNCH, A Thrilling Character Study of a Robot And a Squir...
+5 rows with 2 columns, the first tuple is 20.402556 PG-13
+5 rows of 2 columns, the first tuple is 92.4113, PG
+9 rows with 3 columns, the first tuple is BETTY, WHITE, California
+54 rows with three columns, the first tuple is ZERO, CAGE, WORKER TARZAN
+Running the query SELECT * FROM bsg_people where lname = "Gaeta" before running this INSERT query should produce no results. The result of this INSERT query is the output "1 row inserted." Running the SELECT query a second time produces one new row.
+Running the query SELECT * FROM bsg_people where lname = "Dualla" before running this INSERT query should produce no results. The result of this INSERT query is the output "1 row inserted." Running the SELECT query a second time produces one new row.
+Three queries are recommended (though not required). Note be sure to end each query with a semicolon '";" otherwise the interpreter cannot distinguish where one query ends and the next begins. First any instance of bsg_people.id as a foreign key in bsg_cert_people (4 rows affected) and second in the bsg_ship_assignment (8 rows affected) should be checked and removed if the homeworld is null. Then in a third query, delete from bsg_people (7 rows affected). As it turns out though since this database utilizes ON DELETE CASCADELinks to an external site., running only the third query will delete the orphan columns in the other entities. But it's never a good idea to assume as this can create data anomalies. 
+Running the query SELECT homeworld FROM `bsg_people` WHERE lname='Baltar' before and after this update query should produce the same results. 
