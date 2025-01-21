@@ -9,3 +9,11 @@
 -- The results should return the average length in a column named "avg_len" and the rating. It should be ordred by the
 -- average length ascending.
 
+SELECT AVG(length) AS avg_len, rating 
+FROM film 
+WHERE rental_rate < 2 
+    OR length < 110 
+    OR (rating = 'G' 
+        AND replacement_cost = 19.99) 
+GROUP BY rating 
+ORDER BY avg_len ASC
