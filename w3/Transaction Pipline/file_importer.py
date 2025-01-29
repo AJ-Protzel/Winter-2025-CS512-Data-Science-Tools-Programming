@@ -11,11 +11,15 @@ from tkinterdnd2 import DND_FILES, TkinterDnD
 import os
 import shutil
 
-# Function to handle file drop
 def drop(event):
+    """
+    Handle file drop event. Copy dropped files to the appropriate folder based on user selections.
+    
+    Args:
+        event: The drop event containing the file paths.
+    """
     files = root.tk.splitlist(event.data)
     for file in files:
-        # Copy the file to the appropriate folder based on the selections
         copy_file(file)
     
     # Clear the fields after input of files
@@ -27,8 +31,13 @@ def drop(event):
     if not messagebox.askyesno("Continue", "Do you want to continue?"):
         root.destroy()
 
-# Function to copy the file to the appropriate folder
 def copy_file(file):
+    """
+    Copy the file to the appropriate folder based on user selections.
+    
+    Args:
+        file (str): The path of the file to be copied.
+    """
     type_selection = type_var.get()
     bank_selection = bank_var.get()
     card_selection = card_var.get()
@@ -43,12 +52,13 @@ def copy_file(file):
     # Copy the file to the folder
     shutil.copy(file, folder_path)
 
-# Function to update bank options based on type selection
 def update_bank_options(*args):
+    """
+    Update bank options based on the selected type.
+    """
     type_selection = type_var.get()
-    
     bank_options = []
-    
+
     if type_selection == "Debit":
         bank_options = ["BofA"]
     elif type_selection == "Credit":
@@ -62,13 +72,14 @@ def update_bank_options(*args):
     
     update_card_options()
 
-# Function to update card options based on type and bank selections
 def update_card_options(*args):
+    """
+    Update card options based on the selected type and bank.
+    """
     type_selection = type_var.get()
     bank_selection = bank_var.get()
-    
     card_options = []
-    
+
     if type_selection == "Debit" and bank_selection == "BofA":
         card_options = ["Savings"]
     elif type_selection == "Credit":
@@ -85,9 +96,35 @@ def update_card_options(*args):
     for option in card_options:
         card_menu['menu'].add_command(label=option, command=tk._setit(card_var, option))
 
-# Function to handle cancel button click
 def cancel():
+    """
+    Handle cancel button click. Close the application.
+    """
     root.destroy()
+
+def create_dropdown(label_text, variable, options, parent, default_value=""):
+    """
+    Create a dropdown menu with a label.
+    
+    Args:
+        label_text (str): The text for the label.
+        variable (tk.StringVar): The variable associated with the dropdown.
+        options (list): The list of options for the dropdown.
+        parent (tk.Widget): The parent widget.
+        default_value (str): The default value for the dropdown.
+    
+    Returns:
+        tk.OptionMenu: The created dropdown menu.
+    """
+    label = tk.Label(parent, text=label_text)
+    label.pack()
+    variable.set(default_value)
+    if options:
+        menu = tk.OptionMenu(parent, variable, *options)
+    else:
+        menu = tk.OptionMenu(parent, variable, default_value)
+    menu.pack()
+    return menu
 
 # Initialize main window
 root = TkinterDnD.Tk()
@@ -95,24 +132,15 @@ root.title("File Organizer")
 
 # Type dropdown
 type_var = tk.StringVar()
-type_label = tk.Label(root, text="Type:")
-type_label.pack()
-type_menu = tk.OptionMenu(root, type_var, "Credit", "Debit")
-type_menu.pack()
+type_menu = create_dropdown("Type:", type_var, ["Credit", "Debit"], root)
 
 # Bank dropdown
 bank_var = tk.StringVar()
-bank_label = tk.Label(root, text="Bank:")
-bank_label.pack()
-bank_menu = tk.OptionMenu(root, bank_var, "")
-bank_menu.pack()
+bank_menu = create_dropdown("Bank:", bank_var, [], root)
 
 # Card dropdown
 card_var = tk.StringVar()
-card_label = tk.Label(root, text="Card:")
-card_label.pack()
-card_menu = tk.OptionMenu(root, card_var, "")
-card_menu.pack()
+card_menu = create_dropdown("Card:", card_var, [], root)
 
 # Bind update functions to type and bank dropdown changes
 type_var.trace('w', update_bank_options)

@@ -1,112 +1,145 @@
+# Adrien Protzel
+"""
+This program processes CSV files in specified directories based on configurations provided in a config.json file.
+
+It normalizes headers, removes unwanted columns, reorders rows, fills additional columns with default values, and formats the data as specified.
+"""
+
 import json
 import csv
 from pathlib import Path
 from datetime import datetime
 
-# Define the folder path
-folder_path = Path('Data/Dirty')
-
-# Load the configuration file
-config_path = Path('Configs/config.json')
-with open(config_path, 'r') as config_file:
-    config_data = json.load(config_file)
-
-# Create a dictionary to map folder names to their configurations
-folder_config = {f"{entry['type']}_{entry['bank']}_{entry['card']}": entry for entry in config_data}
-
-# List all directories in the specified folder path
-directories = [d for d in folder_path.iterdir() if d.is_dir()]
+# Define constants for folder and configuration paths
+FOLDER_PATH = Path('Data/Dirty')
+CONFIG_PATH = Path('Configs/config.json')
 
 # Define the desired column order and default values
-desired_columns = ["Year", "Month", "Date", "Description", "Category", "Amount", "Type", "Bank", "Card"]
-default_values = {
-    "Year": "",
+DESIRED_COLUMNS = ["Year", "Month", "Date", "Description", "Category", "Amount", "Type", "Bank", "Card"]
+DEFAULT_VALUES = {
+    "Year": 0,  # Default year as integer
     "Month": "",
     "Date": "01/25/2025",
     "Description": "",
     "Category": "",
-    "Amount": "0.00",
+    "Amount": 0.00,  # Default amount as float with two decimal places
     "Type": "",
     "Bank": "",
     "Card": ""
 }
 
-# Function to clean the Amount column
+def load_config(config_path):
+    """Load the configuration file."""
+    with open(config_path, 'r') as config_file:
+        return json.load(config_file)
+
+def map_folder_config(config_data):
+    """Create a dictionary to map folder names to their configurations."""
+    return {f"{entry['type']}_{entry['bank']}_{entry['card']}": entry for entry in config_data}
+
+def list_directories(folder_path):
+    """List all directories in the specified folder path."""
+    return [d for d in folder_path.iterdir() if d.is_dir()]
+
 def clean_amount(amount):
+    """Clean the Amount column by removing commas and converting to float."""
     try:
-        # Remove commas and convert to float
         return float(amount.replace(',', ''))
     except ValueError:
         return 0.0
 
-# Iterate through each directory and normalize headers
-for directory in directories:
-    directory_formatted = directory.name.replace(' ', '_')
-    if directory_formatted in folder_config:
-        config = folder_config[directory_formatted]
-        header_mapping = config.get('header_mapping', {})
-        files = [f for f in directory.iterdir() if f.is_file() and f.suffix == '.csv']
+def format_amount(amount):
+    """Format the Amount to two decimal places."""
+    return f"{amount:.2f}"
 
-        for file in files:
-            try:
-                # Read the file
-                with file.open('r') as f:
-                    reader = csv.reader(f)
-                    lines = list(reader)
+def normalize_headers(header, header_mapping):
+    """Normalize headers based on the configuration mapping."""
+    return [header_mapping.get(col, col) for col in header]
 
-                # Normalize headers
-                header = lines[0]
-                normalized_header = [header_mapping.get(col, col) for col in header]
+def remove_unwanted_columns(lines, columns_to_remove):
+    """Remove columns labeled with '*' from the data."""
+    return [[cell for i, cell in enumerate(row) if i not in columns_to_remove] for row in lines]
 
-                # Remove columns labeled "*"
-                columns_to_remove = [i for i, col in enumerate(normalized_header) if col == "*"]
-                normalized_header = [col for i, col in enumerate(normalized_header) if i not in columns_to_remove]
-                lines = [[cell for i, cell in enumerate(row) if i not in columns_to_remove] for row in lines]
+def create_new_header(normalized_header):
+    """Create a new header in the desired order."""
+    new_header = []
+    for col in DESIRED_COLUMNS:
+        if col in normalized_header:
+            new_header.append(col)
+        else:
+            new_header.append(col)
+    return new_header
 
-                # Create a new header in the desired order
-                new_header = []
-                for col in desired_columns:
-                    if col in normalized_header:
-                        new_header.append(col)
-                    else:
-                        new_header.append(col)
-                        for row in lines[1:]:
-                            row.append(default_values[col])
+def reorder_rows(lines, new_header, normalized_header):
+    """Reorder the rows to match the new header order."""
+    col_indices = {col: idx for idx, col in enumerate(normalized_header)}
+    reordered_lines = [new_header]
+    for row in lines[1:]:
+        new_row = [row[col_indices[col]] if col in col_indices else DEFAULT_VALUES[col] for col in new_header]
+        reordered_lines.append(new_row)
+    return reordered_lines
 
-                # Reorder the rows to match the new header order
-                col_indices = {col: idx for idx, col in enumerate(normalized_header)}
-                reordered_lines = [new_header]
-                for row in lines[1:]:
-                    new_row = [row[col_indices[col]] if col in col_indices else default_values[col] for col in new_header]
-                    reordered_lines.append(new_row)
+def fill_additional_columns(reordered_lines, config, new_header):
+    """Fill in additional columns with values from the configuration."""
+    type_index = new_header.index("Type")
+    bank_index = new_header.index("Bank")
+    card_index = new_header.index("Card")
+    amount_index = new_header.index("Amount")
+    date_index = new_header.index("Date")
+    year_index = new_header.index("Year")
+    month_index = new_header.index("Month")
+    
+    for row in reordered_lines[1:]:
+        row[type_index] = config['type']
+        row[bank_index] = config['bank']
+        row[card_index] = config['card']
+        row[amount_index] = format_amount(clean_amount(row[amount_index]))
+        try:
+            date_obj = datetime.strptime(row[date_index], "%m/%d/%Y")
+            row[year_index] = date_obj.year
+            row[month_index] = date_obj.strftime("%B")
+        except ValueError:
+            row[year_index] = 0
+            row[month_index] = ""
+    return reordered_lines
 
-                # Fill in the "Type", "Bank", and "Card" columns with values from the config
-                type_index = new_header.index("Type")
-                bank_index = new_header.index("Bank")
-                card_index = new_header.index("Card")
-                amount_index = new_header.index("Amount")
-                date_index = new_header.index("Date")
-                year_index = new_header.index("Year")
-                month_index = new_header.index("Month")
-                for row in reordered_lines[1:]:
-                    row[type_index] = config['type']
-                    row[bank_index] = config['bank']
-                    row[card_index] = config['card']
-                    # Clean the Amount column
-                    row[amount_index] = clean_amount(row[amount_index])
-                    # Extract Year and Month from Date
-                    try:
-                        date_obj = datetime.strptime(row[date_index], "%m/%d/%Y")
-                        row[year_index] = date_obj.year
-                        row[month_index] = date_obj.strftime("%B")
-                    except ValueError:
-                        row[year_index] = ""
-                        row[month_index] = ""
+def process_files(directory, config, header_mapping):
+    """Process each file in the directory, normalize headers, and fill additional columns."""
+    files = [f for f in directory.iterdir() if f.is_file() and f.suffix == '.csv']
+    for file in files:
+        try:
+            with file.open('r') as f:
+                reader = csv.reader(f)
+                lines = list(reader)
 
-                # Write the modified lines back to the file
-                with file.open('w', newline='') as f:
-                    writer = csv.writer(f)
-                    writer.writerows(reordered_lines)
+            header = lines[0]
+            normalized_header = normalize_headers(header, header_mapping)
+            columns_to_remove = [i for i, col in enumerate(normalized_header) if col == "*"]
+            normalized_header = [col for i, col in enumerate(normalized_header) if i not in columns_to_remove]
+            lines = remove_unwanted_columns(lines, columns_to_remove)
+            new_header = create_new_header(normalized_header)
+            reordered_lines = reorder_rows(lines, new_header, normalized_header)
+            reordered_lines = fill_additional_columns(reordered_lines, config, new_header)
 
-            except Exception as e:
-                print(f"Error processing file {file}: {e}")
+            with file.open('w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerows(reordered_lines)
+
+        except Exception as e:
+            print(f"Error processing file {file}: {e}")
+
+def main():
+    """Main function to load configuration, list directories, and process files."""
+    config_data = load_config(CONFIG_PATH)
+    folder_config = map_folder_config(config_data)
+    directories = list_directories(FOLDER_PATH)
+
+    for directory in directories:
+        directory_formatted = directory.name.replace(' ', '_')
+        if directory_formatted in folder_config:
+            config = folder_config[directory_formatted]
+            header_mapping = config.get('header_mapping', {})
+            process_files(directory, config, header_mapping)
+
+if __name__ == "__main__":
+    main()
