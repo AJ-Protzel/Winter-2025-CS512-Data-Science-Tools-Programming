@@ -17,3 +17,11 @@ if __name__ == "__main__":
     # Removes, renames, adds, splits columns, merges into single clean file in Clean folder
     subprocess.run(["python", "file_cleaner.py"])
     print("File Cleaning......Done")
+
+    # # Convert to json
+    # subprocess.run(["python", "CSV_to_JSON.py"])
+    # print("CSV to JSON......Done")
+
+    # # Convert to csv
+    # subprocess.run(["python", "JSON_to_CSV.py"])
+    # print("JSON to CSV......Done")
