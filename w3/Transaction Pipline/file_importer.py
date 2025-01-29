@@ -1,10 +1,3 @@
-# Adrien Protzel
-"""
-This program is a file organizer that allows users to drag and drop files into the application. 
-The files are then copied to specific folders based on the user's selections for type, bank, and card.
-The dropdown options are dynamically populated based on the configurations provided in a config.json file.
-"""
-
 import tkinter as tk
 from tkinter import messagebox
 from tkinterdnd2 import DND_FILES, TkinterDnD
@@ -131,9 +124,26 @@ def create_dropdown(label_text, variable, options, parent, default_value=""):
     menu.pack(side='left', padx=5)
     return menu
 
+def center_window(window, width, height):
+    """
+    Center the window on the screen with specified width and height.
+    
+    Args:
+        window (tk.Tk): The window to be centered.
+        width (int): The width of the window.
+        height (int): The height of the window.
+    """
+    window.update_idletasks()
+    x = (window.winfo_screenwidth() // 2) - (width // 2)
+    y = (window.winfo_screenheight() // 2) - (height // 2)
+    window.geometry(f'{width}x{height}+{x}+{y}')
+
 # Initialize main window
 root = TkinterDnD.Tk()
 root.title("File Organizer")
+
+# Center the window with new dimensions
+center_window(root, width=250, height=400)
 
 # Type dropdown
 type_var = tk.StringVar()
@@ -152,7 +162,7 @@ type_var.trace('w', update_bank_options)
 bank_var.trace('w', update_card_options)
 
 # Drag and drop area
-drop_area = tk.Label(root, text="Drag and drop files here", width=40, height=10, bg="lightgray")
+drop_area = tk.Label(root, text="Drag and drop files here", width=60, height=15, bg="lightgray")
 drop_area.pack(pady=20)
 drop_area.drop_target_register(DND_FILES)
 drop_area.dnd_bind('<<Drop>>', drop)
