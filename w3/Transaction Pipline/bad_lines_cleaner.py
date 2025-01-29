@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinterdnd2 import TkinterDnD
 from pathlib import Path
 import csv
 import os
@@ -11,11 +12,9 @@ def read_bad_lines(file_path):
     with open(file_path, 'r') as file:
         return file.readlines()
 
-def center_window(window):
+def center_window(window, width, height):
     """Center the window on the screen."""
     window.update_idletasks()
-    width = window.winfo_width()
-    height = window.winfo_height()
     x = (window.winfo_screenwidth() // 2) - (width // 2)
     y = (window.winfo_screenheight() // 2) - (height // 2)
     window.geometry(f'{width}x{height}+{x}+{y}')
@@ -26,15 +25,11 @@ def parse_filepath(filepath):
     type_, bank, card = folder_name.split('_')
     return type_, bank, card
 
-def create_popup(line, next_line_callback, cancel_callback):
+def create_popup(root, line, next_line_callback, cancel_callback):
     """Create a pop-up window to display the bad line."""
-    root = tk.Tk()
-    root.withdraw()  # Hide the root window
-
     popup = tk.Toplevel(root)
     popup.title("Manual Entry for Bad Lines")
-    popup.geometry("800x600")  # Set initial size
-    center_window(popup)  # Center the window on the screen
+    center_window(popup, width=800, height=600)  # Center the window on the screen
 
     # Parse the line into two lines with the second line starting with '['
     if ': [' in line:
@@ -148,24 +143,26 @@ def create_popup(line, next_line_callback, cancel_callback):
     cancel_button = tk.Button(button_frame, text="Cancel", command=on_cancel)
     cancel_button.pack(side='left', padx=10)
 
-    root.mainloop()
+# Initialize main window
+root = TkinterDnD.Tk()
+root.withdraw()  # Hide the root window
+root.title("Bad Lines Cleaner")
+center_window(root, width=400, height=300)  # Center the window on the screen
 
-def main():
-    """Main function to read bad lines and create pop-up windows."""
-    bad_lines_path = Path('Data/bad_lines.txt')
-    bad_lines = read_bad_lines(bad_lines_path)
+# Read bad lines and create pop-up windows
+bad_lines_path = Path('Data/bad_lines.txt')
+bad_lines = read_bad_lines(bad_lines_path)
 
-    def show_next_line(index=0):
-        if index < len(bad_lines):
-            create_popup(bad_lines[index], lambda: show_next_line(index + 1), lambda: None)
-        else:
-            remove_bad_lines_file()
+def show_next_line(index=0):
+    if index < len(bad_lines):
+        create_popup(root, bad_lines[index], lambda: show_next_line(index + 1), lambda: root.destroy())
+    else:
+        remove_bad_lines_file()
+        root.destroy()
 
-    def remove_bad_lines_file():
-        if bad_lines_path.exists():
-            os.remove(bad_lines_path)
+def remove_bad_lines_file():
+    if bad_lines_path.exists():
+        os.remove(bad_lines_path)
 
-    show_next_line()
-
-if __name__ == "__main__":
-    main()
+show_next_line()
+root.mainloop()

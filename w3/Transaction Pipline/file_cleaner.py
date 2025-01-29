@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import shutil
 import subprocess
+from datetime import datetime
 
 def list_files_in_directory(directory):
     # List to store all file paths
@@ -66,6 +67,27 @@ def clean_amount_column(file_path):
     # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
+def fill_year_month_columns(file_path):
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv(file_path)
+    
+    # Extract Year and Month from Date column
+    df['Year'] = pd.to_datetime(df['Date'], format='%m/%d/%Y').dt.year
+    df['Month'] = pd.to_datetime(df['Date'], format='%m/%d/%Y').dt.strftime('%B')
+    
+    # Save the modified DataFrame back to the CSV file
+    df.to_csv(file_path, index=False)
+
+def remove_empty_amount_rows(file_path):
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv(file_path)
+    
+    # Remove rows where 'Amount' column is empty or NaN
+    df = df[df['Amount'].notna() & (df['Amount'] != '')]
+    
+    # Save the modified DataFrame back to the CSV file
+    df.to_csv(file_path, index=False)
+
 # Directory to search
 directory = 'Data'
 
@@ -116,5 +138,14 @@ for root, dirs, files in os.walk(directory):
     for dir in dirs:
         shutil.rmtree(os.path.join(root, dir))
 
-# Call bad_lines_cleaner.py as a subprocess
-subprocess.run(['python', 'bad_lines_cleaner.py'])
+# # Call bad_lines_cleaner.py as a subprocess
+# subprocess.run(['python', 'bad_lines_cleaner.py'])
+
+# Fill in Year and Month columns after bad_lines_cleaner.py has run
+fill_year_month_columns(os.path.join(directory, 'dirty.csv'))
+
+# Remove rows with empty 'Amount' column in the merged dataframe
+remove_empty_amount_rows(os.path.join(directory, 'dirty.csv'))
+
+# # Call desc_cleaner.py as a subprocess
+# subprocess.run(['python', 'desc_cleaner.py'])

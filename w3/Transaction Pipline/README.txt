@@ -33,3 +33,58 @@ You should briefly describe what interesting questions deeper analysis of this d
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import tkinter as tk
+
+def cancel():
+    """
+    Handle cancel button click. Close the application.
+    """
+    root.destroy()
+
+# Initialize main window
+root = tk.Tk()
+root.title("Manual Description Mapping")
+
+# Center the window with new dimensions
+def center_window(window, width, height):
+    """
+    Center the window on the screen with specified width and height.
+    
+    Args:
+        window (tk.Tk): The window to be centered.
+        width (int): The width of the window.
+        height (int): The height of the window.
+    """
+    window.update_idletasks()
+    x = (window.winfo_screenwidth() // 2) - (width // 2)
+    y = (window.winfo_screenheight() // 2) - (height // 2)
+    window.geometry(f'{width}x{height}+{x}+{y}')
+
+center_window(root, width=250, height=100)
+
+# Cancel button
+cancel_button = tk.Button(root, text="Cancel", command=cancel)
+cancel_button.pack(pady=10)
+
+# Run the main loop
+root.mainloop()
