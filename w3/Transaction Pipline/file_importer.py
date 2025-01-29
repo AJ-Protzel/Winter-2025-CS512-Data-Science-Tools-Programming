@@ -1,8 +1,8 @@
 # Adrien Protzel
 """
 This program is a file organizer that allows users to drag and drop files into the application. 
-
 The files are then copied to specific folders based on the user's selections for type, bank, and card.
+The dropdown options are dynamically populated based on the configurations provided in a config.json file.
 """
 
 import tkinter as tk
@@ -10,6 +10,27 @@ from tkinter import messagebox
 from tkinterdnd2 import DND_FILES, TkinterDnD
 import os
 import shutil
+import json
+
+# Load configuration from Configs/config.json
+config_path = os.path.join(os.path.dirname(__file__), 'Configs', 'config.json')
+with open(config_path, 'r') as f:
+    config = json.load(f)
+
+# Extract unique options for type, bank, and card
+types = sorted(set(item['type'] for item in config))
+banks = {}
+cards = {}
+
+# Populate banks and cards dictionaries based on the config data
+for item in config:
+    if item['type'] not in banks:
+        banks[item['type']] = set()
+    banks[item['type']].add(item['bank'])
+    
+    if (item['type'], item['bank']) not in cards:
+        cards[(item['type'], item['bank'])] = set()
+    cards[(item['type'], item['bank'])].add(item['card'])
 
 def drop(event):
     """
@@ -57,12 +78,7 @@ def update_bank_options(*args):
     Update bank options based on the selected type.
     """
     type_selection = type_var.get()
-    bank_options = []
-
-    if type_selection == "Debit":
-        bank_options = ["BofA"]
-    elif type_selection == "Credit":
-        bank_options = ["BofA", "Chase", "Bilt"]
+    bank_options = sorted(banks.get(type_selection, []))
     
     bank_var.set("")
     bank_menu['menu'].delete(0, 'end')
@@ -78,17 +94,7 @@ def update_card_options(*args):
     """
     type_selection = type_var.get()
     bank_selection = bank_var.get()
-    card_options = []
-
-    if type_selection == "Debit" and bank_selection == "BofA":
-        card_options = ["Savings"]
-    elif type_selection == "Credit":
-        if bank_selection == "BofA":
-            card_options = ["Custom"]
-        elif bank_selection == "Chase":
-            card_options = ["Reserve", "Freedom", "Prime"]
-        elif bank_selection == "Bilt":
-            card_options = ["Bilt"]
+    card_options = sorted(cards.get((type_selection, bank_selection), []))
     
     card_var.set("")
     card_menu['menu'].delete(0, 'end')
@@ -116,14 +122,13 @@ def create_dropdown(label_text, variable, options, parent, default_value=""):
     Returns:
         tk.OptionMenu: The created dropdown menu.
     """
-    label = tk.Label(parent, text=label_text)
-    label.pack()
-    variable.set(default_value)
-    if options:
-        menu = tk.OptionMenu(parent, variable, *options)
-    else:
-        menu = tk.OptionMenu(parent, variable, default_value)
-    menu.pack()
+    frame = tk.Frame(parent)
+    frame.pack(anchor='center', pady=5, fill='x')
+    label = tk.Label(frame, text=label_text)
+    label.pack(side='left', padx=5)
+    variable.set(default_value if options else "")
+    menu = tk.OptionMenu(frame, variable, *(options if options else [default_value]))
+    menu.pack(side='left', padx=5)
     return menu
 
 # Initialize main window
@@ -132,7 +137,7 @@ root.title("File Organizer")
 
 # Type dropdown
 type_var = tk.StringVar()
-type_menu = create_dropdown("Type:", type_var, ["Credit", "Debit"], root)
+type_menu = create_dropdown("Type:", type_var, types, root)
 
 # Bank dropdown
 bank_var = tk.StringVar()
