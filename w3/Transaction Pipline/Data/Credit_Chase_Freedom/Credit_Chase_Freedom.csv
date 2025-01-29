@@ -1,4 +1,4 @@
-Transaction Date,Post Date,Description,Category,Type,Amount,Memo
+Date,*,Description,*,*,Amount,*
 01/24/2025,01/26/2025,Big Fish Games  Inc.,Entertainment,Sale,-2.99,
 01/24/2025,01/26/2025,McDonalds 3732,Food & Drink,Sale,-1.00,
 01/23/2025,01/24/2025,MCDONALD'S F3732,Food & Drink,Sale,-1.49,

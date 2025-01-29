@@ -64,7 +64,7 @@ def copy_file(file):
     card_selection = card_var.get()
     
     # Construct the folder path relative to the current program location
-    base_path = os.path.join(os.path.dirname(__file__), "Data", "Dirty")
+    base_path = os.path.join(os.path.dirname(__file__), "Data")
     folder_path = os.path.join(base_path, f"{type_selection}_{bank_selection}_{card_selection}")
     
     # Create the folder if it doesn't exist

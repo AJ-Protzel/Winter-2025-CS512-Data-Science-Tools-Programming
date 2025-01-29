@@ -1,4 +1,4 @@
-Transaction Date,Post Date,Description,Category,Type,Amount,Memo
+Date,*,Description,*,*,Amount,*
 01/24/2025,01/26/2025,AMAZON MKTPL*ZC52M97Z2,Shopping,Sale,-8.30,
 01/24/2025,01/26/2025,AMAZON MKTPL*ZG9LT0301,Shopping,Sale,-11.50,
 01/20/2025,01/21/2025,Amazon.com*Z588965B1,Shopping,Sale,-29.96,

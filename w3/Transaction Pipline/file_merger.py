@@ -5,7 +5,6 @@ This program processes files in specified directories created by file_importer.p
 It removes or add headers as needed. Records bad lines and merges like files.
 """
 
-import os
 import json
 import csv
 from pathlib import Path
@@ -107,7 +106,7 @@ def main():
     Main function to process files in specified directories based on configurations.
     """
     # Define the folder path
-    folder_path = Path('Data/Dirty')
+    folder_path = Path('Data')
 
     # Load the configuration file
     config_path = Path('Configs/config.json')
