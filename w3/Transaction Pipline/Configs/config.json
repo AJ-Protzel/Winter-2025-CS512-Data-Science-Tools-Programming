@@ -5,7 +5,7 @@
         "card": "Bilt",
         "remove_rows": 0,
         "add_header": ["Date", "Amount", "Unknown1", "Unknown2", "Description"],
-        "remove_cols": [],
+        "remove_cols": ["Unknown1","Unknown2"],
         "header_mapping": {}
     },
     {
@@ -14,7 +14,7 @@
         "card": "Custom",
         "remove_rows": 0,
         "add_header": null,
-        "remove_cols": [],
+        "remove_cols": ["Reference Number", "Address"],
         "header_mapping": {}
     },
     {
@@ -23,7 +23,7 @@
         "card": "Freedom",
         "remove_rows": 0,
         "add_header": null,
-        "remove_cols": [],
+        "remove_cols": ["Post Date", "Category", "Type", "Memo"],
         "header_mapping": {}
     },
     {
@@ -32,7 +32,7 @@
         "card": "Prime",
         "remove_rows": 0,
         "add_header": null,
-        "remove_cols": [],
+        "remove_cols": ["Post Date", "Category", "Type", "Memo"],
         "header_mapping": {}
     },
     {
@@ -41,7 +41,7 @@
         "card": "Reserve",
         "remove_rows": 0,
         "add_header": null,
-        "remove_cols": [],
+        "remove_cols": ["Post Date", "Category", "Type", "Memo"],
         "header_mapping": {}
     },
     {
@@ -50,7 +50,7 @@
         "card": "Savings",
         "remove_rows": 6,
         "add_header": null,
-        "remove_cols": [],
+        "remove_cols": ["Running Bal."],
         "header_mapping": {}
     }
 ]
