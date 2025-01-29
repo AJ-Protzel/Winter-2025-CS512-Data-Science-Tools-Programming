@@ -1,13 +1,7 @@
-# Adrien Protzel
-"""
-This program processes files in specified directories created by file_importer.py and formats based on configurations provided in a config.json file. 
-
-It normalizes headers based on the configuration file, adds new columns if they aren't present, and fills in specific columns with values from the configuration file.
-"""
-
 import json
 import csv
 from pathlib import Path
+from datetime import datetime
 
 # Define the folder path
 folder_path = Path('Data/Dirty')
@@ -37,6 +31,14 @@ default_values = {
     "Card": ""
 }
 
+# Function to clean the Amount column
+def clean_amount(amount):
+    try:
+        # Remove commas and convert to float
+        return float(amount.replace(',', ''))
+    except ValueError:
+        return 0.0
+
 # Iterate through each directory and normalize headers
 for directory in directories:
     directory_formatted = directory.name.replace(' ', '_')
@@ -55,6 +57,11 @@ for directory in directories:
                 # Normalize headers
                 header = lines[0]
                 normalized_header = [header_mapping.get(col, col) for col in header]
+
+                # Remove columns labeled "*"
+                columns_to_remove = [i for i, col in enumerate(normalized_header) if col == "*"]
+                normalized_header = [col for i, col in enumerate(normalized_header) if i not in columns_to_remove]
+                lines = [[cell for i, cell in enumerate(row) if i not in columns_to_remove] for row in lines]
 
                 # Create a new header in the desired order
                 new_header = []
@@ -77,10 +84,24 @@ for directory in directories:
                 type_index = new_header.index("Type")
                 bank_index = new_header.index("Bank")
                 card_index = new_header.index("Card")
+                amount_index = new_header.index("Amount")
+                date_index = new_header.index("Date")
+                year_index = new_header.index("Year")
+                month_index = new_header.index("Month")
                 for row in reordered_lines[1:]:
                     row[type_index] = config['type']
                     row[bank_index] = config['bank']
                     row[card_index] = config['card']
+                    # Clean the Amount column
+                    row[amount_index] = clean_amount(row[amount_index])
+                    # Extract Year and Month from Date
+                    try:
+                        date_obj = datetime.strptime(row[date_index], "%m/%d/%Y")
+                        row[year_index] = date_obj.year
+                        row[month_index] = date_obj.strftime("%B")
+                    except ValueError:
+                        row[year_index] = ""
+                        row[month_index] = ""
 
                 # Write the modified lines back to the file
                 with file.open('w', newline='') as f:

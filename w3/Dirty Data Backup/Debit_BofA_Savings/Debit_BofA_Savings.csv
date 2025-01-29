@@ -1,4 +1,4 @@
-Date,Description,Amount,Running Bal.
+Date,Description,Amount,*
 12/06/2024,Beginning balance as of 12/06/2024,,"1,566.21"
 12/11/2024,"Zelle payment from REID MICHAELS for COSCO""; Conf# T0YBGYKWQ""",52.38,"1,618.59"
 12/13/2024,"Zelle payment from REID MICHAELS for RENT: OCTOBER""; Conf# T0YBNB43W""",781.86,"2,400.45"
@@ -8,14 +8,12 @@ Date,Description,Amount,Running Bal.
 01/02/2025,Bank of America DES:CASHREWARD ID:PROTZEL INDN:XXXXX0060XXXXX84XXXXX0 CO ID:XXXXX90310 PPD,33.59,"1,114.04"
 01/02/2025,"Zelle payment to Doug Zeller for January 2025 vehicle storage""; Conf# aclm8hvbd""",-100.00,"1,014.04"
 01/07/2025,Interest Earned,0.01,"1,014.05"
-Date,Description,Amount,Running Bal.
 03/07/2024,Beginning balance as of 03/07/2024,,510.01
 03/07/2024,Monthly Maintenance Fee,-8.00,502.01
 03/14/2024,"Zelle payment from KATHLEEN ASHLEY for Amazon shopping""; Conf# szpmgglxb""",83.03,585.04
 03/26/2024,ROBINHOOD DES:Funds ID:XXXXX5126 INDN:Adriem Protzel CO ID:XXXXX64776 WEB,-30.00,555.04
 03/27/2024,"Zelle payment from KATHLEEN ASHLEY for Amazon stuff""; Conf# ztg5ors56""",67.00,622.04
 04/01/2024,"Zelle payment from RANDAL LUCKMAN for April 2024 land rent for camper.""; Conf# rhqn4n9n3""",100.00,722.04
-Date,Description,Amount,Running Bal.
 02/06/2024,Beginning balance as of 02/06/2024,,500.01
 02/06/2024,Monthly Maintenance Fee,-8.00,492.01
 02/13/2024,MONTHLY SERVICE CHARGE REFUND FDES NMO 0006576 999998,8.00,500.01
@@ -24,7 +22,6 @@ Date,Description,Amount,Running Bal.
 02/29/2024,"Zelle payment from RANDAL LUCKMAN for RV space rental for March 2024. Thanks AJ!""; Conf# q51a57ugf""",100.00,"1,908.01"
 03/05/2024,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX77475,"-1,398.01",510.00
 03/06/2024,Interest Earned,0.01,510.01
-Date,Description,Amount,Running Bal.
 01/06/2024,Beginning balance as of 01/06/2024,,"1,301.04"
 01/08/2024,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX49556,-801.14,499.90
 01/08/2024,Monthly Maintenance Fee,-8.00,491.90
@@ -37,32 +34,27 @@ Date,Description,Amount,Running Bal.
 02/05/2024,"Zelle payment from HENRY A PROTZEL for Happy Birthday!""; Conf# 99a90wf4p""",200.00,"1,713.90"
 02/05/2024,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX15674,"-1,213.90",500.00
 02/05/2024,Interest Earned,0.01,500.01
-Date,Description,Amount,Running Bal.
 12/06/2023,Beginning balance as of 12/06/2023,,309.03
 12/06/2023,Monthly Maintenance Fee,-8.00,301.03
 12/07/2023,"Zelle payment from KATHLEEN ASHLEY for Christmas gift""; Conf# h5h9caap8""",500.00,801.03
 12/26/2023,"Zelle payment from HENRY A PROTZEL for Merry Christmas""; Conf# 99a71d8ow""",400.00,"1,201.03"
 01/02/2024,"Zelle payment from RANDAL LUCKMAN for RV space rental for Jan. 2024.""; Conf# rh1j71cia""",99.00,"1,300.03"
 01/05/2024,Interest Earned,0.01,"1,301.04"
-Date,Description,Amount,Running Bal.
 11/07/2023,Beginning balance as of 11/07/2023,,500.03
 11/24/2023,"Zelle payment from NICHOLAS MATUS for parking bc im bad at planning sorry""; Conf# 99a5irzke""",8.00,508.03
 12/01/2023,"Zelle payment from Jorge Correa for RV""; Conf# 0I07P5WR0""",200.00,708.03
 12/01/2023,"Zelle payment from Jorge Correa for RV""; Conf# 0I07P5TPJ""",1.00,709.03
 12/05/2023,"Zelle payment to TYLER W PITTMAN for junk removal 5048 mother lode dr""; Conf# he8s8ecgd""",-400.00,309.03
-Date,Description,Amount,Running Bal.
 10/06/2023,Beginning balance as of 10/06/2023,,726.56
 10/20/2023,BKOFAMERICA MOBILE 10/21 XXXXX07735 DEPOSIT *MOBILE CA,725.15,"1,451.71"
 10/23/2023,Zelle payment from KATHLEEN ASHLEY Conf# binexkzlg,61.50,"1,513.21"
 11/03/2023,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX13295,"-1,013.21",500.00
 11/06/2023,Interest Earned,0.03,500.03
-Date,Description,Amount,Running Bal.
 09/07/2023,Beginning balance as of 09/07/2023,,500.05
 09/18/2023,Zelle payment from KATHLEEN ASHLEY Conf# kw8849x1d,1.00,501.05
 09/25/2023,"Zelle payment from KATHLEEN ASHLEY for Kindle + Cover""; Conf# a069qwzrj""",210.00,711.05
 09/25/2023,"Zelle payment from KATHLEEN ASHLEY for Dinner""; Conf# h3rypm4zg""",15.50,726.55
 10/05/2023,Interest Earned,0.01,726.56
-Date,Description,Amount,Running Bal.
 08/09/2023,Beginning balance as of 08/09/2023,,500.06
 08/10/2023,Interest Adjustment,0.05,500.11
 08/16/2023,FRANCHISE TAX BD DES:CASTTAXRFD ID:XXXXX6152 INDN:EST JOHN PROTZEL DECD CO ID:XXXXX32045 PPD,"2,037.00","2,537.11"
@@ -75,16 +67,13 @@ Date,Description,Amount,Running Bal.
 08/30/2023,BKOFAMERICA ATM 08/30 #XXXXX5668 WITHDRWL MURRAY & ALLEN BEAVERTON OR,-40.00,900.00
 09/01/2023,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX77530,-400.00,500.00
 09/06/2023,Interest Earned,0.05,500.05
-Date,Description,Amount,Running Bal.
 07/07/2023,Beginning balance as of 07/07/2023,,500.05
 08/08/2023,Interest Earned,0.01,500.06
-Date,Description,Amount,Running Bal.
 06/07/2023,Beginning balance as of 06/07/2023,,501.17
 06/13/2023,Counter Credit,"2,220.00","2,721.17"
 06/21/2023,BKOFAMERICA ATM 06/21 #XXXXX2591 DEPOSIT EVERETT EVERETT WA,800.00,"3,521.17"
 06/29/2023,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX67662,"-3,021.17",500.00
 07/06/2023,Interest Earned,0.05,500.05
-Date,Description,Amount,Running Bal.
 11/05/2024,Beginning balance as of 11/05/2024,,708.10
 11/07/2024,ROBINHOOD DES:Funds ID:XXXXX5126 INDN:Adriem Protzel CO ID:XXXXX64776 WEB,-25.00,"1,536.39"
 11/07/2024,ROBINHOOD DES:Funds ID:XXXXX5126 INDN:Adriem Protzel CO ID:XXXXX64776 WEB,-25.00,"1,511.39"
@@ -93,7 +82,6 @@ Date,Description,Amount,Running Bal.
 11/21/2024,"Zelle payment from REID MICHAELS for COSCO""; Conf# T0Y8JV56H""",82.83,"1,666.20"
 12/02/2024,"Zelle payment to Doug Zeller for December vehicle storage""; Conf# g8lti7ei9""",-100.00,"1,566.20"
 12/05/2024,Interest Earned,0.01,"1,566.21"
-Date,Description,Amount,Running Bal.
 05/06/2023,Beginning balance as of 05/06/2023,,"52,520.52"
 05/08/2023,Wealthfront Inc. DES:EDI PYMNTS ID:DB5F7E45734B4F INDN:Adrien Protzel CO ID:XXXXX67207 WEB,-100.00,"52,420.52"
 05/11/2023,OR TLR transfer Banking Ctr CORVALLIS #0002860 OR Confirmation# XXXXX89121,730.10,"53,150.62"
@@ -106,7 +94,6 @@ Date,Description,Amount,Running Bal.
 06/02/2023,ROCKET MORTGAGE DES:MTG PYMTS ID:XXXXX45588 INDN:ADRIEN PROTZEL CO ID:XXXXX56513 WEB,"-1,475.75",530.00
 06/02/2023,Wire Transfer Fee,-30.00,500.00
 06/06/2023,Interest Earned,1.17,501.17
-Date,Description,Amount,Running Bal.
 04/06/2023,Beginning balance as of 04/06/2023,,"56,588.03"
 04/06/2023,BANK OF AMERICA CREDIT CARD Bill Payment,-896.22,"55,691.81"
 05/01/2023,Bank of America DES:CASHREWARD ID:PROTZEL INDN:XXXXX0060XXXXX84XXXXX0 CO ID:XXXXX90310 PPD,27.35,"55,719.16"
@@ -114,7 +101,6 @@ Date,Description,Amount,Running Bal.
 05/02/2023,Online Banking transfer to CHK 0275 Confirmation# XXXXX00652,-600.00,"53,519.16"
 05/02/2023,ALL AMERICA BANK DES:OnlineAcct ID:20281 INDN:ADRIEN PROTZEL CO ID:XXXXX1456 WEB,"-1,000.00","52,519.16"
 05/05/2023,Interest Earned,1.36,"52,520.52"
-Date,Description,Amount,Running Bal.
 10/08/2024,Beginning balance as of 10/08/2024,,"1,434.33"
 10/08/2024,"Zelle payment from KATHLEEN ASHLEY for Make up""; Conf# tagynw1e1""",95.00,"1,529.33"
 10/09/2024,"Zelle payment from KATHLEEN ASHLEY for Amazon""; Conf# vcrj9q3j9""",61.50,"1,590.83"
@@ -129,7 +115,6 @@ Date,Description,Amount,Running Bal.
 11/01/2024,"Zelle payment to Ted Reid Michaels for Rent: Overpayment""; Conf# i9ibw2ajq""",-86.67,677.64
 11/04/2024,Bank of America DES:CASHREWARD ID:PROTZEL INDN:XXXXX0060XXXXX84XXXXX0 CO ID:XXXXX90310 PPD,30.45,708.09
 11/04/2024,Interest Earned,0.01,708.10
-Date,Description,Amount,Running Bal.
 09/06/2024,Beginning balance as of 09/06/2024,,"1,566.01"
 09/16/2024,"Zelle payment from REID MICHAELS for COSCO AND DUTCH""; Conf# T0Y2TXY4J""",71.11,"1,637.12"
 09/23/2024,"Zelle payment from REID MICHAELS for GROCERIES""; Conf# T0Y3CXZNK""",129.14,"1,766.26"
@@ -139,7 +124,6 @@ Date,Description,Amount,Running Bal.
 10/07/2024,"Zelle payment from KATHLEEN ASHLEY for Flights""; Conf# xmr27gfxs""",832.65,"1,347.65"
 10/07/2024,"Zelle payment from REID MICHAELS for SEPTEMBER RENT""; Conf# T0Y4F6QS6""",86.67,"1,434.32"
 10/07/2024,Interest Earned,0.01,"1,434.33"
-Date,Description,Amount,Running Bal.
 08/08/2024,Beginning balance as of 08/08/2024,,751.56
 08/08/2024,Monthly Maintenance Fee,-8.00,743.56
 08/12/2024,Zelle payment from Kyle Jasuta Conf# 0FBX1Q3LA,200.00,943.56
@@ -153,7 +137,6 @@ Date,Description,Amount,Running Bal.
 09/03/2024,BKOFAMERICA MOBILE 08/31 XXXXX67237 DEPOSIT *MOBILE CA,666.00,"1,666.00"
 09/03/2024,"Zelle payment to Doug Zeller for Vehicals storage for September""; Conf# ep5twg3rg""",-100.00,"1,566.00"
 09/05/2024,Interest Earned,0.01,"1,566.01"
-Date,Description,Amount,Running Bal.
 07/09/2024,Beginning balance as of 07/09/2024,,"1,542.40"
 07/15/2024,TRANSFER ADRIEN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX61496,-942.40,600.00
 07/22/2024,MONTHLY SERVICE CHARGE REFUND FDES NMO 0006576 999998,8.00,608.00
@@ -165,13 +148,11 @@ Date,Description,Amount,Running Bal.
 07/29/2024,ALL AMERICA BANK DES:Funds TRFR ID:Adrien Protzel INDN:ADRIEN PROTZEL CO ID:XXXXX16130 WEB,500.00,745.05
 07/31/2024,"Zelle payment from KATHLEEN ASHLEY for Boba hehe""; Conf# y0ja0m1xk""",6.50,751.55
 08/07/2024,Interest Earned,0.01,751.56
-Date,Description,Amount,Running Bal.
 06/05/2024,Beginning balance as of 06/05/2024,,500.01
 06/10/2024,"Zelle payment from RANDAL LUCKMAN for Trailer purchase""; Conf# oxlopmhra""",500.00,"1,000.01"
 06/17/2024,Zelle payment from KATHLEEN ASHLEY Conf# splx8r4xn,516.50,"1,516.51"
 07/01/2024,Bank of America DES:CASHREWARD ID:PROTZEL INDN:XXXXX0060XXXXX84XXXXX0 CO ID:XXXXX90310 PPD,25.88,"1,542.39"
 07/08/2024,Interest Earned,0.01,"1,542.40"
-Date,Description,Amount,Running Bal.
 05/08/2024,Beginning balance as of 05/08/2024,,589.01
 05/13/2024,"Zelle payment from KATHLEEN ASHLEY for Rent""; Conf# m5z5r5drz""",900.00,"1,489.01"
 05/20/2024,"Zelle payment from KATHLEEN ASHLEY for Rent""; Conf# q1zyacuq1""",650.00,"2,139.01"
@@ -179,7 +160,6 @@ Date,Description,Amount,Running Bal.
 06/03/2024,"Zelle payment from RANDAL LUCKMAN for Space rental for June 2024""; Conf# r0ymucux1""",100.00,"3,439.01"
 06/03/2024,TRANSFER ADRIEN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX25576,"-2,939.01",500.00
 06/04/2024,Interest Earned,0.01,500.01
-Date,Description,Amount,Running Bal.
 04/06/2024,Beginning balance as of 04/06/2024,,722.04
 04/08/2024,"Zelle payment from KATHLEEN ASHLEY for Rent""; Conf# v3caobbik""",662.00,"1,384.04"
 04/22/2024,"Zelle payment from KATHLEEN ASHLEY for Rent monies""; Conf# ysapevik1""","1,000.00","2,384.04"
@@ -190,7 +170,6 @@ Date,Description,Amount,Running Bal.
 05/02/2024,Bank of America DES:CASHREWARD ID:PROTZEL INDN:XXXXX0060XXXXX84XXXXX0 CO ID:XXXXX90310 PPD,89.00,"2,023.02"
 05/02/2024,TRANSFER JOHN PROTZEL:ADRIEN PROTZEL Confirmation# XXXXX24896,"-1,434.02",589.00
 05/07/2024,Interest Earned,0.01,589.01
-Date,Description,Amount,Running Bal.
 01/08/2025,Beginning balance as of 01/08/2025,,"1,014.05"
 01/10/2025,"Zelle payment from REID MICHAELS for DECEMBER RENT""; Conf# T0YF8X84B""",806.07,"1,820.12"
 01/13/2025,Zelle payment from KATHLEEN ASHLEY Conf# xdot586pe,55.00,"1,875.12"
