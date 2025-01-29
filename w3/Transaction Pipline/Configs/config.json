@@ -4,53 +4,53 @@
         "bank": "Bilt",
         "card": "Bilt",
         "remove_rows": 0,
+        "add_header": ["Date", "Amount", "Unknown1", "Unknown2", "Description"],
         "remove_cols": [],
-        "header_mapping": {},
-        "header": ["Date", "Amount", "Unknown1", "Unknown2", "Description"]
+        "header_mapping": {}
     },
     {
         "type": "Credit",
         "bank": "BofA",
         "card": "Custom",
         "remove_rows": 0,
+        "add_header": null,
         "remove_cols": [],
-        "header_mapping": {},
-        "header": null
+        "header_mapping": {}
     },
     {
         "type": "Credit",
         "bank": "Chase",
         "card": "Freedom",
         "remove_rows": 0,
+        "add_header": null,
         "remove_cols": [],
-        "header_mapping": {},
-        "header": null
+        "header_mapping": {}
     },
     {
         "type": "Credit",
         "bank": "Chase",
         "card": "Prime",
         "remove_rows": 0,
+        "add_header": null,
         "remove_cols": [],
-        "header_mapping": {},
-        "header": null
+        "header_mapping": {}
     },
     {
         "type": "Credit",
         "bank": "Chase",
         "card": "Reserve",
         "remove_rows": 0,
+        "add_header": null,
         "remove_cols": [],
-        "header_mapping": {},
-        "header": null
+        "header_mapping": {}
     },
     {
         "type": "Debit",
         "bank": "BofA",
         "card": "Savings",
         "remove_rows": 6,
+        "add_header": null,
         "remove_cols": [],
-        "header_mapping": {},
-        "header": null
+        "header_mapping": {}
     }
 ]

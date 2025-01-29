@@ -1,5 +1,12 @@
+# Adrien Protzel
+"""
+This program is a file organizer that allows users to drag and drop files into the application. 
+
+The files are then copied to specific folders based on the user's selections for type, bank, and card.
+"""
+
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import messagebox
 from tkinterdnd2 import DND_FILES, TkinterDnD
 import os
 import shutil
