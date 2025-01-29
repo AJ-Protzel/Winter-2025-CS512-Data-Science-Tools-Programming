@@ -2,9 +2,10 @@
 """
 This program processes files in specified directories created by file_importer.py and formats based on configurations provided in a config.json file. 
 
-It removes or adds headers as needed, records bad lines, and merges like files.
+It removes or add headers as needed. Records bad lines and merges like files.
 """
 
+import os
 import json
 import csv
 from pathlib import Path
@@ -43,10 +44,6 @@ for directory in directories:
                 # Remove the specified number of rows
                 lines = lines[remove_rows:]
 
-                # Add header if specified
-                if add_header:
-                    lines.insert(0, ','.join(add_header) + '\n')
-
                 # Write the modified lines back to the file
                 with file.open('w') as f:
                     f.writelines(lines)
@@ -64,7 +61,7 @@ for directory in directories:
                             if len(row) != len(lines[0]):  # Check if the row length matches the header length
                                 raise ValueError("Bad line")
                             cleaned_lines.append(row)  # Add valid rows to the cleaned_lines list
-                        except Exception:
+                        except Exception as e:
                             bad_lines_log.write(f"{file}: {row}\n")  # Log bad lines
 
                 # Add cleaned lines to all_lines
@@ -81,3 +78,11 @@ for directory in directories:
         with merged_file_path.open('w', newline='') as f:
             writer = csv.writer(f)
             writer.writerows(all_lines)
+
+        # Add header if specified
+        if add_header:
+            with merged_file_path.open('r') as f:
+                lines = f.readlines()
+            lines.insert(0, ','.join(add_header) + '\n')
+            with merged_file_path.open('w') as f:
+                f.writelines(lines)
