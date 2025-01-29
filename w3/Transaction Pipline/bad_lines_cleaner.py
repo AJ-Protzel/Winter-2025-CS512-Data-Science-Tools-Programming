@@ -1,9 +1,10 @@
 import tkinter as tk
 from pathlib import Path
 import csv
+import os
 
 # Define the desired column order
-DESIRED_COLUMNS = ["Year", "Month", "Date", "Description", "Category", "Amount", "Type", "Bank", "Card"]
+HEADER = ["Year", "Month", "Date", "Description", "Category", "Amount", "Type", "Bank", "Card"]
 
 def read_bad_lines(file_path):
     """Read bad lines from the specified file."""
@@ -55,7 +56,7 @@ def create_popup(line, next_line_callback, cancel_callback):
     columns_frame = tk.Frame(popup)
     columns_frame.pack(pady=10)
     entries = {}
-    for col in DESIRED_COLUMNS:
+    for col in HEADER:
         if col in ["Year", "Month", "Category"]:
             continue  # Skip these columns
         row_frame = tk.Frame(columns_frame)
@@ -113,7 +114,7 @@ def create_popup(line, next_line_callback, cancel_callback):
 
         # Collect the inputted fields
         input_data = []
-        for col in DESIRED_COLUMNS:
+        for col in HEADER:
             if col == "Date":
                 input_data.append(date)
             elif col == "Amount":
@@ -157,6 +158,12 @@ def main():
     def show_next_line(index=0):
         if index < len(bad_lines):
             create_popup(bad_lines[index], lambda: show_next_line(index + 1), lambda: None)
+        else:
+            remove_bad_lines_file()
+
+    def remove_bad_lines_file():
+        if bad_lines_path.exists():
+            os.remove(bad_lines_path)
 
     show_next_line()
 
