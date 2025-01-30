@@ -1,3 +1,27 @@
+"""
+Author: Adrien Protzel
+
+This script processes CSV files in a directory by performing various cleaning and transformation tasks.
+It merges the cleaned data into a single CSV file and then runs additional cleaning scripts.
+
+Modules used:
+- os: For interacting with the operating system.
+- pandas: For data manipulation and analysis.
+- json: For reading configuration files.
+- shutil: For file operations.
+- subprocess: For running external scripts.
+- datetime: For date and time operations.
+
+Functions:
+- list_files_in_directory(directory): Lists all files in a directory and its subdirectories.
+- remove_star_columns_from_csv(file_path): Removes columns labeled "*" from a CSV file.
+- update_csv_header(file_path, new_header): Updates the header of a CSV file and adds empty fields for new columns if necessary.
+- fill_in_type_bank_card(file_path, config): Fills in Type, Bank, and Card columns based on a configuration.
+- clean_amount_column(file_path): Cleans the Amount column by converting it to a float with two decimal places.
+- fill_year_month_columns(file_path): Extracts Year and Month from the Date column.
+- remove_empty_amount_rows(file_path): Removes rows where the Amount column is empty or NaN.
+"""
+
 import os
 import pandas as pd
 import json
@@ -6,86 +30,54 @@ import subprocess
 from datetime import datetime
 
 def list_files_in_directory(directory):
-    # List to store all file paths
+    """List all files in a directory and its subdirectories."""
     file_paths = []
-
-    # Walk through directory and its subdirectories
     for root, dirs, files in os.walk(directory):
         for file in files:
-            # Append the full file path
             file_paths.append(os.path.join(root, file))
-
     return file_paths
 
 def remove_star_columns_from_csv(file_path):
-    # Read the CSV file into a DataFrame
+    """Remove columns labeled "*" from a CSV file."""
     df = pd.read_csv(file_path)
-    
-    # Drop columns labeled "*"
     df = df.loc[:, ~df.columns.str.contains('\\*')]
-    
-    # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
 def update_csv_header(file_path, new_header):
-    # Read the CSV file into a DataFrame
+    """Update the header of a CSV file and add empty fields for new columns if necessary."""
     df = pd.read_csv(file_path)
-    
-    # Update the header and add empty fields for new columns if necessary
     for column in new_header:
         if column not in df.columns:
             df[column] = ""
-    
-    # Reorder columns to match the new header
     df = df[new_header]
-    
-    # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
 def fill_in_type_bank_card(file_path, config):
-    # Read the CSV file into a DataFrame
+    """Fill in Type, Bank, and Card columns based on a configuration."""
     df = pd.read_csv(file_path)
-    
-    # Fill in Type, Bank, Card based on config
     df['Type'] = config['type']
     df['Bank'] = config['bank']
     df['Card'] = config['card']
-    
-    # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
 def clean_amount_column(file_path):
-    # Read the CSV file into a DataFrame
+    """Clean the Amount column by converting it to a float with two decimal places."""
     df = pd.read_csv(file_path)
-    
-    # Clean the Amount column by converting it to a float with two decimal places
     df['Amount'] = df['Amount'].replace(r'[\$,]', '', regex=True).astype(float)
-    
-    # Format the Amount column to show two decimal places like money
     df['Amount'] = df['Amount'].map('{:.2f}'.format)
-    
-    # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
 def fill_year_month_columns(file_path):
-    # Read the CSV file into a DataFrame
+    """Extract Year and Month from the Date column."""
     df = pd.read_csv(file_path)
-    
-    # Extract Year and Month from Date column
     df['Year'] = pd.to_datetime(df['Date'], format='%m/%d/%Y').dt.year
     df['Month'] = pd.to_datetime(df['Date'], format='%m/%d/%Y').dt.strftime('%B')
-    
-    # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
 def remove_empty_amount_rows(file_path):
-    # Read the CSV file into a DataFrame
+    """Remove rows where the Amount column is empty or NaN."""
     df = pd.read_csv(file_path)
-    
-    # Remove rows where 'Amount' column is empty or NaN
     df = df[df['Amount'].notna() & (df['Amount'] != '')]
-    
-    # Save the modified DataFrame back to the CSV file
     df.to_csv(file_path, index=False)
 
 # Directory to search
@@ -138,8 +130,8 @@ for root, dirs, files in os.walk(directory):
     for dir in dirs:
         shutil.rmtree(os.path.join(root, dir))
 
-# # Call bad_lines_cleaner.py as a subprocess
-# subprocess.run(['python', 'bad_lines_cleaner.py'])
+# Call bad_lines_cleaner.py as a subprocess
+subprocess.run(['python', 'bad_lines_cleaner.py'])
 
 # Fill in Year and Month columns after bad_lines_cleaner.py has run
 fill_year_month_columns(os.path.join(directory, 'dirty.csv'))
@@ -147,5 +139,8 @@ fill_year_month_columns(os.path.join(directory, 'dirty.csv'))
 # Remove rows with empty 'Amount' column in the merged dataframe
 remove_empty_amount_rows(os.path.join(directory, 'dirty.csv'))
 
-# # Call desc_cleaner.py as a subprocess
-# subprocess.run(['python', 'desc_cleaner.py'])
+# Call desc_cleaner.py as a subprocess
+subprocess.run(['python', 'desc_cleaner.py'])
+
+# Call cat_cleaner.py as a subprocess
+subprocess.run(['python', 'cat_cleaner.py'])

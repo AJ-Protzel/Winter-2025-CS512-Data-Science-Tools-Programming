@@ -1,3 +1,19 @@
+"""
+Author: Adrien Protzel
+
+This script processes a CSV file to replace transaction descriptions based on a predefined mapping.
+If a description does not match any keyphrase, a manual input window is displayed to allow the user
+to enter the correct description.
+
+Modules used:
+- pandas: For data manipulation and analysis.
+- tkinter: For creating the GUI.
+
+Functions:
+- load_description_map(): Loads the description map from a file.
+- replace_description(row): Replaces descriptions based on the mapping and displays a manual input window if no match is found.
+"""
+
 import pandas as pd
 import tkinter as tk
 
@@ -8,8 +24,8 @@ df = pd.read_csv(csv_file_path)
 # Ensure the 'Description' column is of type string and convert to lowercase
 df['Description'] = df['Description'].astype(str).str.lower()
 
-# Function to load the description map file
 def load_description_map():
+    """Load the description map file."""
     description_map_file_path = 'Configs/Maps/description_map.txt'
     description_map = {}
     with open(description_map_file_path, 'r') as f:
@@ -19,8 +35,8 @@ def load_description_map():
                 description_map[parts[0]] = parts[1]
     return description_map
 
-# Function to replace descriptions based on the mapping
 def replace_description(row):
+    """Replace descriptions based on the mapping."""
     description_map = load_description_map()
     description = row['Description']
     for keyphrase, mapped_description in description_map.items():
@@ -51,6 +67,7 @@ def replace_description(row):
     root.title("Manual Description Mapping")
 
     def center_window(window, width, height):
+        """Center the window on the screen."""
         window.update_idletasks()
         x = (window.winfo_screenwidth() // 2) - (width // 2)
         y = (window.winfo_screenheight() // 2) - (height // 2)

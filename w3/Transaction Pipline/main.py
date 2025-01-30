@@ -1,5 +1,6 @@
-# Adrien Protzel
 """
+Author: Adrien Protzel
+
 This program sequentially calls other scripts to import, manage, and clean data.
 """
 
@@ -18,10 +19,10 @@ if __name__ == "__main__":
     subprocess.run(["python", "file_cleaner.py"])
     print("File Cleaning......Done")
 
-    # # Convert to json
-    # subprocess.run(["python", "CSV_to_JSON.py"])
-    # print("CSV to JSON......Done")
+    # Convert CSV to JSON
+    subprocess.run(["python", "CSV_to_JSON.py"])
+    print("CSV to JSON......Done")
 
-    # # Convert to csv
-    # subprocess.run(["python", "JSON_to_CSV.py"])
-    # print("JSON to CSV......Done")
+    # Convert JSONto CSV
+    subprocess.run(["python", "JSON_to_CSV.py"])
+    print("JSON to CSV......Done")

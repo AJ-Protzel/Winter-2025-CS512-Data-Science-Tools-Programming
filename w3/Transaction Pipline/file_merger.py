@@ -1,8 +1,9 @@
-# Adrien Protzel
 """
+Author: Adrien Protzel
+
 This program processes files in specified directories created by file_importer.py and formats based on configurations provided in a config.json file. 
 
-It removes or add headers as needed. Records bad lines and merges like files.
+It removes or adds headers as needed, records bad lines, and merges like files.
 """
 
 import json
@@ -136,3 +137,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
