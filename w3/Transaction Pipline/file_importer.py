@@ -1,3 +1,27 @@
+"""
+Author: Adrien Protzel
+
+This script creates a GUI application using Tkinter to organize files based on user selections.
+Users can drag and drop files into the application, which then copies the files to appropriate folders
+based on the selected type, bank, and card.
+
+Modules used:
+- tkinter: For creating the GUI.
+- tkinterdnd2: For drag-and-drop functionality in Tkinter.
+- os: For interacting with the operating system.
+- shutil: For file operations.
+- json: For reading configuration files.
+
+Functions:
+- drop(event): Handles file drop events and copies files to appropriate folders.
+- copy_file(file): Copies a file to the appropriate folder based on user selections.
+- update_bank_options(*args): Updates bank options based on the selected type.
+- update_card_options(*args): Updates card options based on the selected type and bank.
+- cancel(): Closes the application.
+- create_dropdown(label_text, variable, options, parent, default_value): Creates a dropdown menu with a label.
+- center_window(window, width, height): Centers the window on the screen with specified width and height.
+"""
+
 import tkinter as tk
 from tkinter import messagebox
 from tkinterdnd2 import DND_FILES, TkinterDnD

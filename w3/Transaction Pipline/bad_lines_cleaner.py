@@ -1,3 +1,18 @@
+"""
+Author: Adrien Protzel
+
+This script creates a GUI application using Tkinter to manually clean up bad lines from a file.
+It reads bad lines from a specified file, displays them in a pop-up window, and allows the user
+to manually enter the correct information. The corrected data is then written to a CSV file.
+
+Modules used:
+- tkinter: For creating the GUI.
+- tkinterdnd2: For drag-and-drop functionality in Tkinter.
+- pathlib: For handling file paths.
+- csv: For reading and writing CSV files.
+- os: For interacting with the operating system.
+"""
+
 import tkinter as tk
 from tkinterdnd2 import TkinterDnD
 from pathlib import Path
@@ -94,12 +109,14 @@ def create_popup(root, line, next_line_callback, cancel_callback):
             entries[col] = entry
 
     def clean_date_input(entry, length):
+        """Clean and format date input fields."""
         value = entry.get().zfill(length)
         entry.delete(0, tk.END)
         entry.insert(0, value)
         return value
 
     def on_enter():
+        """Collect input data and write it to a CSV file."""
         # Clean and merge date inputs
         month, day, year_var = entries["Date"]
         month = clean_date_input(month, 2)
@@ -131,6 +148,7 @@ def create_popup(root, line, next_line_callback, cancel_callback):
         next_line_callback()
 
     def on_cancel():
+        """Cancel the current operation and close the pop-up window."""
         popup.destroy()
         cancel_callback()
 
@@ -154,6 +172,7 @@ bad_lines_path = Path('Data/bad_lines.txt')
 bad_lines = read_bad_lines(bad_lines_path)
 
 def show_next_line(index=0):
+    """Display the next bad line in a pop-up window."""
     if index < len(bad_lines):
         create_popup(root, bad_lines[index], lambda: show_next_line(index + 1), lambda: root.destroy())
     else:
@@ -161,6 +180,7 @@ def show_next_line(index=0):
         root.destroy()
 
 def remove_bad_lines_file():
+    """Remove the bad lines file after processing."""
     if bad_lines_path.exists():
         os.remove(bad_lines_path)
 

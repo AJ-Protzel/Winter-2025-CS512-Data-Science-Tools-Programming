@@ -106,7 +106,7 @@ goodwill,goodwill
 panda express,panda express
 etsy,etsy
 oregon symphony,oregon symphony
-barnes,barns & nobel
+barnes,barnes & noble
 mi linda puebla,mi linda puebla
 pip's,pip's doughnuts
 multnomah falls,multnomah falls
@@ -202,7 +202,7 @@ subway,subway
 grub santa,grub
 prime video,prime video
 ikenohana,ikenohana
-apple,apple
+apple,apple store
 bill pay payment,transfer
 visible,visible
 bilt rewards,rent
@@ -321,7 +321,7 @@ wendy's,wendy's
 wingstop,wingstop
 stardust diner,stardust diner
 lavender creek ge,lavender creek gems
-travel credit,cash
+travel credit,travel
 washington square  or,washington square
 nopo paws,nopo paws
 vioc,valvoline
@@ -352,7 +352,7 @@ movinghelp.com,movinghelp
 greystar,prose
 five guys,five guys
 sushi chiyo inc,sushi chiyo
-known traveler credit,cash
+known traveler credit,travel
 uscustoms trustedtraveler,global entry
 iconicst2679,iconic
 atlanta airport,atlanta airport
@@ -384,3 +384,5 @@ getaway,getaway
 nan,null
 null\,null
 eid,eid
+barns & nobel,barnes & noble
+el dorado irrigation dis,eid
