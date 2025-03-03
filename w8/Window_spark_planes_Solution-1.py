@@ -1,4 +1,4 @@
-### Starter code for CS 512 Spark Planes Distance - part 1
+### Solution code for CS 512 Spark Planes Distance - part 2
 ### This code comes with no promises! 
 ### It was verfied by the instructors, but things change often in Google Cloud Computing
 ### It should be a suitable starting point for most students to get this assignment started
@@ -50,14 +50,13 @@ spark = SparkSession \
   .appName('flights') \
   .getOrCreate()
 
-#update with your project specific settings
 conf={
     'mapred.bq.project.id':project,
     'mapred.bq.gcs.bucket':bucket,
     'mapred.bq.temp.gcs.path':input_directory,
-    'mapred.bq.input.project.id': 'cs512-aircraft-protzela',
-    'mapred.bq.input.dataset.id': 'aircraft_data',
-    'mapred.bq.input.table.id': 'flight_times',
+    'mapred.bq.input.project.id': "osu512",
+    'mapred.bq.input.dataset.id': 'Planes',
+    'mapred.bq.input.table.id': 'plane_loc',
 }
 
 ## pull table from big query
@@ -67,9 +66,8 @@ table_data = sc.newAPIHadoopRDD(
     'com.google.gson.JsonObject',
     conf = conf)
 
-## convert table to a json like object, turn PosTime and Fseen back into numbers
+## convert table to a json like object, turn PosTime and Fseen back into numbers... not sure why they changed
 vals = table_data.values()
-pprint.pprint(vals.take(5))  #added to help debug whether table was loaded
 vals = vals.map(lambda line: json.loads(line))
 vals = vals.map(To_numb)
 
@@ -84,9 +82,51 @@ schema = StructType([
 ## create a dataframe object
 df1 = spark.createDataFrame(vals, schema= schema)
 
+
 df1.repartition(6) 
-pprint.pprint(vals.take(5))
+
+## create window by partitioning by Icao and ordering by PosTime, then use lead to get next lat long
+window = Window.partitionBy("Icao").orderBy("PosTime").rowsBetween(1,1)
+df1=df1.withColumn("Lat2", lead('Lat').over(window))
+df1=df1.withColumn("Long2", lead('Long').over(window))
+df1 = df1.na.drop()
+df1 = df1.filter((col('Long') != 0) & (col('Lat') != 0)) #  drop rows with Long or Lat == 0 (Bad Data)
+#pprint.pprint(df1.take(5))
+#print(df1.dtypes)
+
+# apply the haversine function to each set of coordinates
+haver_udf = udf(haversine, FloatType())
+df1 = df1.withColumn('dist', haver_udf('long', 'lat', 'long2', 'lat2'))
+#pprint.pprint(df1.take(5))
+
+## sum the distances for each Icao to get distance each plane traveled
+df1.createOrReplaceTempView('planes')
+top = spark.sql("Select Icao, SUM(dist) as dist FROM planes GROUP BY Icao ORDER BY dist desc LIMIT 10 ")
+top = top.rdd.map(tuple)
+pprint.pprint(top.collect())
+
+# ### convert the dataframe back to RDD
+# dist = df1.rdd.map(list)
+
+# ### apply the haversine equation on each row
+# dist = dist.map(lambda x: x+[haversine(x[3],x[2],x[6],x[5])])
+
+# ### create rdd of (Icao, dist)
+# dist = dist.map(lambda x: (x[1] , x[7]))
+
+# ### sum each by Icao key, and sort
+# dist = dist.reduceByKey(lambda x,y: x+y).sortBy(lambda x: x[1], ascending = False)
+# pprint.pprint(dist.take(10))
+
+# ### collect total of all flights
+# total = dist.values().reduce(lambda x,y: x+y)
+# print(total)
+
+##sum the distances for all planes. 
+miles = spark.sql("Select SUM(dist) FROM planes")
+pprint.pprint(miles.collect())
 
 ## deletes the temporary files
 input_path = sc._jvm.org.apache.hadoop.fs.Path(input_directory)
 input_path.getFileSystem(sc._jsc.hadoopConfiguration()).delete(input_path, True)
+
