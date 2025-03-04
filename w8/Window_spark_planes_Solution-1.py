@@ -54,9 +54,9 @@ conf={
     'mapred.bq.project.id':project,
     'mapred.bq.gcs.bucket':bucket,
     'mapred.bq.temp.gcs.path':input_directory,
-    'mapred.bq.input.project.id': "osu512",
-    'mapred.bq.input.dataset.id': 'Planes',
-    'mapred.bq.input.table.id': 'plane_loc',
+    'mapred.bq.input.project.id': "cs512-aircraft-protzela",
+    'mapred.bq.input.dataset.id': 'aircraft_data',
+    'mapred.bq.input.table.id': 'flight_times',
 }
 
 ## pull table from big query
