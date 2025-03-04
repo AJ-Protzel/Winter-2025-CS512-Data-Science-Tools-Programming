@@ -50,12 +50,13 @@ spark = SparkSession \
   .getOrCreate()
 
 conf={
-    'mapred.bq.project.id':project,
-    'mapred.bq.gcs.bucket':bucket,
-    'mapred.bq.temp.gcs.path':input_directory,
-    'mapred.bq.input.project.id': "cs512-aircraft-protzela",
+    # 'mapred.bq.project.id':project,
+    'mapred.bq.project.id': 'cs512-aircraft-protzela',
+    'mapred.bq.gcs.bucket': bucket,
+    'mapred.bq.temp.gcs.path': input_directory,
+    'mapred.bq.input.project.id': 'cs512-aircraft-protzela',
     'mapred.bq.input.dataset.id': 'aircraft_data',
-    'mapred.bq.input.table.id': 'flight_times',
+    'mapred.bq.input.table.id': 'plane_loc',
 }
 
 ## pull table from big query
@@ -80,7 +81,6 @@ schema = StructType([
 ## create a dataframe object
 df1 = spark.createDataFrame(vals, schema= schema)
 
-
 df1.repartition(6) 
 
 ## create window by partitioning by Icao and ordering by PosTime, then use lead to get next lat long
@@ -88,7 +88,6 @@ window = Window.partitionBy("Icao").orderBy("PosTime").rowsBetween(1,1)
 df1=df1.withColumn("Lat2", lead('Lat').over(window))
 df1=df1.withColumn("Long2", lead('Long').over(window))
 df1 = df1.na.drop()
-df1 = df1.filter((col('Long') != 0) & (col('Lat') != 0)) #  drop rows with Long or Lat == 0 (Bad Data)
 #pprint.pprint(df1.take(5))
 #print(df1.dtypes)
 
