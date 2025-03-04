@@ -30,7 +30,6 @@ def haversine(lon1, lat1, lon2, lat2):
 
 def To_numb(x):
   x['PosTime'] = int(x['PosTime'])
-  x['FSeen'] = int(x['FSeen'])
   x['Lat'] = float(x['Lat'])
   x['Long'] = float(x['Long'])
   return x
@@ -73,7 +72,6 @@ vals = vals.map(To_numb)
 
 ##schema 
 schema = StructType([
-   StructField('FSeen', LongType(), True),
    StructField("Icao", StringType(), True),
    StructField("Lat", FloatType(), True),
    StructField("Long", FloatType(), True),
