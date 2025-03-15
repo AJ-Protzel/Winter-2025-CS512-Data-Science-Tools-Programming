@@ -86,7 +86,7 @@ def check_description(row):
     category_buttons_frame2 = tk.Frame(root)
     category_buttons_frame2.pack(pady=5)
 
-    categories1 = ["Grocery", "Dining", "Shopping", "Misc"]
+    categories1 = ["Grocery", "Dining", "Shopping", "Expense"]
     categories2 = ["Subscription", "Utility", "Travel", "Gas", "Transfer"]
     
     for category in categories1:

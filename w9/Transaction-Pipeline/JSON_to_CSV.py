@@ -24,6 +24,7 @@ def json_to_csv(json_file_path, csv_file_path):
         json_file_path (str): Path to the JSON file.
         csv_file_path (str): Path to the CSV file.
     """
+    
     # Read the JSON file
     with open(json_file_path, mode='r', encoding='utf-8') as json_file:
         data = json.load(json_file)
@@ -40,9 +41,9 @@ def json_to_csv(json_file_path, csv_file_path):
     # Remove the old JSON file
     os.remove(json_file_path)
 
-# Specify the file paths
-json_file_path = 'Data/clean.json'
-csv_file_path = 'Data/clean.csv'
+# # Specify the file paths
+# json_file_path = 'Data/clean.json'
+# csv_file_path = 'Data/clean.csv'
 
-# Convert the JSON to CSV and remove the old JSON file
-json_to_csv(json_file_path, csv_file_path)
+# # Convert the JSON to CSV and remove the old JSON file
+# json_to_csv(json_file_path, csv_file_path)

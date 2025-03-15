@@ -1,14 +1,29 @@
 """
 Author: Adrien Protzel
 
-This program processes files in specified directories created by file_importer.py and formats based on configurations provided in a config.json file. 
+This program processes files in specified directories created by file_importer.py and formats 
+based on configurations provided in a config.json file. 
 
 It removes or adds headers as needed, records bad lines, and merges like files.
 """
 
 import json
 import csv
+import os
 from pathlib import Path
+from JSON_to_CSV import json_to_csv  # Correct import statement
+
+def convert_json_files(folder_path):
+    """
+    Convert all JSON files in the specified folder to CSV files.
+
+    Args:
+        folder_path (Path): Path to the folder containing JSON files.
+    """
+    for file in folder_path.iterdir():
+        if file.suffix == '.json':
+            csv_file_path = file.with_suffix('.csv')
+            json_to_csv(file, csv_file_path)
 
 def load_config(config_path):
     """
@@ -109,6 +124,9 @@ def main():
     # Define the folder path
     current_dir = Path(__file__).parent
     folder_path = current_dir / 'Data'
+
+    # Convert JSON files to CSV files
+    convert_json_files(folder_path)
 
     # Load the configuration file
     config_path = current_dir / 'Configs' / 'config.json'

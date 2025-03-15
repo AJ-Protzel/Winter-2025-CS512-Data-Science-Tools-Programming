@@ -124,7 +124,7 @@ aldi,aldi
 waban market,waban market
 woodbury commons ny-hco,woodbury commons
 woodbury com out  ny-anf,woodbury commons
-shake shack,shake shack\
+shake shack,shake shack
 kung pao wok,kung pao wok
 burdick chocolate,la burdick chocolate
 beacon hill books,beacon hill books
@@ -142,3 +142,255 @@ salon nyla,salon nyla
 portland florist shop,portland florist shop
 mount rainier natl park,mount rainier
 dollar tree,dollar tree
+cwc wdc,cwc
+sp ventures mrktplc,sp ventures market
+kohl's,kohl's
+sichuan taste,sichuan taste
+the home depot,home depot
+the ups store,ups
+village merchants,village merchants
+house of vintage,house of vintage
+screen door restaura,screen door
+b&amp;h,b&h photo
+roloff farms,roloff farms
+kkoki bbq,kkoki bbq
+paris baguette,paris baguette
+amazon mktpl,amazon
+amazon prime,amazon prime
+automatic payment,transfer
+amazon,amazon
+doordashdashpa,door dash pass
+cricut,cricut
+amzn mktp,amazon
+mud bay,mud bay
+hmart,hmart
+jack in the box,jack in the box
+craft warehouse,craft warehouse
+outback,outback
+next level pinball shop,next level pinball
+amelia'srusticmexican,amelia's mexican
+retro game trader,retro game trader
+kizuki ramen,kizuki ramen
+portland japanese gard,portland japanese garden
+portland japanese,portland japanese garden
+fat schlags  llc,fat schlags
+nomad leather,nomad leather
+nectar frozen yog lounge,nectar frozen yogurt
+lowes,lowes
+aftontickets.com,afton tickets
+paxton gate pdx,paxton gate
+papersource,paper source
+sp the meadow,the meadow
+the knock back,the knock back
+urbanite,urbanite
+salt&amp;pepper perumex l,salt & pepper
+tea &amp; tea inc,tea & tea
+pho van,pho van
+osu graduate school,osu graduate school
+adidas,adidas
+maiale rosa wood fire,maiale rosa wood fire
+love's,love's
+cindys hallmark,cindys hallmark
+century theatres,century theatres
+krispy kreme,krispy kreme
+oswego grill beaverton,oswego grill
+cinemark.com,cinemark
+handels homemade portlan,handels homemade
+el campesino pdx llc,el campesino
+toms pancake house,tom's pancake house
+kfc,kfc
+carls jr,carls jr
+din tai fung,din tai fung
+kindle,kindle
+oregon symphony,oregon symphony
+mi linda puebla,mi linda puebla'
+pip's original doughn,pip's doughnuts
+multnomah falls,multnomah falls
+carver cafe inc.,carver cafe
+mediterranean rest,mediterranean restaurant
+ross stores ,ross
+batteries plus,batteries plus
+mercari,mercari
+binarybrewing.co,binary brewing
+honeybaked ham co.,honeybaked ham
+salt &amp; straw,salt & straw
+red robin,red robin
+prime taphouse,prime taphouse
+fastrak violation cent,fastrak
+comcast california,xfinity internet
+andrews flowers,andrews flowers
+starbucks,starbucks
+office depot,office depot
+seven feathers truck &amp;,gas
+boxer ramen,boxer ramen
+marathon petro,gas
+pet food express,pet food express
+brickyard counte,brickyard counter
+car-izma auto spa,car-izma
+goldorado animal hospi,goldorado
+in-n-out placerville,in-n-out
+lazy dog restaurant,lazy dog
+twbonkers toy &amp; candy emp,bonkers toys
+in-n-out,in-n-out
+staples,staples
+thai paradise,thai paradise
+el dorado disposal,el dorado disposal
+keymelocksmiths,key mel ock smiths
+coldstone ,coldstone
+big lots,big lots
+bel air,bel air
+stevens creek surplus d,surplus
+gulf oil,gas
+lopez taqueria,lopez taqueria
+pilot,gas
+sunnyvale smog center,sunnyvale smog center
+petco,petco
+little big burger,little big burger
+paypal,paypal
+topaz farm,topaz farm
+daves hot chicken,daves hot chicken
+batter up,batter up
+doordash dashpass,door dash dashpass
+best teriyaki,best teriyaki
+color me mine,color me mine
+dd doordash,door dash
+wal-mart,wal-mart
+ikea,ikea
+homedepot,homedepot
+el campesino,el campesino
+ancestry.com,ancestry
+rovente pizzeria,rovente pizzeria
+bath and body works,bath and body works
+grid bar &amp; ,grid bar
+in n out burger,in-n-out
+dsw folsom gateway,dsw
+coursraa,coursra
+66 standard plumbing,66 standard plumbing
+u-haul,u-haul
+robnett's hardware,robnett's hardware
+taste of sichuan,taste of sichuan
+wisecracks cafe,wisecracks cafe
+inkwell home store,inkwell
+sugoi sushi,sugoi sushi
+mcmenamins,mcmenamins
+monroe internat market,monroe international market
+rite aid,rite aid
+dutchbro,dutch bros
+mandy's family,matt & mandy's family
+power kia,power kia
+courtyard by marriott,marriott
+pdx sliders,pdx sliders
+space needle gift shop,space needle gift shop
+piroshky piroshky bakery,piroshky piroshky
+funko everett,funko everett
+cannon beach hardware &amp; p,cannon beach hardware
+tillamook county icecrea,tillamook icecream
+kings blvd one hr cleaner,dry cleaners
+jamba juice,jamba juice
+chase travel,chase travel
+personal touch car wash,personal touch car wash
+subway,subway
+grub santa clara,grub
+prime video,prime video
+ikenohana restaurant,ikenohana
+banfield-pet,banfield
+hertzfine,hertz
+apple.com,apple
+hertztoll,hertz
+lyft,lyft
+enterprise rent-a-car,enterprise
+state parks discover pas,state parks discover pas
+alamo rent-a-car,alamo
+delta air,delta air
+njt rail my-tix,train
+path tapp paygo cp,train
+statue cruises,statue cruises
+hertz,hertz
+mbta savin hill,savin hill
+mbta kenmore,kenmore
+apple store,apple
+odot dmv,dmv
+birkenstock,birkenstock
+gnc.com,gnc
+sq *la naranja llc,la naranja
+sq *memory den,memory den
+sq *tall boy fish &amp; chips,tall boy fish chips
+sephora portland,sephora
+wendy's,wendy's
+wingstop,wingstop
+stardust diner,stardust diner
+travel credit $300/year,transfer
+washington square  or-anf,washington square
+nopo paws,nopo paws
+vioc,valvoline
+gerbrock and co,gerbrock
+schwieterts cones and can,schwieterts icecream
+tis the season,tis the season
+tst*mos seafood &amp; chowde,mos seafood
+tiptons inc,tiptons
+north coast leather,north coast leather
+recreation.gov,recreation
+thai bloom food cart,thai bloom
+pp*the frying scotsman,the frying scotsman
+airbnb,airbnb
+sq *pistils nursery - mis,pistils nursery
+domino's,domino's
+wolfs head,wolfs head
+otaku import export,otaku import export
+boomers burgers &amp; ribs,boomers burgers
+petsmart,petsmart
+banfield,banfield
+uber   eats,uber eats
+rugsusa.com,rugs usa
+comcast portland,xfinity internet
+pay ready * avenue5 re,west end rent
+cinemark,cinemark
+movinghelp.com,movinghelp
+pyl*greystar,prose rent
+five guys,five guys
+sushi chiyo inc,sushi chiyo
+known traveler credit,transfer
+uscustoms trustedtraveler,global entry
+iconicst,iconicst
+atlanta airport,atlanta airport
+batavia iii,batavia
+hudson st,hudson st
+tillamook market at pdx,tillamook market
+irina moga dds,irina moga dds
+hop*00r2qyy trimet 70,train
+sq *mikiko mochi donuts -,mikiko mochi donuts
+trimet,train
+annual membership fee,chase reserve
+auntie anne's,auntie anne's
+american eagle,american eagle
+calvin klein,calvin klein
+tst* nonna emilia ristora,nonna emilia
+rover.com* pet svcs.,rover
+donut king,donut king
+el dorado irrigation dis,el dorado irrigation
+xin ding dumpling house,xin ding dumpling house
+sq *freshfish poke,fresh fish poke
+sq *we feast llc,we feast
+bvd*beenverified.com,been verified
+qfc,qfc
+zelle,zelle
+interest earned,interest
+bkofamerica mobile,transfer
+transfer,transfer
+monthly maintenance fee,monthly maintenance fee
+monthly service charge refund,monthly maintenance fee refund
+robinhood,robinhood
+cashreward,interest
+customer withdrawal image,transfer
+acctverify,transfer
+all america bank des:funds trfr,transfer
+wealthfront des:edi pymnts ,transfer
+bkofamerica atm ,transfer
+wise inc,wise
+google *xavier liard,mobile game
+sq *prayer out reach serv,food stand
+pmusa 758058 national,national park
+deq vip ne portland,smog inspection
+mol*bcherbchse ohg,bucherbueche
+sp lavender creek ge,lavender creek gems
+poor your nw trav,food truck

@@ -97,6 +97,7 @@ def replace_description(row):
     instruction_label2.grid(row=1, column=0, sticky='e')
     true_description_entry = tk.Entry(frame)
     true_description_entry.grid(row=1, column=1)
+    true_description_entry.insert(0, description)  # Prefill with the current description
 
     button_frame = tk.Frame(root)
     button_frame.pack(pady=10)

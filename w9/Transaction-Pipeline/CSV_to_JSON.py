@@ -18,6 +18,7 @@ import os
 
 def csv_to_json(csv_file_path, json_file_path):
     """Convert a CSV file to a JSON file and remove the original CSV file."""
+    
     # Read the CSV file
     with open(csv_file_path, mode='r', encoding='utf-8') as csv_file:
         csv_reader = csv.DictReader(csv_file)
@@ -30,9 +31,9 @@ def csv_to_json(csv_file_path, json_file_path):
     # Remove the old CSV file
     os.remove(csv_file_path)
 
-# Specify the file paths
-csv_file_path = 'Data/clean.csv'
-json_file_path = 'Data/clean.json'
+# # Specify the file paths
+# csv_file_path = os.path.join(os.path.dirname(__file__), 'Data', 'clean.csv')
+# json_file_path = os.path.join(os.path.dirname(__file__), 'Data', 'clean.json')
 
-# Convert the CSV to JSON and remove the old CSV file
-csv_to_json(csv_file_path, json_file_path)
+# # Convert the CSV to JSON and remove the old CSV file
+# csv_to_json(csv_file_path, json_file_path)
