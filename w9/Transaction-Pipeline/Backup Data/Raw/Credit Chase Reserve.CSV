@@ -1,4 +1,4 @@
-Date,*,Description,*,*,Amount,*
+Transaction Date,Post Date,Description,Category,Type,Amount,Memo
 02/19/2025,02/20/2025,BANFIELD-PET*WPPAYMENT,Bills & Utilities,Sale,-72.25,
 02/15/2025,02/16/2025,Payment Thank You - Web,,Payment,1700.25,
 02/15/2025,02/16/2025,HERTZFINE 545161842,Travel,Sale,-180.00,

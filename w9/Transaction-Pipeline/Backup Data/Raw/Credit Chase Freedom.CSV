@@ -1,4 +1,4 @@
-Date,*,Description,*,*,Amount,*
+Transaction Date,Post Date,Description,Category,Type,Amount,Memo
 03/11/2025,03/13/2025,TACO BELL 716521,Food & Drink,Sale,-5.58,
 03/11/2025,03/12/2025,BURGER KING #4670,Food & Drink,Sale,-9.69,
 03/09/2025,03/11/2025,DUTCH BROS WA1604,Food & Drink,Sale,-15.41,

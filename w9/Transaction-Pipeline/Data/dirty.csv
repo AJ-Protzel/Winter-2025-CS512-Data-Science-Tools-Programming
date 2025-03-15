@@ -1613,3 +1613,5 @@ Year,Month,Date,Description,Category,Amount,Type,Bank,Card
 2025,March,03/11/2025,-107.0,,141.0,Debit,Chase,Checking
 2025,February,02/18/2025,20.0,,1.0,Debit,Chase,Checking
 2025,February,02/03/2025,1974.84,,1.0,Debit,Chase,Checking
+2024,January,01/02/2024,zelle,,1.0,debit,bofa,savings
+2024,November,11/07/2024,zelle,,853.29,debit,bofa,savings
