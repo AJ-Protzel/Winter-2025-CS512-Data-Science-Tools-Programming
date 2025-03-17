@@ -4,7 +4,8 @@ import pprint
 import json
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, DateType, FloatType
 from pyspark.sql import Window
-from pyspark.sql.functions import col, sum, desc
+from pyspark.sql.functions import col, sum as _sum, desc
+from pyspark.sql.functions import to_date
 
 sc = pyspark.SparkContext()
 
@@ -17,7 +18,6 @@ spark = SparkSession \
   .builder \
   .master('yarn') \
   .appName('transactions') \
-  .config("spark.task.maxFailures", 8) \
   .getOrCreate()
 
 conf = {
@@ -55,38 +55,37 @@ schema = StructType([
     StructField("Card", StringType(), True)
 ])
 
-# Create a DataFrame object
-df1 = spark.createDataFrame(vals, schema=schema)
-
-# Repartition the DataFrame
-df1 = df1.repartition(6)
+## create a dataframe object
+df1 = spark.createDataFrame(vals, schema= schema)
+df1.repartition(6) 
 
 
 
-# ## create window by partitioning by Icao and ordering by PosTime, then use lead to get next lat long
-# window = Window.partitionBy("Icao").orderBy("PosTime").rowsBetween(1,1)
-# df1=df1.withColumn("Lat2", lead('Lat').over(window))
-# df1=df1.withColumn("Long2", lead('Long').over(window))
-# df1 = df1.na.drop()
+# # Calculate the total expenses for each month
+# window = Window.partitionBy("Year", "Month").orderBy(desc("Total_Expenses"))
+# monthly_expenses = df1.groupBy("Year", "Month").agg(_sum("Amount").alias("Total_Expenses"))
 
-# # apply the haversine function to each set of coordinates
-# haver_udf = udf(haversine, FloatType())
-# df1 = df1.withColumn('dist', haver_udf('long', 'lat', 'long2', 'lat2'))
-# #pprint.pprint(df1.take(5))
+# # Rank the months by total expenses
+# ranked_expenses = monthly_expenses.withColumn("Rank", row_number().over(window))
 
-# ## sum the distances for each Icao to get distance each plane traveled
-# df1.createOrReplaceTempView('planes')
-# top = spark.sql("Select Icao, SUM(dist) as dist FROM planes GROUP BY Icao ORDER BY dist desc LIMIT 10 ")
-# top = top.rdd.map(tuple)
-# pprint.pprint(top.collect())
+# # Filter to get the top 5 months with the most expenses
+# top_expenses = ranked_expenses.filter(col("Rank") <= 5)
 
-# ##sum the distances for all planes. 
-# miles = spark.sql("Select SUM(dist) FROM planes")
-# pprint.pprint(miles.collect())
+# top_expenses.show()
 
-pprint.pprint("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-pprint.pprint("Working")
 
+
+# Calculate the total expenses for each month and rank them to show the top 5 months with the most expenses
+df1.createOrReplaceTempView('transactions')
+top_expenses = spark.sql("""
+SELECT Year, Month, SUM(Amount) as Total_Expenses 
+FROM transactions 
+GROUP BY Year, Month 
+ORDER BY Total_Expenses DESC 
+LIMIT 5
+""")
+
+top_expenses.show()
 
 
 # Delete the temporary files
