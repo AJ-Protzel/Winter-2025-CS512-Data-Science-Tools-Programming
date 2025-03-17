@@ -1,8 +1,3 @@
-### Solution code for CS 512 Spark Planes Distance - part 2
-### This code comes with no promises! 
-### It was verfied by the instructors, but things change often in Google Cloud Computing
-### It should be a suitable starting point for most students to get this assignment started
-### This is not the only way to solve this problem either, so don't feel like you have to use this code 
 import pyspark
 from pyspark.sql import SparkSession
 import pprint
@@ -36,8 +31,6 @@ def To_numb(x):
 
 sc = pyspark.SparkContext()
 
-#PACKAGE_EXTENSIONS= ('gs://hadoop-lib/bigquery/bigquery-connector-hadoop2-latest.jar')
-
 bucket = sc._jsc.hadoopConfiguration().get('fs.gs.system.bucket')
 project = sc._jsc.hadoopConfiguration().get('fs.gs.project.id')
 input_directory = 'gs://{}/hadoop/tmp/bigquerry/pyspark_input'.format(bucket)
@@ -50,7 +43,6 @@ spark = SparkSession \
   .getOrCreate()
 
 conf={
-    # 'mapred.bq.project.id':project,
     'mapred.bq.project.id': 'cs512-aircraft-protzela',
     'mapred.bq.gcs.bucket': bucket,
     'mapred.bq.temp.gcs.path': input_directory,
@@ -88,8 +80,6 @@ window = Window.partitionBy("Icao").orderBy("PosTime").rowsBetween(1,1)
 df1=df1.withColumn("Lat2", lead('Lat').over(window))
 df1=df1.withColumn("Long2", lead('Long').over(window))
 df1 = df1.na.drop()
-#pprint.pprint(df1.take(5))
-#print(df1.dtypes)
 
 # apply the haversine function to each set of coordinates
 haver_udf = udf(haversine, FloatType())
@@ -101,23 +91,6 @@ df1.createOrReplaceTempView('planes')
 top = spark.sql("Select Icao, SUM(dist) as dist FROM planes GROUP BY Icao ORDER BY dist desc LIMIT 10 ")
 top = top.rdd.map(tuple)
 pprint.pprint(top.collect())
-
-# ### convert the dataframe back to RDD
-# dist = df1.rdd.map(list)
-
-# ### apply the haversine equation on each row
-# dist = dist.map(lambda x: x+[haversine(x[3],x[2],x[6],x[5])])
-
-# ### create rdd of (Icao, dist)
-# dist = dist.map(lambda x: (x[1] , x[7]))
-
-# ### sum each by Icao key, and sort
-# dist = dist.reduceByKey(lambda x,y: x+y).sortBy(lambda x: x[1], ascending = False)
-# pprint.pprint(dist.take(10))
-
-# ### collect total of all flights
-# total = dist.values().reduce(lambda x,y: x+y)
-# print(total)
 
 ##sum the distances for all planes. 
 miles = spark.sql("Select SUM(dist) FROM planes")
