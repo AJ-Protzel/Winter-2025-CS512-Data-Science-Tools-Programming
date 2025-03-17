@@ -1,0 +1,1428 @@
+ID,Year,Month,Day,Date,Description,Category,Amount,Type,Bank,Card
+1,2025,March,11,03/11/2025,apple,shopping,-5.99,Credit,Bilt,Bilt
+2,2025,March,08,03/08/2025,apple,shopping,-34.99,Credit,Bilt,Bilt
+3,2025,March,07,03/07/2025,visible,utility,-25.0,Credit,Bilt,Bilt
+4,2025,March,07,03/07/2025,visible,utility,-25.0,Credit,Bilt,Bilt
+5,2025,March,05,03/05/2025,apple,shopping,-1.99,Credit,Bilt,Bilt
+6,2025,March,03,03/03/2025,pge,utility,-91.76,Credit,Bilt,Bilt
+7,2025,March,03,03/03/2025,prose rent,utility,-2255.94,Credit,Bilt,Bilt
+8,2025,February,25,02/25/2025,xfinity internet,utility,-43.0,Credit,Bilt,Bilt
+9,2025,February,21,02/21/2025,apple,shopping,-9.99,Credit,Bilt,Bilt
+10,2025,February,20,02/20/2025,apple,shopping,-12.99,Credit,Bilt,Bilt
+12,2025,February,15,02/15/2025,apple,shopping,-4.99,Credit,Bilt,Bilt
+13,2025,February,11,02/11/2025,apple,shopping,-5.99,Credit,Bilt,Bilt
+14,2025,February,07,02/07/2025,visible,utility,-25.0,Credit,Bilt,Bilt
+15,2025,February,07,02/07/2025,visible,utility,-25.0,Credit,Bilt,Bilt
+16,2025,February,03,02/03/2025,pge,utility,-57.8,Credit,Bilt,Bilt
+17,2025,February,03,02/03/2025,prose rent,utility,-2288.76,Credit,Bilt,Bilt
+18,2025,January,25,01/25/2025,apple,shopping,-2.98,Credit,Bilt,Bilt
+19,2025,January,25,01/25/2025,xfinity internet,utility,-43.0,Credit,Bilt,Bilt
+20,2025,January,21,01/21/2025,apple,shopping,-9.99,Credit,Bilt,Bilt
+22,2025,January,11,01/11/2025,apple,shopping,-5.99,Credit,Bilt,Bilt
+23,2025,January,07,01/07/2025,visible,utility,-25.0,Credit,Bilt,Bilt
+24,2025,January,07,01/07/2025,visible,utility,-25.0,Credit,Bilt,Bilt
+25,2025,January,04,01/04/2025,prose rent,utility,-2261.78,Credit,Bilt,Bilt
+26,2025,January,02,01/02/2025,pge,utility,-88.59,Credit,Bilt,Bilt
+27,2024,December,31,12/31/2024,walgreens,shopping,-8.6,Credit,Bilt,Bilt
+28,2024,December,25,12/25/2024,xfinity internet,utility,-40.0,Credit,Bilt,Bilt
+29,2024,December,25,12/25/2024,apple,shopping,-1.99,Credit,Bilt,Bilt
+30,2024,December,21,12/21/2024,apple,shopping,-9.99,Credit,Bilt,Bilt
+31,2024,December,12,12/12/2024,apple,shopping,-5.99,Credit,Bilt,Bilt
+33,2024,December,07,12/07/2024,visible,utility,-25.0,Credit,Bilt,Bilt
+34,2024,December,07,12/07/2024,visible,utility,-25.0,Credit,Bilt,Bilt
+35,2024,December,03,12/03/2024,prose rent,utility,-2272.21,Credit,Bilt,Bilt
+37,2024,December,02,12/02/2024,pge,utility,-67.46,Credit,Bilt,Bilt
+38,2024,November,25,11/25/2024,apple,shopping,-1.99,Credit,Bilt,Bilt
+39,2024,November,25,11/25/2024,xfinity internet,utility,-48.53,Credit,Bilt,Bilt
+40,2024,November,21,11/21/2024,apple,shopping,-9.99,Credit,Bilt,Bilt
+41,2024,November,16,11/16/2024,apple,shopping,-5.99,Credit,Bilt,Bilt
+42,2024,April,22,04/22/2024,costco,grocery,-86.71,Credit,BofA,Custom
+44,2024,April,12,04/12/2024,costco,grocery,-43.59,Credit,BofA,Custom
+45,2024,April,12,04/12/2024,costco,grocery,-91.95,Credit,BofA,Custom
+47,2024,April,08,04/08/2024,costco,grocery,-58.96,Credit,BofA,Custom
+48,2024,April,06,04/06/2024,costco,grocery,-44.0,Credit,BofA,Custom
+49,2024,April,05,04/05/2024,fairyloot,subscription,-34.9,Credit,BofA,Custom
+50,2024,March,25,03/25/2024,costco,grocery,-59.53,Credit,BofA,Custom
+51,2024,August,16,08/16/2024,fairyloot,subscription,34.9,Credit,BofA,Custom
+52,2024,August,05,08/05/2024,fairyloot,subscription,-34.9,Credit,BofA,Custom
+53,2025,March,04,03/04/2025,costco,grocery,-30.71,Credit,BofA,Custom
+54,2025,March,04,03/04/2025,costco,grocery,-28.98,Credit,BofA,Custom
+55,2025,March,04,03/04/2025,costco,grocery,-3.49,Credit,BofA,Custom
+57,2024,December,17,12/17/2024,costco,grocery,-59.65,Credit,BofA,Custom
+58,2024,December,17,12/17/2024,costco,grocery,-84.54,Credit,BofA,Custom
+60,2024,December,13,12/13/2024,costco,grocery,-37.77,Credit,BofA,Custom
+61,2024,December,11,12/11/2024,costco,grocery,-107.45,Credit,BofA,Custom
+63,2024,December,10,12/10/2024,progressive,utility,4.57,Credit,BofA,Custom
+64,2024,December,09,12/09/2024,costco,grocery,-38.29,Credit,BofA,Custom
+65,2024,December,09,12/09/2024,costco,grocery,-143.38,Credit,BofA,Custom
+66,2024,December,07,12/07/2024,costco,grocery,-29.12,Credit,BofA,Custom
+67,2024,December,06,12/06/2024,progressive,utility,-417.0,Credit,BofA,Custom
+68,2024,December,04,12/04/2024,costco,grocery,34.99,Credit,BofA,Custom
+69,2024,December,02,12/02/2024,costco,grocery,-60.77,Credit,BofA,Custom
+70,2024,November,26,11/26/2024,costco,grocery,-27.73,Credit,BofA,Custom
+71,2024,November,26,11/26/2024,costco,grocery,-205.36,Credit,BofA,Custom
+73,2025,February,20,02/20/2025,costco,grocery,-42.76,Credit,BofA,Custom
+75,2025,February,12,02/12/2025,costco,grocery,-46.72,Credit,BofA,Custom
+76,2025,February,10,02/10/2025,costco,grocery,-23.77,Credit,BofA,Custom
+77,2025,February,01,02/01/2025,costco,grocery,-123.12,Credit,BofA,Custom
+78,2025,January,27,01/27/2025,costco,grocery,-36.2,Credit,BofA,Custom
+79,2025,January,21,01/21/2025,costco,grocery,-79.99,Credit,BofA,Custom
+81,2025,January,14,01/14/2025,costco,grocery,-339.85,Credit,BofA,Custom
+82,2025,January,14,01/14/2025,costco,grocery,29.99,Credit,BofA,Custom
+83,2025,January,14,01/14/2025,costco,grocery,-1.99,Credit,BofA,Custom
+84,2025,January,10,01/10/2025,costco,grocery,-37.14,Credit,BofA,Custom
+85,2025,January,10,01/10/2025,costco,grocery,-80.97,Credit,BofA,Custom
+86,2025,January,10,01/10/2025,costco,grocery,-2.49,Credit,BofA,Custom
+87,2025,January,06,01/06/2025,costco,grocery,-42.91,Credit,BofA,Custom
+88,2025,January,03,01/03/2025,costco,grocery,-33.57,Credit,BofA,Custom
+89,2025,January,03,01/03/2025,costco,grocery,-78.57,Credit,BofA,Custom
+90,2024,December,31,12/31/2024,costco,grocery,-44.78,Credit,BofA,Custom
+91,2024,December,31,12/31/2024,costco,grocery,-67.44,Credit,BofA,Custom
+92,2024,December,28,12/28/2024,gas,gas,-30.56,Credit,BofA,Custom
+93,2024,July,12,07/12/2024,fairyloot,subscription,34.9,Credit,BofA,Custom
+94,2024,July,05,07/05/2024,fairyloot,subscription,-34.9,Credit,BofA,Custom
+97,2024,June,12,06/12/2024,xfinity mobile,utility,-54.18,Credit,BofA,Custom
+98,2024,June,10,06/10/2024,xfinity internet,utility,-30.0,Credit,BofA,Custom
+99,2024,June,07,06/07/2024,fairyloot,subscription,-38.0,Credit,BofA,Custom
+100,2024,June,04,06/04/2024,pge,utility,-29.92,Credit,BofA,Custom
+101,2024,June,03,06/03/2024,costco,grocery,-44.55,Credit,BofA,Custom
+102,2024,May,28,05/28/2024,steam,shopping,-7.99,Credit,BofA,Custom
+103,2024,May,27,05/27/2024,gas,gas,-38.17,Credit,BofA,Custom
+104,2024,May,27,05/27/2024,steam,shopping,-7.99,Credit,BofA,Custom
+106,2024,February,29,02/29/2024,fairyloot,subscription,-37.9,Credit,BofA,Custom
+107,2024,February,27,02/27/2024,costco,grocery,-22.88,Credit,BofA,Custom
+108,2024,May,23,05/23/2024,mobile game,shopping,-3.99,Credit,BofA,Custom
+109,2024,May,21,05/21/2024,safeway,grocery,-36.6,Credit,BofA,Custom
+111,2024,May,18,05/18/2024,costco,grocery,-82.44,Credit,BofA,Custom
+112,2024,May,13,05/13/2024,xfinity mobile,utility,-38.18,Credit,BofA,Custom
+113,2024,May,10,05/10/2024,costco,grocery,-52.33,Credit,BofA,Custom
+114,2024,May,10,05/10/2024,xfinity internet,utility,-25.0,Credit,BofA,Custom
+115,2024,May,08,05/08/2024,pge,utility,-54.01,Credit,BofA,Custom
+116,2024,May,06,05/06/2024,costco,grocery,-428.26,Credit,BofA,Custom
+117,2024,May,06,05/06/2024,fairyloot,subscription,-34.9,Credit,BofA,Custom
+118,2024,April,29,04/29/2024,costco,grocery,-40.95,Credit,BofA,Custom
+119,2024,April,29,04/29/2024,costco,grocery,-91.59,Credit,BofA,Custom
+120,2024,November,18,11/18/2024,costco,grocery,-34.08,Credit,BofA,Custom
+121,2024,November,11,11/11/2024,costco,grocery,-184.39,Credit,BofA,Custom
+122,2024,November,01,11/01/2024,costco,grocery,-30.73,Credit,BofA,Custom
+123,2024,November,01,11/01/2024,costco,grocery,-97.9,Credit,BofA,Custom
+124,2024,November,01,11/01/2024,costco,grocery,-6.29,Credit,BofA,Custom
+125,2024,October,23,10/23/2024,costco,grocery,-43.86,Credit,BofA,Custom
+128,2024,October,18,10/18/2024,costco,grocery,-223.46,Credit,BofA,Custom
+129,2024,October,10,10/10/2024,fairyloot,subscription,34.9,Credit,BofA,Custom
+130,2024,October,07,10/07/2024,fairyloot,subscription,-34.9,Credit,BofA,Custom
+131,2024,October,05,10/05/2024,asian family market,grocery,-27.97,Credit,BofA,Custom
+132,2024,October,04,10/04/2024,costco,grocery,-37.3,Credit,BofA,Custom
+133,2024,October,04,10/04/2024,costco,grocery,-309.66,Credit,BofA,Custom
+134,2024,October,04,10/04/2024,costco,grocery,15.99,Credit,BofA,Custom
+136,2024,September,23,09/23/2024,costco,grocery,-23.56,Credit,BofA,Custom
+137,2024,September,23,09/23/2024,costco,grocery,-150.15,Credit,BofA,Custom
+138,2024,September,23,09/23/2024,costco,grocery,-51.94,Credit,BofA,Custom
+139,2024,September,23,09/23/2024,costco,grocery,19.99,Credit,BofA,Custom
+140,2024,September,23,09/23/2024,costco,grocery,39.99,Credit,BofA,Custom
+141,2024,September,21,09/21/2024,costco,grocery,-38.62,Credit,BofA,Custom
+142,2024,September,19,09/19/2024,costco,grocery,-17.99,Credit,BofA,Custom
+143,2024,September,16,09/16/2024,costco,grocery,-34.48,Credit,BofA,Custom
+144,2024,September,16,09/16/2024,costco,grocery,-245.33,Credit,BofA,Custom
+145,2024,September,16,09/16/2024,costco,grocery,49.99,Credit,BofA,Custom
+147,2024,September,07,09/07/2024,costco,grocery,-27.18,Credit,BofA,Custom
+148,2024,September,07,09/07/2024,costco,grocery,-140.89,Credit,BofA,Custom
+149,2024,September,05,09/05/2024,fairyloot,subscription,-34.9,Credit,BofA,Custom
+150,2024,September,04,09/04/2024,costco,grocery,-39.99,Credit,BofA,Custom
+151,2025,March,11,03/11/2025,taco bell,dining,-5.58,Credit,Chase,Freedom
+152,2025,March,11,03/11/2025,burger king,dining,-9.69,Credit,Chase,Freedom
+153,2025,March,09,03/09/2025,dutch bros,dining,-15.41,Credit,Chase,Freedom
+154,2025,March,09,03/09/2025,fred-meyer,grocery,-13.5,Credit,Chase,Freedom
+155,2025,March,08,03/08/2025,go calendars games books,shopping,-24.99,Credit,Chase,Freedom
+156,2025,March,08,03/08/2025,dutch bros,dining,-5.45,Credit,Chase,Freedom
+157,2025,March,08,03/08/2025,mcdonalds,dining,-4.69,Credit,Chase,Freedom
+158,2025,March,08,03/08/2025,chipotle,dining,-20.65,Credit,Chase,Freedom
+159,2025,March,06,03/06/2025,goodwill,shopping,-6.99,Credit,Chase,Freedom
+160,2025,March,06,03/06/2025,goodwill,shopping,-14.0,Credit,Chase,Freedom
+161,2025,March,06,03/06/2025,jaybee's,dining,-34.0,Credit,Chase,Freedom
+162,2025,March,06,03/06/2025,etsy,shopping,-29.0,Credit,Chase,Freedom
+163,2025,March,03,03/03/2025,gmart,grocery,-4.99,Credit,Chase,Freedom
+164,2025,March,02,03/02/2025,too good to go,grocery,-6.99,Credit,Chase,Freedom
+165,2025,March,02,03/02/2025,too good to go,grocery,-9.99,Credit,Chase,Freedom
+167,2025,February,28,02/28/2025,momiji,dining,-80.0,Credit,Chase,Freedom
+168,2025,March,01,03/01/2025,hulu plus,subscription,-1.98,Credit,Chase,Freedom
+169,2025,February,27,02/27/2025,mcdonalds,dining,-1.09,Credit,Chase,Freedom
+170,2025,February,26,02/26/2025,sorya,grocery,-19.78,Credit,Chase,Freedom
+171,2025,February,26,02/26/2025,sorya,grocery,-2.8,Credit,Chase,Freedom
+172,2025,February,27,02/27/2025,daiso,shopping,-20.12,Credit,Chase,Freedom
+173,2025,February,26,02/26/2025,mcdonalds,dining,-4.76,Credit,Chase,Freedom
+174,2025,February,26,02/26/2025,mcdonalds,dining,-4.33,Credit,Chase,Freedom
+175,2025,February,24,02/24/2025,homegoods,shopping,-59.93,Credit,Chase,Freedom
+176,2025,February,23,02/23/2025,safeway,grocery,-5.79,Credit,Chase,Freedom
+177,2025,February,24,02/24/2025,tj maxx,shopping,-24.99,Credit,Chase,Freedom
+178,2025,February,24,02/24/2025,michaels,shopping,-43.97,Credit,Chase,Freedom
+179,2025,February,23,02/23/2025,stone cliff inn,dining,-59.4,Credit,Chase,Freedom
+180,2025,February,24,02/24/2025,too good to go,grocery,-6.99,Credit,Chase,Freedom
+181,2025,February,24,02/24/2025,tiktok,shopping,-23.99,Credit,Chase,Freedom
+182,2025,February,23,02/23/2025,wholefoods,grocery,-5.38,Credit,Chase,Freedom
+183,2025,February,21,02/21/2025,fred meyer,grocery,32.6,Credit,Chase,Freedom
+184,2025,February,21,02/21/2025,fred meyer,grocery,-36.03,Credit,Chase,Freedom
+185,2025,February,22,02/22/2025,too good to go,grocery,-5.99,Credit,Chase,Freedom
+186,2025,February,20,02/20/2025,asian family market,grocery,-21.98,Credit,Chase,Freedom
+187,2025,February,20,02/20/2025,kinokuniya,shopping,-20.99,Credit,Chase,Freedom
+188,2025,February,20,02/20/2025,core korean,dining,-34.98,Credit,Chase,Freedom
+189,2025,February,20,02/20/2025,homegoods,shopping,-7.99,Credit,Chase,Freedom
+190,2025,February,20,02/20/2025,fred-meyer,grocery,-15.46,Credit,Chase,Freedom
+191,2025,February,20,02/20/2025,usps,shopping,-1.32,Credit,Chase,Freedom
+192,2025,February,20,02/20/2025,uwajimaya,grocery,-5.48,Credit,Chase,Freedom
+193,2025,February,20,02/20/2025,round table pizza,dining,-47.47,Credit,Chase,Freedom
+194,2025,February,20,02/20/2025,fedex,shopping,-17.48,Credit,Chase,Freedom
+195,2025,February,19,02/19/2025,world market,grocery,-31.74,Credit,Chase,Freedom
+197,2025,February,17,02/17/2025,mcdonalds,dining,-1.49,Credit,Chase,Freedom
+198,2025,February,17,02/17/2025,mcdonalds,dining,-3.99,Credit,Chase,Freedom
+199,2025,February,14,02/14/2025,mieko's,dining,-28.08,Credit,Chase,Freedom
+201,2025,February,13,02/13/2025,kajiken,dining,-50.8,Credit,Chase,Freedom
+202,2025,February,13,02/13/2025,dutch bros,dining,-13.16,Credit,Chase,Freedom
+203,2025,February,13,02/13/2025,parking,travel,-4.0,Credit,Chase,Freedom
+204,2025,February,13,02/13/2025,panda express,dining,-11.18,Credit,Chase,Freedom
+205,2025,February,13,02/13/2025,maya asian market,grocery,-33.99,Credit,Chase,Freedom
+206,2025,February,13,02/13/2025,abercrombie & fitch,shopping,-26.25,Credit,Chase,Freedom
+207,2025,February,13,02/13/2025,cabela's,shopping,-21.8,Credit,Chase,Freedom
+208,2025,February,11,02/11/2025,dutch bros,dining,-13.35,Credit,Chase,Freedom
+209,2025,February,10,02/10/2025,train,travel,0.1,Credit,Chase,Freedom
+210,2025,February,10,02/10/2025,trader joe s,grocery,-30.56,Credit,Chase,Freedom
+211,2025,February,10,02/10/2025,hmart,grocery,-18.96,Credit,Chase,Freedom
+212,2025,February,10,02/10/2025,safeway,grocery,-33.54,Credit,Chase,Freedom
+213,2025,February,10,02/10/2025,wholefoods,grocery,30.88,Credit,Chase,Freedom
+214,2025,February,11,02/11/2025,out & about burger,dining,-19.71,Credit,Chase,Freedom
+215,2025,February,10,02/10/2025,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+216,2025,February,09,02/09/2025,dutch bros,dining,-13.3,Credit,Chase,Freedom
+217,2025,February,10,02/10/2025,wholefoods,grocery,-54.18,Credit,Chase,Freedom
+218,2025,February,09,02/09/2025,pelican brewing,dining,-55.12,Credit,Chase,Freedom
+219,2025,February,08,02/08/2025,safeway,grocery,-6.28,Credit,Chase,Freedom
+220,2025,February,09,02/09/2025,mcdonalds,dining,-3.99,Credit,Chase,Freedom
+221,2025,February,08,02/08/2025,hmart,grocery,-51.12,Credit,Chase,Freedom
+222,2025,February,09,02/09/2025,seaside confections,dining,-3.75,Credit,Chase,Freedom
+223,2025,February,08,02/08/2025,hat yai,dining,-29.01,Credit,Chase,Freedom
+224,2025,February,06,02/06/2025,chewy,subscription,-54.97,Credit,Chase,Freedom
+225,2025,February,05,02/05/2025,usps,shopping,-21.15,Credit,Chase,Freedom
+226,2025,February,04,02/04/2025,safeway,grocery,-31.79,Credit,Chase,Freedom
+227,2025,February,04,02/04/2025,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+228,2025,February,03,02/03/2025,lucky kitty bubbles,dining,-8.15,Credit,Chase,Freedom
+229,2025,February,03,02/03/2025,mcdonalds,dining,-4.59,Credit,Chase,Freedom
+230,2025,February,03,02/03/2025,mcdonalds,dining,-5.25,Credit,Chase,Freedom
+231,2025,February,03,02/03/2025,uber eats,dining,-35.51,Credit,Chase,Freedom
+232,2025,January,31,01/31/2025,target,shopping,-21.02,Credit,Chase,Freedom
+233,2025,January,31,01/31/2025,mcdonalds,dining,-2.39,Credit,Chase,Freedom
+235,2025,January,31,01/31/2025,fred-meyer,grocery,-3.98,Credit,Chase,Freedom
+236,2025,February,01,02/01/2025,hulu plus,subscription,-1.98,Credit,Chase,Freedom
+237,2025,February,01,02/01/2025,target,shopping,-7.49,Credit,Chase,Freedom
+238,2025,February,01,02/01/2025,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+239,2025,January,31,01/31/2025,mcdonalds,dining,-2.69,Credit,Chase,Freedom
+240,2025,February,01,02/01/2025,asian family market,grocery,-36.26,Credit,Chase,Freedom
+241,2025,January,31,01/31/2025,trader joe s,grocery,-4.58,Credit,Chase,Freedom
+242,2025,January,29,01/29/2025,fred meyer,grocery,-32.6,Credit,Chase,Freedom
+243,2025,January,29,01/29/2025,fred meyer,grocery,-19.22,Credit,Chase,Freedom
+244,2025,January,28,01/28/2025,momiji,dining,-81.4,Credit,Chase,Freedom
+246,2025,January,27,01/27/2025,usps,shopping,-1.32,Credit,Chase,Freedom
+247,2025,January,25,01/25/2025,dutch bros,dining,-23.29,Credit,Chase,Freedom
+248,2025,January,25,01/25/2025,wajan,dining,-65.0,Credit,Chase,Freedom
+250,2025,January,25,01/25/2025,panda express,dining,-10.6,Credit,Chase,Freedom
+251,2025,January,24,01/24/2025,target,shopping,-12.18,Credit,Chase,Freedom
+252,2025,January,25,01/25/2025,gas,gas,-8.08,Credit,Chase,Freedom
+253,2025,January,25,01/25/2025,costco,grocery,-6.26,Credit,Chase,Freedom
+254,2025,January,24,01/24/2025,fred meyer,grocery,-7.6,Credit,Chase,Freedom
+255,2025,January,24,01/24/2025,big fish games,shopping,-2.99,Credit,Chase,Freedom
+256,2025,January,24,01/24/2025,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+257,2025,January,23,01/23/2025,mcdonalds,dining,-1.49,Credit,Chase,Freedom
+258,2025,January,23,01/23/2025,usps,shopping,-14.6,Credit,Chase,Freedom
+259,2025,January,23,01/23/2025,mcdonalds,dining,-3.5,Credit,Chase,Freedom
+260,2025,January,23,01/23/2025,mcdonalds,dining,-3.99,Credit,Chase,Freedom
+261,2025,January,24,01/24/2025,postcard cabins,travel,-144.51,Credit,Chase,Freedom
+262,2025,January,22,01/22/2025,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+263,2025,January,20,01/20/2025,fred meyer,grocery,-18.46,Credit,Chase,Freedom
+264,2025,January,21,01/21/2025,target,shopping,-48.98,Credit,Chase,Freedom
+265,2025,January,21,01/21/2025,mcdonalds,dining,-2.39,Credit,Chase,Freedom
+266,2025,January,21,01/21/2025,mcdonalds,dining,-3.99,Credit,Chase,Freedom
+267,2025,January,21,01/21/2025,target,shopping,-24.49,Credit,Chase,Freedom
+268,2025,January,18,01/18/2025,hmart,grocery,-12.19,Credit,Chase,Freedom
+269,2025,January,17,01/17/2025,asian family market,grocery,-5.99,Credit,Chase,Freedom
+270,2025,January,17,01/17/2025,usps,shopping,-1.32,Credit,Chase,Freedom
+271,2025,January,17,01/17/2025,new seasons market,grocery,-23.98,Credit,Chase,Freedom
+273,2025,January,17,01/17/2025,bubble n tea,dining,-6.0,Credit,Chase,Freedom
+274,2025,January,15,01/15/2025,double mountain brew,dining,-24.0,Credit,Chase,Freedom
+275,2025,January,15,01/15/2025,nexus,shopping,-8.99,Credit,Chase,Freedom
+276,2025,January,13,01/13/2025,mcdonalds,dining,-1.09,Credit,Chase,Freedom
+277,2025,January,13,01/13/2025,sierra,shopping,59.99,Credit,Chase,Freedom
+278,2025,January,13,01/13/2025,mcdonalds,dining,-1.62,Credit,Chase,Freedom
+279,2025,January,13,01/13/2025,mcdonalds,dining,-3.25,Credit,Chase,Freedom
+280,2025,January,13,01/13/2025,target,shopping,-12.59,Credit,Chase,Freedom
+281,2025,January,12,01/12/2025,sierra,shopping,-119.98,Credit,Chase,Freedom
+282,2025,January,12,01/12/2025,target,shopping,-3.99,Credit,Chase,Freedom
+283,2025,January,12,01/12/2025,target,shopping,-31.98,Credit,Chase,Freedom
+284,2025,January,10,01/10/2025,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+285,2025,January,11,01/11/2025,train,travel,-13.0,Credit,Chase,Freedom
+286,2025,January,10,01/10/2025,progressive,utility,-61.4,Credit,Chase,Freedom
+287,2025,January,09,01/09/2025,costco,grocery,-6.97,Credit,Chase,Freedom
+288,2025,January,09,01/09/2025,litjoy crate,subscription,-188.0,Credit,Chase,Freedom
+289,2025,January,08,01/08/2025,birrieria pdx,dining,-29.0,Credit,Chase,Freedom
+290,2025,January,06,01/06/2025,safeway,grocery,-4.99,Credit,Chase,Freedom
+291,2025,January,05,01/05/2025,dutch bros,dining,-13.93,Credit,Chase,Freedom
+292,2025,January,06,01/06/2025,parking,travel,-24.0,Credit,Chase,Freedom
+293,2025,January,05,01/05/2025,uber,travel,-12.93,Credit,Chase,Freedom
+294,2025,January,04,01/04/2025,stanfords restaurant,dining,-222.11,Credit,Chase,Freedom
+295,2025,January,04,01/04/2025,miro tea,dining,-15.72,Credit,Chase,Freedom
+296,2025,January,03,01/03/2025,bellevue,grocery,158.69,Credit,Chase,Freedom
+297,2025,January,02,01/02/2025,barnes & noble,shopping,-35.86,Credit,Chase,Freedom
+298,2025,January,04,01/04/2025,panda express,dining,-41.71,Credit,Chase,Freedom
+299,2025,January,02,01/02/2025,barnes & noble,shopping,-35.86,Credit,Chase,Freedom
+300,2025,January,02,01/02/2025,disney store,shopping,-13.06,Credit,Chase,Freedom
+301,2025,January,03,01/03/2025,saars,grocery,-6.6,Credit,Chase,Freedom
+302,2025,January,03,01/03/2025,parking,travel,-5.0,Credit,Chase,Freedom
+303,2025,January,03,01/03/2025,bellevue,grocery,-177.94,Credit,Chase,Freedom
+304,2025,January,03,01/03/2025,bellevue,grocery,-126.95,Credit,Chase,Freedom
+305,2025,January,03,01/03/2025,parking,travel,-4.0,Credit,Chase,Freedom
+306,2025,January,03,01/03/2025,parking,travel,-2.75,Credit,Chase,Freedom
+307,2025,January,04,01/04/2025,parking,travel,-9.0,Credit,Chase,Freedom
+308,2025,January,03,01/03/2025,tj maxx,shopping,-33.62,Credit,Chase,Freedom
+309,2025,January,02,01/02/2025,tj maxx,shopping,-5.49,Credit,Chase,Freedom
+310,2025,January,02,01/02/2025,mcdonalds,dining,-1.62,Credit,Chase,Freedom
+311,2025,January,02,01/02/2025,seattle premium outlets,shopping,-109.09,Credit,Chase,Freedom
+312,2025,January,02,01/02/2025,jade garden restaurant,dining,-39.76,Credit,Chase,Freedom
+313,2025,January,02,01/02/2025,mcdonalds,dining,-5.66,Credit,Chase,Freedom
+314,2025,January,02,01/02/2025,kinokuniya,shopping,-22.06,Credit,Chase,Freedom
+315,2025,January,01,01/01/2025,safeway,grocery,-9.49,Credit,Chase,Freedom
+316,2025,January,02,01/02/2025,abercrombie & fitch,shopping,-8.73,Credit,Chase,Freedom
+317,2025,January,01,01/01/2025,saars,grocery,-10.51,Credit,Chase,Freedom
+318,2025,January,01,01/01/2025,jersey mikes,dining,-23.79,Credit,Chase,Freedom
+319,2025,January,01,01/01/2025,uber eats,dining,-20.09,Credit,Chase,Freedom
+320,2025,January,01,01/01/2025,hulu plus,subscription,-1.98,Credit,Chase,Freedom
+321,2024,December,31,12/31/2024,dutch bros,dining,-21.54,Credit,Chase,Freedom
+322,2024,December,31,12/31/2024,sierra,shopping,-76.43,Credit,Chase,Freedom
+324,2024,December,29,12/29/2024,bellevue,grocery,-130.48,Credit,Chase,Freedom
+325,2024,December,30,12/30/2024,sp ventures market,grocery,-11.04,Credit,Chase,Freedom
+327,2024,December,29,12/29/2024,pcc community markets,grocery,-4.3,Credit,Chase,Freedom
+328,2024,December,30,12/30/2024,market spice,grocery,-3.36,Credit,Chase,Freedom
+329,2024,December,29,12/29/2024,bellevue,grocery,161.14,Credit,Chase,Freedom
+330,2024,December,30,12/30/2024,golden age collectables,shopping,-33.11,Credit,Chase,Freedom
+331,2024,December,28,12/28/2024,parking,travel,-2.74,Credit,Chase,Freedom
+332,2024,December,28,12/28/2024,goodwill,shopping,-58.41,Credit,Chase,Freedom
+333,2024,December,29,12/29/2024,t&t market,grocery,-180.1,Credit,Chase,Freedom
+334,2024,December,28,12/28/2024,parking,travel,-5.5,Credit,Chase,Freedom
+335,2024,December,28,12/28/2024,safeway,grocery,-6.99,Credit,Chase,Freedom
+336,2024,December,28,12/28/2024,parking,travel,-2.75,Credit,Chase,Freedom
+337,2024,December,28,12/28/2024,safeway,grocery,-13.76,Credit,Chase,Freedom
+338,2024,December,28,12/28/2024,als music video  games,shopping,-22.19,Credit,Chase,Freedom
+339,2024,December,28,12/28/2024,goodwill,shopping,-11.02,Credit,Chase,Freedom
+340,2024,December,29,12/29/2024,tj maxx,shopping,-23.68,Credit,Chase,Freedom
+341,2024,December,29,12/29/2024,beecher's,dining,-33.62,Credit,Chase,Freedom
+342,2024,December,27,12/27/2024,mcdonalds,dining,-5.58,Credit,Chase,Freedom
+343,2024,December,28,12/28/2024,uwajimaya,grocery,-94.59,Credit,Chase,Freedom
+344,2024,December,26,12/26/2024,safeway,grocery,-32.13,Credit,Chase,Freedom
+345,2024,December,27,12/27/2024,dutch bros,dining,-13.4,Credit,Chase,Freedom
+346,2024,December,27,12/27/2024,parking,travel,-13.0,Credit,Chase,Freedom
+347,2024,December,27,12/27/2024,mcdonalds,dining,-1.1,Credit,Chase,Freedom
+348,2024,December,27,12/27/2024,denny's,dining,-23.78,Credit,Chase,Freedom
+349,2024,December,27,12/27/2024,haidilao hot pot,dining,-436.97,Credit,Chase,Freedom
+350,2024,December,27,12/27/2024,mcdonalds,dining,-4.05,Credit,Chase,Freedom
+351,2024,December,28,12/28/2024,parking,travel,-12.0,Credit,Chase,Freedom
+352,2024,December,26,12/26/2024,andreas keller restaurant,dining,-173.5,Credit,Chase,Freedom
+353,2024,December,26,12/26/2024,munchen haus,dining,60.0,Credit,Chase,Freedom
+354,2024,December,25,12/25/2024,safeway,grocery,-0.71,Credit,Chase,Freedom
+355,2024,December,26,12/26/2024,munchen haus,dining,-64.35,Credit,Chase,Freedom
+356,2024,December,25,12/25/2024,leavenworth shirt,shopping,-6.51,Credit,Chase,Freedom
+357,2024,December,25,12/25/2024,leavenworth village,shopping,-32.58,Credit,Chase,Freedom
+358,2024,December,25,12/25/2024,leavenworth village,shopping,-18.46,Credit,Chase,Freedom
+359,2024,December,25,12/25/2024,saars,grocery,-34.93,Credit,Chase,Freedom
+360,2024,December,25,12/25/2024,food stand,dining,-16.0,Credit,Chase,Freedom
+361,2024,December,25,12/25/2024,copper creek,shopping,-14.15,Credit,Chase,Freedom
+362,2024,December,23,12/23/2024,aritzia,shopping,-7.21,Credit,Chase,Freedom
+363,2024,December,24,12/24/2024,tj maxx,shopping,-87.09,Credit,Chase,Freedom
+364,2024,December,22,12/22/2024,daiso,shopping,-7.96,Credit,Chase,Freedom
+365,2024,December,22,12/22/2024,seabra`s market,grocery,-27.91,Credit,Chase,Freedom
+366,2024,December,23,12/23/2024,train,travel,-2.9,Credit,Chase,Freedom
+367,2024,December,22,12/22/2024,b&h photo,shopping,-38.1,Credit,Chase,Freedom
+368,2024,December,21,12/21/2024,muji,shopping,-27.92,Credit,Chase,Freedom
+369,2024,December,22,12/22/2024,ess-a-bagel,dining,-26.89,Credit,Chase,Freedom
+370,2024,December,20,12/20/2024,seabra`s market,grocery,-3.58,Credit,Chase,Freedom
+371,2024,December,19,12/19/2024,aritzia,shopping,-176.19,Credit,Chase,Freedom
+374,2024,December,19,12/19/2024,da gennaro ristorante,dining,-91.0,Credit,Chase,Freedom
+376,2024,December,18,12/18/2024,hmart,grocery,-10.85,Credit,Chase,Freedom
+377,2024,December,16,12/16/2024,pinkberry,dining,-8.92,Credit,Chase,Freedom
+378,2024,December,17,12/17/2024,aldi,grocery,-4.14,Credit,Chase,Freedom
+379,2024,December,16,12/16/2024,waban market,grocery,-7.98,Credit,Chase,Freedom
+380,2024,December,17,12/17/2024,woodbury commons,shopping,-31.24,Credit,Chase,Freedom
+381,2024,December,16,12/16/2024,chipotle,dining,11.79,Credit,Chase,Freedom
+382,2024,December,16,12/16/2024,woodbury commons,shopping,-64.97,Credit,Chase,Freedom
+383,2024,December,16,12/16/2024,shake shack,dining,-34.56,Credit,Chase,Freedom
+384,2024,December,16,12/16/2024,kung pao wok,dining,-21.28,Credit,Chase,Freedom
+385,2024,December,15,12/15/2024,la burdick chocolate,dining,-21.67,Credit,Chase,Freedom
+386,2024,December,14,12/14/2024,beacon hill books,shopping,-50.84,Credit,Chase,Freedom
+387,2024,December,13,12/13/2024,lazy sister,dining,-106.44,Credit,Chase,Freedom
+388,2024,December,12,12/12/2024,poppa box,dining,-35.5,Credit,Chase,Freedom
+389,2024,December,14,12/14/2024,nuts factory,shopping,-10.61,Credit,Chase,Freedom
+390,2024,December,15,12/15/2024,tatte bakery,grocery,-15.28,Credit,Chase,Freedom
+391,2024,December,13,12/13/2024,shoprite,shopping,-8.6,Credit,Chase,Freedom
+392,2024,December,12,12/12/2024,national park,travel,-7.45,Credit,Chase,Freedom
+393,2024,December,13,12/13/2024,gas,gas,-10.66,Credit,Chase,Freedom
+394,2024,December,13,12/13/2024,rei,shopping,-18.54,Credit,Chase,Freedom
+395,2024,December,13,12/13/2024,rei,shopping,-30.0,Credit,Chase,Freedom
+396,2024,December,13,12/13/2024,rei,shopping,-399.7,Credit,Chase,Freedom
+397,2024,December,12,12/12/2024,billy hicks,dining,-18.7,Credit,Chase,Freedom
+398,2024,December,13,12/13/2024,parking,travel,-2.75,Credit,Chase,Freedom
+399,2024,December,11,12/11/2024,national park,travel,-2.85,Credit,Chase,Freedom
+400,2024,December,11,12/11/2024,safeway,grocery,-6.03,Credit,Chase,Freedom
+401,2024,December,11,12/11/2024,tj maxx,shopping,-76.33,Credit,Chase,Freedom
+402,2024,December,09,12/09/2024,sumatera restaurant,dining,-64.17,Credit,Chase,Freedom
+404,2024,December,09,12/09/2024,jaybee's,dining,-29.0,Credit,Chase,Freedom
+405,2024,December,08,12/08/2024,target,shopping,-65.85,Credit,Chase,Freedom
+406,2024,December,08,12/08/2024,salon nyla,shopping,-295.0,Credit,Chase,Freedom
+407,2024,December,07,12/07/2024,portland florist shop,shopping,-8.5,Credit,Chase,Freedom
+408,2024,December,07,12/07/2024,copper creek,shopping,-75.03,Credit,Chase,Freedom
+409,2024,December,06,12/06/2024,mount rainier,travel,-30.0,Credit,Chase,Freedom
+410,2024,December,07,12/07/2024,fred-meyer,grocery,-19.47,Credit,Chase,Freedom
+411,2024,December,06,12/06/2024,dutch bros,dining,-12.22,Credit,Chase,Freedom
+412,2024,December,05,12/05/2024,daiso,shopping,-1.89,Credit,Chase,Freedom
+413,2024,December,05,12/05/2024,salon nyla,shopping,-50.0,Credit,Chase,Freedom
+414,2024,December,04,12/04/2024,mcdonalds,dining,-0.54,Credit,Chase,Freedom
+415,2024,December,04,12/04/2024,sierra,shopping,-169.93,Credit,Chase,Freedom
+416,2024,December,04,12/04/2024,mcdonalds,dining,-0.54,Credit,Chase,Freedom
+417,2024,December,04,12/04/2024,dollar tree,shopping,-5.98,Credit,Chase,Freedom
+418,2024,December,04,12/04/2024,mcdonalds,dining,-2.17,Credit,Chase,Freedom
+419,2024,December,04,12/04/2024,mcdonalds,dining,-1.62,Credit,Chase,Freedom
+420,2024,December,03,12/03/2024,sierra,shopping,-120.01,Credit,Chase,Freedom
+421,2024,December,03,12/03/2024,target,shopping,-2.99,Credit,Chase,Freedom
+422,2024,December,03,12/03/2024,costco,grocery,-1.5,Credit,Chase,Freedom
+423,2024,December,04,12/04/2024,fairyloot,subscription,-16.0,Credit,Chase,Freedom
+425,2024,December,03,12/03/2024,panda express,dining,-11.9,Credit,Chase,Freedom
+426,2024,November,30,11/30/2024,target,shopping,-3.29,Credit,Chase,Freedom
+427,2024,December,01,12/01/2024,asian family market,grocery,-25.84,Credit,Chase,Freedom
+428,2024,November,30,11/30/2024,target,shopping,11.59,Credit,Chase,Freedom
+429,2024,November,30,11/30/2024,target,shopping,-42.06,Credit,Chase,Freedom
+430,2024,December,01,12/01/2024,hulu plus,subscription,-1.98,Credit,Chase,Freedom
+431,2024,November,30,11/30/2024,kohl's,shopping,-32.0,Credit,Chase,Freedom
+432,2024,November,29,11/29/2024,dutch bros,dining,-13.0,Credit,Chase,Freedom
+433,2024,November,30,11/30/2024,chipotle,dining,-8.6,Credit,Chase,Freedom
+434,2024,November,29,11/29/2024,tiktok,shopping,-39.0,Credit,Chase,Freedom
+435,2024,November,29,11/29/2024,tj maxx,shopping,-29.97,Credit,Chase,Freedom
+436,2024,November,29,11/29/2024,safeway,grocery,-10.97,Credit,Chase,Freedom
+437,2024,November,27,11/27/2024,safeway,grocery,-29.71,Credit,Chase,Freedom
+438,2024,November,25,11/25/2024,trader joe s,grocery,-10.27,Credit,Chase,Freedom
+439,2024,November,25,11/25/2024,steam,shopping,-19.99,Credit,Chase,Freedom
+440,2024,November,24,11/24/2024,sichuan taste,dining,-40.9,Credit,Chase,Freedom
+441,2024,November,23,11/23/2024,panda express,dining,-10.98,Credit,Chase,Freedom
+442,2024,November,23,11/23/2024,fred meyer,grocery,-10.86,Credit,Chase,Freedom
+443,2024,November,22,11/22/2024,fred meyer,grocery,-48.63,Credit,Chase,Freedom
+444,2024,November,20,11/20/2024,fred meyer,grocery,-7.99,Credit,Chase,Freedom
+445,2024,November,21,11/21/2024,nexus,shopping,81.0,Credit,Chase,Freedom
+446,2024,November,19,11/19/2024,target,shopping,-12.37,Credit,Chase,Freedom
+447,2024,November,21,11/21/2024,nexus,shopping,-89.99,Credit,Chase,Freedom
+448,2024,November,19,11/19/2024,hmart,grocery,-23.96,Credit,Chase,Freedom
+449,2024,November,20,11/20/2024,sierra,shopping,-149.98,Credit,Chase,Freedom
+450,2024,November,19,11/19/2024,home depot,shopping,-8.75,Credit,Chase,Freedom
+451,2024,November,20,11/20/2024,sierra,shopping,-39.99,Credit,Chase,Freedom
+452,2024,November,19,11/19/2024,target,shopping,-2.19,Credit,Chase,Freedom
+454,2024,November,19,11/19/2024,ups,shopping,-3.5,Credit,Chase,Freedom
+455,2024,November,19,11/19/2024,sierra,shopping,-75.0,Credit,Chase,Freedom
+456,2024,November,19,11/19/2024,tj maxx,shopping,-9.99,Credit,Chase,Freedom
+457,2024,November,19,11/19/2024,ups,shopping,-2.0,Credit,Chase,Freedom
+458,2024,November,17,11/17/2024,village merchants,shopping,-11.0,Credit,Chase,Freedom
+459,2024,November,17,11/17/2024,house of vintage,shopping,-91.67,Credit,Chase,Freedom
+460,2024,November,15,11/15/2024,safeway,grocery,-55.89,Credit,Chase,Freedom
+461,2024,November,14,11/14/2024,screen door,dining,-67.1,Credit,Chase,Freedom
+462,2024,November,14,11/14/2024,usps,shopping,-1.01,Credit,Chase,Freedom
+463,2024,November,12,11/12/2024,steam,shopping,-39.99,Credit,Chase,Freedom
+464,2024,November,11,11/11/2024,b&h photo,shopping,-81.98,Credit,Chase,Freedom
+465,2024,November,11,11/11/2024,safeway,grocery,-5.83,Credit,Chase,Freedom
+466,2024,November,11,11/11/2024,mcdonalds,dining,-1.0,Credit,Chase,Freedom
+467,2024,November,11,11/11/2024,mcdonalds,dining,-1.49,Credit,Chase,Freedom
+468,2024,November,11,11/11/2024,mcdonalds,dining,-1.49,Credit,Chase,Freedom
+469,2024,November,11,11/11/2024,fred meyer,grocery,-10.32,Credit,Chase,Freedom
+470,2024,November,11,11/11/2024,mcdonalds,dining,-4.5,Credit,Chase,Freedom
+471,2024,November,09,11/09/2024,safeway,grocery,-5.49,Credit,Chase,Freedom
+472,2024,November,08,11/08/2024,daiso,shopping,-5.69,Credit,Chase,Freedom
+473,2024,November,08,11/08/2024,daiso,shopping,-8.4,Credit,Chase,Freedom
+474,2024,November,08,11/08/2024,target,shopping,5.0,Credit,Chase,Freedom
+475,2024,November,07,11/07/2024,sichuan taste,dining,-42.7,Credit,Chase,Freedom
+476,2024,November,02,11/02/2024,hmart,grocery,-27.73,Credit,Chase,Freedom
+477,2024,November,01,11/01/2024,target,shopping,-30.37,Credit,Chase,Freedom
+478,2024,October,30,10/30/2024,steam,shopping,-109.99,Credit,Chase,Freedom
+479,2024,October,29,10/29/2024,new seasons market,grocery,-12.48,Credit,Chase,Freedom
+480,2024,October,27,10/27/2024,dutch bros,dining,18.25,Credit,Chase,Freedom
+481,2024,October,27,10/27/2024,roloff farms,travel,-3.47,Credit,Chase,Freedom
+482,2024,October,27,10/27/2024,dutch bros,dining,-18.25,Credit,Chase,Freedom
+483,2024,October,27,10/27/2024,dutch bros,dining,-11.4,Credit,Chase,Freedom
+484,2024,October,27,10/27/2024,jaybee's,dining,-28.0,Credit,Chase,Freedom
+485,2024,October,27,10/27/2024,roloff farms,travel,-65.22,Credit,Chase,Freedom
+486,2024,October,26,10/26/2024,trader joe s,grocery,-41.85,Credit,Chase,Freedom
+488,2024,October,26,10/26/2024,tj maxx,shopping,-19.99,Credit,Chase,Freedom
+489,2024,October,24,10/24/2024,kkoki bbq,dining,-58.9,Credit,Chase,Freedom
+490,2024,October,23,10/23/2024,paris baguette,grocery,-4.59,Credit,Chase,Freedom
+491,2025,March,11,03/11/2025,amazon,shopping,-5.99,Credit,Chase,Prime
+492,2025,March,01,03/01/2025,amazon,shopping,-35.99,Credit,Chase,Prime
+493,2025,February,26,02/26/2025,amazon prime,shopping,-6.99,Credit,Chase,Prime
+496,2025,January,26,01/26/2025,amazon prime,shopping,-6.99,Credit,Chase,Prime
+497,2025,January,24,01/24/2025,amazon,shopping,-8.3,Credit,Chase,Prime
+498,2025,January,24,01/24/2025,amazon,shopping,-11.5,Credit,Chase,Prime
+499,2025,January,20,01/20/2025,amazon,shopping,-29.96,Credit,Chase,Prime
+500,2025,January,13,01/13/2025,amazon,shopping,-9.19,Credit,Chase,Prime
+501,2025,January,11,01/11/2025,amazon,shopping,-37.99,Credit,Chase,Prime
+502,2025,January,10,01/10/2025,amazon,shopping,-12.57,Credit,Chase,Prime
+503,2025,January,10,01/10/2025,amazon,shopping,-35.97,Credit,Chase,Prime
+504,2025,January,03,01/03/2025,amazon,shopping,-41.88,Credit,Chase,Prime
+505,2025,January,03,01/03/2025,amazon,shopping,-40.79,Credit,Chase,Prime
+506,2025,January,04,01/04/2025,amazon,shopping,-85.64,Credit,Chase,Prime
+507,2024,December,30,12/30/2024,amazon,shopping,-38.56,Credit,Chase,Prime
+508,2024,December,26,12/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+509,2024,December,20,12/20/2024,amazon,shopping,-28.99,Credit,Chase,Prime
+511,2024,December,05,12/05/2024,amazon,shopping,-10.67,Credit,Chase,Prime
+512,2024,November,27,11/27/2024,amazon,shopping,-14.89,Credit,Chase,Prime
+513,2024,November,26,11/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+514,2024,November,25,11/25/2024,amazon,shopping,-87.96,Credit,Chase,Prime
+516,2024,November,14,11/14/2024,amazon,shopping,-104.84,Credit,Chase,Prime
+517,2024,November,14,11/14/2024,amazon,shopping,-14.95,Credit,Chase,Prime
+518,2024,November,10,11/10/2024,amazon,shopping,-37.97,Credit,Chase,Prime
+519,2024,November,04,11/04/2024,amazon,shopping,-14.41,Credit,Chase,Prime
+520,2024,September,24,09/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+521,2024,October,24,10/24/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+523,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+524,2024,October,26,10/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+525,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+526,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+527,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+528,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+529,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+530,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+531,2024,October,26,10/26/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+532,2024,October,24,10/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+533,2024,October,22,10/22/2024,amazon,shopping,-29.99,Credit,Chase,Prime
+534,2024,October,20,10/20/2024,amazon,shopping,-5.99,Credit,Chase,Prime
+535,2024,October,20,10/20/2024,amazon,shopping,-33.94,Credit,Chase,Prime
+536,2024,October,17,10/17/2024,amazon,shopping,-26.97,Credit,Chase,Prime
+538,2024,October,15,10/15/2024,amazon,shopping,-84.22,Credit,Chase,Prime
+539,2024,October,15,10/15/2024,amazon,shopping,-171.03,Credit,Chase,Prime
+540,2024,October,11,10/11/2024,amazon,shopping,-12.98,Credit,Chase,Prime
+541,2024,October,09,10/09/2024,amazon,shopping,-21.74,Credit,Chase,Prime
+542,2024,October,09,10/09/2024,amazon,shopping,-39.48,Credit,Chase,Prime
+543,2024,October,06,10/06/2024,amazon,shopping,-62.31,Credit,Chase,Prime
+544,2024,September,24,09/24/2024,door dash pass,subscription,9.99,Credit,Chase,Prime
+545,2024,September,30,09/30/2024,amazon,shopping,-29.99,Credit,Chase,Prime
+546,2024,September,26,09/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+547,2024,September,26,09/26/2024,amazon,shopping,-16.99,Credit,Chase,Prime
+549,2024,September,24,09/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+550,2024,September,21,09/21/2024,amazon,shopping,-17.99,Credit,Chase,Prime
+551,2024,September,19,09/19/2024,amazon,shopping,-7.89,Credit,Chase,Prime
+552,2024,September,19,09/19/2024,amazon,shopping,-9.67,Credit,Chase,Prime
+553,2024,September,13,09/13/2024,amazon,shopping,-44.47,Credit,Chase,Prime
+554,2024,September,13,09/13/2024,amazon,shopping,-38.99,Credit,Chase,Prime
+555,2024,September,14,09/14/2024,amazon,shopping,-53.73,Credit,Chase,Prime
+556,2024,September,11,09/11/2024,amazon,shopping,-9.99,Credit,Chase,Prime
+557,2024,September,11,09/11/2024,amazon,shopping,-9.99,Credit,Chase,Prime
+558,2024,September,11,09/11/2024,amazon,shopping,-20.38,Credit,Chase,Prime
+559,2024,September,11,09/11/2024,amazon,shopping,-4.0,Credit,Chase,Prime
+561,2024,September,09,09/09/2024,amazon,shopping,-209.0,Credit,Chase,Prime
+562,2024,September,05,09/05/2024,fairyloot,subscription,34.9,Credit,Chase,Prime
+563,2024,September,05,09/05/2024,amazon,shopping,20.99,Credit,Chase,Prime
+564,2024,September,05,09/05/2024,fairyloot,subscription,-34.9,Credit,Chase,Prime
+565,2024,September,04,09/04/2024,amazon,shopping,-89.01,Credit,Chase,Prime
+566,2024,September,04,09/04/2024,amazon,shopping,-221.44,Credit,Chase,Prime
+567,2024,June,24,06/24/2024,cricut,subscription,9.99,Credit,Chase,Prime
+568,2024,August,31,08/31/2024,amazon,shopping,-24.03,Credit,Chase,Prime
+569,2024,August,29,08/29/2024,amazon,shopping,-89.39,Credit,Chase,Prime
+570,2024,August,27,08/27/2024,amazon,shopping,-14.95,Credit,Chase,Prime
+571,2024,August,26,08/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+572,2024,August,26,08/26/2024,amazon,shopping,-6.29,Credit,Chase,Prime
+573,2024,August,26,08/26/2024,amazon,shopping,-199.98,Credit,Chase,Prime
+574,2024,August,25,08/25/2024,amazon,shopping,-10.0,Credit,Chase,Prime
+575,2024,August,26,08/26/2024,amazon,shopping,-56.93,Credit,Chase,Prime
+576,2024,August,24,08/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+578,2024,August,14,08/14/2024,amazon,shopping,-48.42,Credit,Chase,Prime
+579,2024,July,24,07/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+580,2024,July,19,07/19/2024,amazon,shopping,-59.8,Credit,Chase,Prime
+581,2024,July,19,07/19/2024,amazon,shopping,-10.79,Credit,Chase,Prime
+583,2024,July,09,07/09/2024,amazon,shopping,-38.98,Credit,Chase,Prime
+584,2024,July,05,07/05/2024,fairyloot,subscription,34.9,Credit,Chase,Prime
+585,2024,July,05,07/05/2024,fairyloot,subscription,-34.9,Credit,Chase,Prime
+586,2024,July,02,07/02/2024,costco,grocery,-120.0,Credit,Chase,Prime
+587,2024,July,02,07/02/2024,amazon,shopping,-31.98,Credit,Chase,Prime
+589,2024,June,24,06/24/2024,cricut,subscription,-9.99,Credit,Chase,Prime
+590,2024,June,24,06/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+592,2024,June,06,06/06/2024,fairyloot,subscription,-38.0,Credit,Chase,Prime
+593,2024,June,04,06/04/2024,amazon,shopping,-26.39,Credit,Chase,Prime
+594,2024,June,01,06/01/2024,mud bay,grocery,-60.99,Credit,Chase,Prime
+595,2024,June,02,06/02/2024,fred-meyer,grocery,-18.9,Credit,Chase,Prime
+596,2024,June,01,06/01/2024,asian family market,grocery,-11.56,Credit,Chase,Prime
+597,2024,June,01,06/01/2024,costco,grocery,24.99,Credit,Chase,Prime
+598,2024,May,29,05/29/2024,chipotle,dining,-10.05,Credit,Chase,Prime
+599,2024,May,27,05/27/2024,safeway,grocery,-3.28,Credit,Chase,Prime
+600,2024,May,26,05/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+601,2024,May,24,05/24/2024,cricut,subscription,-9.99,Credit,Chase,Prime
+602,2024,May,25,05/25/2024,hmart,grocery,-54.16,Credit,Chase,Prime
+603,2024,May,24,05/24/2024,jack in the box,dining,-9.99,Credit,Chase,Prime
+604,2024,May,24,05/24/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+605,2024,May,21,05/21/2024,amazon,shopping,-11.86,Credit,Chase,Prime
+606,2024,May,21,05/21/2024,amazon,shopping,-65.84,Credit,Chase,Prime
+608,2024,May,17,05/17/2024,tj maxx,shopping,-57.99,Credit,Chase,Prime
+609,2024,May,17,05/17/2024,craft warehouse,shopping,-16.96,Credit,Chase,Prime
+610,2024,May,16,05/16/2024,amazon,shopping,-3.99,Credit,Chase,Prime
+611,2024,May,16,05/16/2024,amazon,shopping,-34.96,Credit,Chase,Prime
+612,2024,May,11,05/11/2024,outback,dining,-90.8,Credit,Chase,Prime
+613,2024,May,05,05/05/2024,safeway,grocery,-6.81,Credit,Chase,Prime
+614,2024,May,05,05/05/2024,amazon,shopping,20.98,Credit,Chase,Prime
+615,2024,May,04,05/04/2024,next level pinball,shopping,-44.0,Credit,Chase,Prime
+616,2024,May,05,05/05/2024,amelia's mexican,grocery,-47.77,Credit,Chase,Prime
+617,2024,May,05,05/05/2024,fairyloot,subscription,-34.9,Credit,Chase,Prime
+618,2024,May,05,05/05/2024,amazon,shopping,-18.98,Credit,Chase,Prime
+619,2024,May,01,05/01/2024,amazon,shopping,-21.55,Credit,Chase,Prime
+620,2024,May,01,05/01/2024,amazon,shopping,-24.99,Credit,Chase,Prime
+621,2024,April,26,04/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+622,2024,April,25,04/25/2024,mcdonalds,dining,-12.16,Credit,Chase,Prime
+623,2024,April,25,04/25/2024,amazon,shopping,-18.0,Credit,Chase,Prime
+624,2024,April,25,04/25/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+625,2024,April,24,04/24/2024,cricut,subscription,-9.99,Credit,Chase,Prime
+626,2024,April,24,04/24/2024,amazon,shopping,-11.99,Credit,Chase,Prime
+627,2024,April,21,04/21/2024,amazon,shopping,-22.99,Credit,Chase,Prime
+628,2024,April,20,04/20/2024,retro game trader,shopping,-15.0,Credit,Chase,Prime
+629,2024,April,20,04/20/2024,retro game trader,shopping,-103.0,Credit,Chase,Prime
+630,2024,April,19,04/19/2024,fred-meyer,grocery,-1.08,Credit,Chase,Prime
+631,2024,April,19,04/19/2024,trader joe s,grocery,-28.43,Credit,Chase,Prime
+632,2024,April,19,04/19/2024,uwajimaya,grocery,-35.0,Credit,Chase,Prime
+633,2024,April,19,04/19/2024,kizuki ramen,dining,-44.5,Credit,Chase,Prime
+635,2024,April,15,04/15/2024,screen door,dining,-102.0,Credit,Chase,Prime
+636,2024,April,15,04/15/2024,portland japanese garden,travel,-43.9,Credit,Chase,Prime
+637,2024,April,15,04/15/2024,portland japanese garden,travel,-18.0,Credit,Chase,Prime
+638,2024,April,14,04/14/2024,amazon,shopping,-11.59,Credit,Chase,Prime
+639,2024,April,12,04/12/2024,mud bay,grocery,-60.99,Credit,Chase,Prime
+640,2024,April,13,04/13/2024,craft warehouse,shopping,-19.99,Credit,Chase,Prime
+641,2024,April,12,04/12/2024,fat schlags,dining,-6.5,Credit,Chase,Prime
+642,2024,April,13,04/13/2024,fred-meyer,grocery,-0.99,Credit,Chase,Prime
+643,2024,April,12,04/12/2024,nomad leather,shopping,-55.0,Credit,Chase,Prime
+644,2024,April,12,04/12/2024,nectar frozen yogurt,dining,-8.84,Credit,Chase,Prime
+645,2024,April,13,04/13/2024,lowes,shopping,-18.86,Credit,Chase,Prime
+646,2024,April,12,04/12/2024,afton tickets,travel,-40.0,Credit,Chase,Prime
+647,2024,April,10,04/10/2024,mcdonalds,dining,-5.75,Credit,Chase,Prime
+648,2024,April,10,04/10/2024,mcdonalds,dining,-1.49,Credit,Chase,Prime
+649,2024,April,10,04/10/2024,amazon,shopping,-14.75,Credit,Chase,Prime
+650,2024,April,07,04/07/2024,safeway,grocery,-21.46,Credit,Chase,Prime
+651,2024,April,07,04/07/2024,safeway,grocery,-7.88,Credit,Chase,Prime
+652,2024,April,07,04/07/2024,paxton gate,shopping,-5.0,Credit,Chase,Prime
+653,2024,April,06,04/06/2024,paper source,shopping,-17.45,Credit,Chase,Prime
+654,2024,April,04,04/04/2024,safeway,grocery,-26.63,Credit,Chase,Prime
+655,2024,April,05,04/05/2024,pelican brewing,dining,-76.57,Credit,Chase,Prime
+656,2024,April,06,04/06/2024,the meadow,shopping,-37.0,Credit,Chase,Prime
+657,2024,April,06,04/06/2024,usps,shopping,-12.19,Credit,Chase,Prime
+658,2024,April,04,04/04/2024,mcdonalds,dining,-4.65,Credit,Chase,Prime
+659,2024,April,04,04/04/2024,the knock back,dining,-9.0,Credit,Chase,Prime
+660,2024,April,05,04/05/2024,fairyloot,subscription,-34.9,Credit,Chase,Prime
+661,2024,April,02,04/02/2024,urbanite,shopping,-15.0,Credit,Chase,Prime
+662,2024,April,02,04/02/2024,salt & pepper,dining,-107.8,Credit,Chase,Prime
+663,2024,March,31,03/31/2024,safeway,grocery,-6.43,Credit,Chase,Prime
+664,2024,March,31,03/31/2024,safeway,grocery,-30.37,Credit,Chase,Prime
+665,2024,March,31,03/31/2024,amazon,shopping,-25.63,Credit,Chase,Prime
+666,2024,March,30,03/30/2024,tea & tea,dining,-14.0,Credit,Chase,Prime
+667,2024,March,30,03/30/2024,chipotle,dining,-19.6,Credit,Chase,Prime
+668,2024,March,28,03/28/2024,mcdonalds,dining,-5.85,Credit,Chase,Prime
+669,2024,March,28,03/28/2024,amazon,shopping,-12.48,Credit,Chase,Prime
+670,2024,March,28,03/28/2024,new seasons market,grocery,-1.84,Credit,Chase,Prime
+671,2024,March,28,03/28/2024,mcdonalds,dining,-1.49,Credit,Chase,Prime
+672,2024,March,28,03/28/2024,amazon,shopping,-53.98,Credit,Chase,Prime
+673,2024,March,26,03/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+674,2024,March,23,03/23/2024,bubble n tea,dining,-6.0,Credit,Chase,Prime
+675,2024,March,24,03/24/2024,cricut,subscription,-9.99,Credit,Chase,Prime
+676,2024,March,25,03/25/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+677,2024,March,21,03/21/2024,pho van,dining,-59.85,Credit,Chase,Prime
+680,2024,March,17,03/17/2024,fred meyer,grocery,-37.18,Credit,Chase,Prime
+681,2024,March,15,03/15/2024,adidas,shopping,-440.0,Credit,Chase,Prime
+682,2024,March,14,03/14/2024,maiale rosa wood fire,dining,-52.8,Credit,Chase,Prime
+683,2024,March,12,03/12/2024,bubble n tea,dining,-6.0,Credit,Chase,Prime
+684,2024,March,12,03/12/2024,fred meyer,grocery,-22.25,Credit,Chase,Prime
+685,2024,March,11,03/11/2024,mcdonalds,dining,-3.9,Credit,Chase,Prime
+686,2024,March,11,03/11/2024,usps,shopping,-1.27,Credit,Chase,Prime
+687,2024,March,10,03/10/2024,costco,grocery,-39.16,Credit,Chase,Prime
+688,2024,March,10,03/10/2024,costco,grocery,-195.44,Credit,Chase,Prime
+689,2024,March,08,03/08/2024,amazon,shopping,-7.89,Credit,Chase,Prime
+690,2024,March,10,03/10/2024,love's,shopping,-10.0,Credit,Chase,Prime
+691,2024,March,08,03/08/2024,amazon,shopping,-75.14,Credit,Chase,Prime
+692,2024,March,08,03/08/2024,amazon prime,shopping,5.99,Credit,Chase,Prime
+693,2024,March,06,03/06/2024,cindys hallmark,shopping,-20.56,Credit,Chase,Prime
+694,2024,March,06,03/06/2024,century theatres,shopping,-7.6,Credit,Chase,Prime
+695,2024,March,08,03/08/2024,amazon prime,shopping,-5.99,Credit,Chase,Prime
+696,2024,March,06,03/06/2024,krispy kreme,dining,-11.2,Credit,Chase,Prime
+697,2024,March,06,03/06/2024,oswego grill,dining,-94.04,Credit,Chase,Prime
+698,2024,March,06,03/06/2024,cinemark,shopping,-24.28,Credit,Chase,Prime
+699,2024,March,07,03/07/2024,fairyloot,subscription,-34.9,Credit,Chase,Prime
+700,2024,March,04,03/04/2024,safeway,grocery,-40.91,Credit,Chase,Prime
+701,2024,March,03,03/03/2024,mcdonalds,dining,-5.0,Credit,Chase,Prime
+702,2024,March,03,03/03/2024,mcdonalds,dining,-4.19,Credit,Chase,Prime
+703,2024,March,01,03/01/2024,safeway,grocery,-19.14,Credit,Chase,Prime
+704,2024,March,02,03/02/2024,dollar tree,shopping,-20.0,Credit,Chase,Prime
+705,2024,March,01,03/01/2024,amazon,shopping,-13.74,Credit,Chase,Prime
+706,2024,March,01,03/01/2024,dollar tree,shopping,-13.75,Credit,Chase,Prime
+707,2024,March,01,03/01/2024,handels homemade,dining,-13.7,Credit,Chase,Prime
+708,2024,February,28,02/28/2024,fairyloot,subscription,-37.9,Credit,Chase,Prime
+709,2024,February,27,02/27/2024,el campesino,grocery,-7.71,Credit,Chase,Prime
+710,2024,February,27,02/27/2024,salt & pepper,dining,-54.05,Credit,Chase,Prime
+711,2024,February,26,02/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+712,2024,February,25,02/25/2024,amazon,shopping,-20.98,Credit,Chase,Prime
+713,2024,February,24,02/24/2024,safeway,grocery,-24.66,Credit,Chase,Prime
+714,2024,February,22,02/22/2024,safeway,grocery,-16.53,Credit,Chase,Prime
+715,2024,February,24,02/24/2024,cricut,subscription,-9.99,Credit,Chase,Prime
+716,2024,February,22,02/22/2024,tom's pancake house,dining,-23.59,Credit,Chase,Prime
+717,2024,February,24,02/24/2024,amazon,shopping,-27.99,Credit,Chase,Prime
+718,2024,February,25,02/25/2024,amazon,shopping,-25.99,Credit,Chase,Prime
+719,2024,February,25,02/25/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+720,2024,February,25,02/25/2024,amazon,shopping,-19.79,Credit,Chase,Prime
+721,2024,February,22,02/22/2024,fairyloot,subscription,-37.9,Credit,Chase,Prime
+722,2024,February,20,02/20/2024,kfc,dining,-30.99,Credit,Chase,Prime
+723,2024,February,18,02/18/2024,safeway,grocery,-16.26,Credit,Chase,Prime
+725,2024,February,18,02/18/2024,carls jr,dining,-3.99,Credit,Chase,Prime
+726,2024,February,18,02/18/2024,amazon,shopping,-6.65,Credit,Chase,Prime
+727,2024,February,18,02/18/2024,steam,shopping,-9.99,Credit,Chase,Prime
+728,2024,February,15,02/15/2024,mud bay,grocery,-61.99,Credit,Chase,Prime
+729,2024,February,15,02/15/2024,asian family market,grocery,-18.47,Credit,Chase,Prime
+730,2024,February,15,02/15/2024,fred meyer,grocery,-5.69,Credit,Chase,Prime
+731,2024,February,15,02/15/2024,fedex,shopping,-0.19,Credit,Chase,Prime
+732,2024,February,15,02/15/2024,uwajimaya,grocery,-4.38,Credit,Chase,Prime
+733,2024,February,16,02/16/2024,etsy,shopping,-10.94,Credit,Chase,Prime
+734,2024,February,14,02/14/2024,costco,grocery,-38.23,Credit,Chase,Prime
+735,2024,February,13,02/13/2024,safeway,grocery,-28.34,Credit,Chase,Prime
+736,2024,February,13,02/13/2024,safeway,grocery,-2.0,Credit,Chase,Prime
+737,2024,February,13,02/13/2024,amazon,shopping,-13.99,Credit,Chase,Prime
+738,2024,February,12,02/12/2024,costco,grocery,-36.75,Credit,Chase,Prime
+739,2024,February,12,02/12/2024,costco,grocery,-13.89,Credit,Chase,Prime
+740,2024,February,12,02/12/2024,fred meyer,grocery,-9.98,Credit,Chase,Prime
+741,2024,February,09,02/09/2024,din tai fung,dining,-71.98,Credit,Chase,Prime
+742,2024,February,10,02/10/2024,kindle,subscription,-11.99,Credit,Chase,Prime
+743,2024,February,08,02/08/2024,goodwill,shopping,-2.45,Credit,Chase,Prime
+744,2024,February,09,02/09/2024,panda express,dining,-8.9,Credit,Chase,Prime
+745,2024,February,08,02/08/2024,fedex,shopping,-0.76,Credit,Chase,Prime
+746,2024,February,08,02/08/2024,tj maxx,shopping,-36.96,Credit,Chase,Prime
+747,2024,February,08,02/08/2024,new seasons market,grocery,-5.98,Credit,Chase,Prime
+748,2024,February,08,02/08/2024,amazon,shopping,-5.54,Credit,Chase,Prime
+749,2024,February,07,02/07/2024,etsy,shopping,-33.44,Credit,Chase,Prime
+750,2024,February,06,02/06/2024,amazon,shopping,-8.99,Credit,Chase,Prime
+751,2024,February,04,02/04/2024,oregon symphony,shopping,-110.0,Credit,Chase,Prime
+752,2024,February,03,02/03/2024,asian family market,grocery,-18.23,Credit,Chase,Prime
+753,2024,February,05,02/05/2024,fairyloot,subscription,-34.9,Credit,Chase,Prime
+754,2024,February,03,02/03/2024,costco,grocery,-96.76,Credit,Chase,Prime
+755,2024,February,02,02/02/2024,safeway,grocery,-45.11,Credit,Chase,Prime
+756,2024,February,01,02/01/2024,barnes & noble,shopping,22.0,Credit,Chase,Prime
+757,2024,February,01,02/01/2024,mi linda puebla',grocery,-14.32,Credit,Chase,Prime
+758,2024,February,01,02/01/2024,pip's doughnuts,dining,-18.34,Credit,Chase,Prime
+759,2024,January,31,01/31/2024,multnomah falls,travel,25.99,Credit,Chase,Prime
+760,2024,January,31,01/31/2024,multnomah falls,travel,-25.99,Credit,Chase,Prime
+761,2024,January,31,01/31/2024,carver cafe,dining,-42.45,Credit,Chase,Prime
+762,2024,January,30,01/30/2024,fedex,shopping,-0.19,Credit,Chase,Prime
+763,2024,January,29,01/29/2024,panda express,dining,-14.6,Credit,Chase,Prime
+764,2024,January,29,01/29/2024,panda express,dining,-10.4,Credit,Chase,Prime
+765,2024,January,28,01/28/2024,mediterranean restaurant,dining,-15.0,Credit,Chase,Prime
+766,2024,January,26,01/26/2024,tom's pancake house,dining,-40.78,Credit,Chase,Prime
+767,2024,January,25,01/25/2024,home depot,shopping,-14.41,Credit,Chase,Prime
+768,2024,January,26,01/26/2024,fedex,shopping,-0.19,Credit,Chase,Prime
+769,2024,January,26,01/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Prime
+770,2024,January,25,01/25/2024,paper source,shopping,-44.0,Credit,Chase,Prime
+771,2024,January,24,01/24/2024,amazon,shopping,-24.99,Credit,Chase,Prime
+772,2024,January,25,01/25/2024,door dash pass,subscription,-9.99,Credit,Chase,Prime
+773,2024,January,25,01/25/2024,amazon,shopping,-29.77,Credit,Chase,Prime
+774,2024,January,24,01/24/2024,cricut,subscription,-9.99,Credit,Chase,Prime
+775,2024,January,22,01/22/2024,ross,shopping,-19.99,Credit,Chase,Prime
+776,2024,January,23,01/23/2024,amazon,shopping,-11.55,Credit,Chase,Prime
+777,2024,January,22,01/22/2024,mcdonalds,dining,-2.4,Credit,Chase,Prime
+778,2024,January,22,01/22/2024,mcdonalds,dining,-3.9,Credit,Chase,Prime
+779,2024,January,21,01/21/2024,safeway,grocery,-62.0,Credit,Chase,Prime
+780,2024,January,23,01/23/2024,amazon,shopping,-49.0,Credit,Chase,Prime
+781,2024,January,21,01/21/2024,fred meyer,grocery,-10.97,Credit,Chase,Prime
+782,2024,January,18,01/18/2024,fairyloot,subscription,-37.9,Credit,Chase,Prime
+783,2024,January,15,01/15/2024,safeway,grocery,-73.93,Credit,Chase,Prime
+784,2024,January,15,01/15/2024,trader joe s,grocery,-26.18,Credit,Chase,Prime
+785,2024,January,15,01/15/2024,costco,grocery,-27.26,Credit,Chase,Prime
+786,2024,January,15,01/15/2024,batteries plus,shopping,-14.94,Credit,Chase,Prime
+787,2024,January,12,01/12/2024,goodwill,shopping,-12.96,Credit,Chase,Prime
+788,2024,January,12,01/12/2024,tom's pancake house,dining,-29.81,Credit,Chase,Prime
+789,2024,January,10,01/10/2024,fedex,shopping,-0.19,Credit,Chase,Prime
+790,2024,January,10,01/10/2024,kindle,subscription,-11.99,Credit,Chase,Prime
+791,2024,January,09,01/09/2024,trader joe s,grocery,-3.79,Credit,Chase,Prime
+792,2024,January,09,01/09/2024,fedex,shopping,-0.19,Credit,Chase,Prime
+794,2024,January,07,01/07/2024,binary brewing,dining,-14.0,Credit,Chase,Prime
+795,2024,January,04,01/04/2024,mud bay,grocery,-61.99,Credit,Chase,Prime
+796,2024,January,04,01/04/2024,honeybaked ham,dining,-3.0,Credit,Chase,Prime
+798,2024,January,04,01/04/2024,fedex,shopping,-0.19,Credit,Chase,Prime
+799,2024,January,04,01/04/2024,uwajimaya,grocery,-24.49,Credit,Chase,Prime
+800,2024,January,04,01/04/2024,steam,shopping,-7.49,Credit,Chase,Prime
+801,2024,January,01,01/01/2024,carls jr,dining,-12.98,Credit,Chase,Prime
+802,2023,December,31,12/31/2023,salt & straw,dining,-14.55,Credit,Chase,Prime
+803,2023,December,28,12/28/2023,usps,shopping,-15.75,Credit,Chase,Prime
+804,2023,December,28,12/28/2023,red robin,dining,-46.56,Credit,Chase,Prime
+805,2023,December,28,12/28/2023,fedex,shopping,-0.19,Credit,Chase,Prime
+806,2023,December,28,12/28/2023,fedex,shopping,-0.57,Credit,Chase,Prime
+807,2023,December,27,12/27/2023,fedex,shopping,-3.99,Credit,Chase,Prime
+808,2023,December,27,12/27/2023,fedex,shopping,-0.19,Credit,Chase,Prime
+809,2023,December,27,12/27/2023,ups,shopping,-3.5,Credit,Chase,Prime
+810,2023,December,26,12/26/2023,amazon prime,shopping,-6.99,Credit,Chase,Prime
+811,2023,December,26,12/26/2023,steam,shopping,-33.99,Credit,Chase,Prime
+812,2023,December,25,12/25/2023,etsy,shopping,-70.15,Credit,Chase,Prime
+813,2023,December,24,12/24/2023,cricut,subscription,-9.99,Credit,Chase,Prime
+814,2023,December,25,12/25/2023,door dash pass,subscription,-9.99,Credit,Chase,Prime
+815,2023,December,23,12/23/2023,etsy,shopping,-31.84,Credit,Chase,Prime
+816,2023,December,23,12/23/2023,prime taphouse,dining,-49.99,Credit,Chase,Prime
+817,2023,December,21,12/21/2023,costco,grocery,-9.95,Credit,Chase,Prime
+818,2023,December,20,12/20/2023,tj maxx,shopping,-122.01,Credit,Chase,Prime
+819,2023,December,20,12/20/2023,fastrak,travel,-7.0,Credit,Chase,Prime
+820,2023,December,21,12/21/2023,xfinity internet,utility,6.94,Credit,Chase,Prime
+821,2023,December,19,12/19/2023,costco,grocery,-41.42,Credit,Chase,Prime
+822,2023,December,19,12/19/2023,amazon,shopping,-99.24,Credit,Chase,Prime
+823,2023,December,19,12/19/2023,fedex,shopping,-0.19,Credit,Chase,Prime
+825,2023,December,19,12/19/2023,steam,shopping,-19.78,Credit,Chase,Prime
+826,2023,December,15,12/15/2023,andrews flowers,shopping,-25.0,Credit,Chase,Prime
+827,2023,December,15,12/15/2023,starbucks,dining,-5.25,Credit,Chase,Prime
+828,2023,December,15,12/15/2023,office depot,shopping,-6.99,Credit,Chase,Prime
+829,2023,December,13,12/13/2023,gas,gas,-32.23,Credit,Chase,Prime
+830,2023,December,13,12/13/2023,gas,gas,-8.68,Credit,Chase,Prime
+831,2023,December,14,12/14/2023,boxer ramen,dining,-38.5,Credit,Chase,Prime
+832,2023,December,13,12/13/2023,gas,gas,-27.51,Credit,Chase,Prime
+833,2023,December,13,12/13/2023,pet food express,grocery,-18.0,Credit,Chase,Prime
+834,2023,December,12,12/12/2023,lowes,shopping,-5.04,Credit,Chase,Prime
+835,2023,December,11,12/11/2023,lowes,shopping,6.12,Credit,Chase,Prime
+836,2023,December,12,12/12/2023,costco,grocery,-20.05,Credit,Chase,Prime
+837,2023,December,12,12/12/2023,fairyloot,subscription,-36.9,Credit,Chase,Prime
+838,2023,December,12,12/12/2023,brickyard counter,dining,-36.56,Credit,Chase,Prime
+840,2023,December,12,12/12/2023,amazon,shopping,-25.14,Credit,Chase,Prime
+841,2023,December,10,12/10/2023,lowes,shopping,-26.55,Credit,Chase,Prime
+842,2023,December,10,12/10/2023,barnes & noble,shopping,-13.93,Credit,Chase,Prime
+843,2023,December,10,12/10/2023,amazon,shopping,-12.79,Credit,Chase,Prime
+844,2023,December,10,12/10/2023,costco,grocery,-49.32,Credit,Chase,Prime
+845,2023,December,09,12/09/2023,gas,gas,-7.5,Credit,Chase,Prime
+846,2023,December,08,12/08/2023,dollar tree,shopping,-9.04,Credit,Chase,Prime
+847,2023,December,08,12/08/2023,safeway,grocery,-13.5,Credit,Chase,Prime
+849,2023,December,06,12/06/2023,in-n-out,dining,-17.0,Credit,Chase,Prime
+850,2023,December,05,12/05/2023,lazy dog,dining,-79.15,Credit,Chase,Prime
+851,2023,December,03,12/03/2023,bonkers toys,shopping,-6.48,Credit,Chase,Prime
+852,2023,December,05,12/05/2023,fairyloot,subscription,-34.9,Credit,Chase,Prime
+853,2023,December,04,12/04/2023,tj maxx,shopping,-32.15,Credit,Chase,Prime
+854,2023,December,03,12/03/2023,home depot,shopping,-27.55,Credit,Chase,Prime
+855,2023,December,03,12/03/2023,in-n-out,dining,-17.62,Credit,Chase,Prime
+856,2023,November,30,11/30/2023,staples,shopping,-0.25,Credit,Chase,Prime
+857,2023,December,01,12/01/2023,tj maxx,shopping,-42.88,Credit,Chase,Prime
+858,2023,December,02,12/02/2023,thai paradise,dining,-53.81,Credit,Chase,Prime
+859,2023,November,30,11/30/2023,ups,shopping,-30.0,Credit,Chase,Prime
+860,2023,November,29,11/29/2023,el dorado disposal,utility,-81.03,Credit,Chase,Prime
+861,2023,November,30,11/30/2023,amazon,shopping,-9.92,Credit,Chase,Prime
+862,2023,November,29,11/29/2023,in-n-out,dining,-19.99,Credit,Chase,Prime
+863,2023,November,29,11/29/2023,dollar tree,shopping,-8.04,Credit,Chase,Prime
+865,2023,November,27,11/27/2023,coldstone,dining,-17.74,Credit,Chase,Prime
+866,2023,November,27,11/27/2023,big lots,grocery,-10.39,Credit,Chase,Prime
+867,2023,November,26,11/26/2023,bel air,grocery,-24.54,Credit,Chase,Prime
+868,2023,November,27,11/27/2023,thai paradise,dining,-45.92,Credit,Chase,Prime
+870,2023,November,26,11/26/2023,amazon,shopping,-19.79,Credit,Chase,Prime
+871,2023,November,26,11/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+872,2023,November,26,11/26/2023,amazon,shopping,-18.07,Credit,Chase,Prime
+873,2023,November,27,11/27/2023,xfinity internet,utility,-25.0,Credit,Chase,Prime
+874,2023,November,25,11/25/2023,steam,shopping,-36.82,Credit,Chase,Prime
+875,2023,November,25,11/25/2023,door dash pass,subscription,-9.99,Credit,Chase,Prime
+876,2023,November,24,11/24/2023,surplus,shopping,-112.38,Credit,Chase,Prime
+877,2023,November,24,11/24/2023,cricut,subscription,-369.0,Credit,Chase,Prime
+878,2023,November,24,11/24/2023,gas,gas,-28.75,Credit,Chase,Prime
+879,2023,November,24,11/24/2023,barnes & noble,shopping,-32.8,Credit,Chase,Prime
+880,2023,November,23,11/23/2023,in-n-out,dining,-8.62,Credit,Chase,Prime
+881,2023,November,21,11/21/2023,lopez taqueria,dining,-27.21,Credit,Chase,Prime
+882,2023,November,21,11/21/2023,gas,gas,-28.44,Credit,Chase,Prime
+883,2023,November,21,11/21/2023,gas,gas,-42.77,Credit,Chase,Prime
+885,2023,November,21,11/21/2023,petco,grocery,-19.62,Credit,Chase,Prime
+886,2023,November,20,11/20/2023,dutch bros,dining,-15.2,Credit,Chase,Prime
+887,2023,November,20,11/20/2023,costco,grocery,-17.98,Credit,Chase,Prime
+890,2023,November,18,11/18/2023,hmart,grocery,-5.18,Credit,Chase,Prime
+891,2023,November,16,11/16/2023,little big burger,dining,-19.5,Credit,Chase,Prime
+892,2023,November,13,11/13/2023,fairyloot,subscription,-121.4,Credit,Chase,Prime
+894,2023,November,09,11/09/2023,amazon,shopping,-15.97,Credit,Chase,Prime
+895,2023,November,08,11/08/2023,costco,grocery,-126.43,Credit,Chase,Prime
+896,2023,November,06,11/06/2023,ross,shopping,-25.96,Credit,Chase,Prime
+897,2023,November,07,11/07/2023,barnes & noble,shopping,-92.97,Credit,Chase,Prime
+898,2023,November,06,11/06/2023,amazon,shopping,-19.79,Credit,Chase,Prime
+899,2023,November,06,11/06/2023,amazon,shopping,-4.63,Credit,Chase,Prime
+900,2023,November,01,11/01/2023,mud bay,grocery,-61.99,Credit,Chase,Prime
+901,2023,November,01,11/01/2023,fred meyer,grocery,-24.26,Credit,Chase,Prime
+902,2023,October,26,10/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+904,2023,October,25,10/25/2023,tj maxx,shopping,-15.99,Credit,Chase,Prime
+905,2023,October,25,10/25/2023,topaz farm,travel,-23.52,Credit,Chase,Prime
+906,2023,October,24,10/24/2023,daves hot chicken,dining,-12.58,Credit,Chase,Prime
+907,2023,October,23,10/23/2023,tj maxx,shopping,7.99,Credit,Chase,Prime
+908,2023,October,23,10/23/2023,batter up,dining,-16.15,Credit,Chase,Prime
+909,2023,October,25,10/25/2023,door dash dashpass,subscription,-9.99,Credit,Chase,Prime
+910,2023,October,23,10/23/2023,best teriyaki,dining,-13.75,Credit,Chase,Prime
+911,2023,October,23,10/23/2023,tj maxx,shopping,-38.97,Credit,Chase,Prime
+912,2023,October,21,10/21/2023,home depot,shopping,-17.52,Credit,Chase,Prime
+913,2023,October,20,10/20/2023,costco,grocery,-2.68,Credit,Chase,Prime
+914,2023,October,20,10/20/2023,home depot,shopping,6.28,Credit,Chase,Prime
+915,2023,October,20,10/20/2023,home depot,shopping,-41.13,Credit,Chase,Prime
+916,2023,October,20,10/20/2023,bubble n tea,dining,-6.0,Credit,Chase,Prime
+917,2023,October,21,10/21/2023,tj maxx,shopping,-123.89,Credit,Chase,Prime
+918,2023,October,20,10/20/2023,home depot,shopping,-20.09,Credit,Chase,Prime
+920,2023,October,10,10/10/2023,amazon,shopping,-120.99,Credit,Chase,Prime
+921,2023,October,10,10/10/2023,amazon,shopping,-135.38,Credit,Chase,Prime
+922,2023,October,09,10/09/2023,home depot,shopping,29.98,Credit,Chase,Prime
+923,2023,October,04,10/04/2023,carls jr,dining,-4.99,Credit,Chase,Prime
+924,2023,October,02,10/02/2023,color me mine,shopping,-91.1,Credit,Chase,Prime
+925,2023,September,26,09/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+926,2023,September,24,09/24/2023,door dash,dining,-30.98,Credit,Chase,Prime
+927,2023,September,24,09/24/2023,door dash dashpass,subscription,-9.99,Credit,Chase,Prime
+928,2023,September,23,09/23/2023,steam,shopping,-29.99,Credit,Chase,Prime
+929,2023,September,21,09/21/2023,wal-mart,shopping,-28.86,Credit,Chase,Prime
+930,2023,September,21,09/21/2023,panda express,dining,-9.9,Credit,Chase,Prime
+931,2023,September,21,09/21/2023,amazon,shopping,-12.98,Credit,Chase,Prime
+932,2023,September,19,09/19/2023,home depot,shopping,-45.94,Credit,Chase,Prime
+933,2023,September,20,09/20/2023,red robin,dining,-47.44,Credit,Chase,Prime
+934,2023,September,18,09/18/2023,amazon,shopping,-198.98,Credit,Chase,Prime
+935,2023,September,18,09/18/2023,amazon,shopping,-74.19,Credit,Chase,Prime
+936,2023,September,18,09/18/2023,amazon,shopping,-16.6,Credit,Chase,Prime
+937,2023,September,16,09/16/2023,costco,grocery,-6.97,Credit,Chase,Prime
+938,2023,September,16,09/16/2023,ikea,shopping,-138.0,Credit,Chase,Prime
+939,2023,September,13,09/13/2023,homedepot,shopping,-340.56,Credit,Chase,Prime
+940,2023,September,12,09/12/2023,carls jr,dining,-6.0,Credit,Chase,Prime
+941,2023,September,13,09/13/2023,panda express,dining,-19.2,Credit,Chase,Prime
+942,2023,September,12,09/12/2023,door dash,dining,-14.46,Credit,Chase,Prime
+943,2023,September,12,09/12/2023,door dash,dining,-16.29,Credit,Chase,Prime
+944,2023,September,11,09/11/2023,mud bay,grocery,-61.99,Credit,Chase,Prime
+945,2023,September,10,09/10/2023,goodwill,shopping,-10.97,Credit,Chase,Prime
+946,2023,September,10,09/10/2023,target,shopping,-23.99,Credit,Chase,Prime
+947,2023,September,10,09/10/2023,amazon,shopping,-13.42,Credit,Chase,Prime
+948,2023,September,10,09/10/2023,amazon,shopping,-37.11,Credit,Chase,Prime
+949,2023,September,10,09/10/2023,el campesino,grocery,-30.78,Credit,Chase,Prime
+950,2023,September,10,09/10/2023,salt & pepper,dining,-51.0,Credit,Chase,Prime
+951,2023,September,08,09/08/2023,amazon,shopping,-30.87,Credit,Chase,Prime
+952,2023,September,08,09/08/2023,amazon,shopping,-21.99,Credit,Chase,Prime
+953,2023,September,08,09/08/2023,amazon,shopping,45.99,Credit,Chase,Prime
+954,2023,September,06,09/06/2023,steam,shopping,-69.99,Credit,Chase,Prime
+955,2023,September,05,09/05/2023,door dash,dining,-15.57,Credit,Chase,Prime
+957,2023,September,05,09/05/2023,costco,grocery,-53.38,Credit,Chase,Prime
+958,2023,September,05,09/05/2023,amazon,shopping,-45.99,Credit,Chase,Prime
+959,2023,September,05,09/05/2023,door dash,dining,-13.65,Credit,Chase,Prime
+960,2023,September,05,09/05/2023,amazon,shopping,-45.99,Credit,Chase,Prime
+961,2023,September,03,09/03/2023,amazon,shopping,-119.99,Credit,Chase,Prime
+962,2023,September,02,09/02/2023,amazon,shopping,-8.78,Credit,Chase,Prime
+963,2023,September,02,09/02/2023,amazon,shopping,-5.94,Credit,Chase,Prime
+965,2023,September,01,09/01/2023,salt & pepper,dining,-27.5,Credit,Chase,Prime
+966,2023,August,31,08/31/2023,etsy,shopping,-193.81,Credit,Chase,Prime
+967,2023,August,31,08/31/2023,rovente pizzeria,dining,-20.5,Credit,Chase,Prime
+968,2023,August,28,08/28/2023,steam,shopping,-19.99,Credit,Chase,Prime
+969,2023,August,27,08/27/2023,ross,shopping,-57.34,Credit,Chase,Prime
+970,2023,August,27,08/27/2023,amazon,shopping,-36.99,Credit,Chase,Prime
+971,2023,August,27,08/27/2023,tj maxx,shopping,-27.98,Credit,Chase,Prime
+972,2023,August,27,08/27/2023,amazon,shopping,-3.0,Credit,Chase,Prime
+973,2023,August,28,08/28/2023,amazon,shopping,-13.99,Credit,Chase,Prime
+974,2023,August,28,08/28/2023,amazon,shopping,-37.58,Credit,Chase,Prime
+975,2023,August,25,08/25/2023,bubble n tea,dining,-13.75,Credit,Chase,Prime
+976,2023,August,25,08/25/2023,costco,grocery,-11.99,Credit,Chase,Prime
+977,2023,August,25,08/25/2023,costco,grocery,-1577.39,Credit,Chase,Prime
+978,2023,August,26,08/26/2023,usps,shopping,-1.1,Credit,Chase,Prime
+979,2023,August,25,08/25/2023,costco,grocery,-352.59,Credit,Chase,Prime
+980,2023,August,26,08/26/2023,usps,shopping,-1.1,Credit,Chase,Prime
+981,2023,August,26,08/26/2023,amazon,shopping,-18.99,Credit,Chase,Prime
+982,2023,August,25,08/25/2023,door dash,dining,-11.21,Credit,Chase,Prime
+983,2023,August,26,08/26/2023,costco,grocery,20.98,Credit,Chase,Prime
+984,2023,August,26,08/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+985,2023,August,25,08/25/2023,door dash,dining,-9.71,Credit,Chase,Prime
+986,2023,August,25,08/25/2023,amazon,shopping,-48.6,Credit,Chase,Prime
+987,2023,August,25,08/25/2023,costco,grocery,-39.88,Credit,Chase,Prime
+988,2023,August,24,08/24/2023,dollar tree,shopping,-8.75,Credit,Chase,Prime
+989,2023,August,24,08/24/2023,amazon,shopping,35.45,Credit,Chase,Prime
+990,2023,August,24,08/24/2023,amazon,shopping,45.0,Credit,Chase,Prime
+991,2023,August,22,08/22/2023,office depot,shopping,-26.19,Credit,Chase,Prime
+992,2023,August,23,08/23/2023,costco,grocery,-52.36,Credit,Chase,Prime
+993,2023,August,21,08/21/2023,costco,grocery,-226.32,Credit,Chase,Prime
+994,2023,August,21,08/21/2023,door dash,dining,-22.9,Credit,Chase,Prime
+995,2023,August,19,08/19/2023,bath and body works,shopping,-42.9,Credit,Chase,Prime
+996,2023,August,17,08/17/2023,safeway,grocery,-7.99,Credit,Chase,Prime
+997,2023,August,19,08/19/2023,costco,grocery,-43.25,Credit,Chase,Prime
+998,2023,August,19,08/19/2023,costco,grocery,-115.67,Credit,Chase,Prime
+999,2023,August,19,08/19/2023,mud bay,grocery,-24.48,Credit,Chase,Prime
+1000,2023,August,15,08/15/2023,tj maxx,shopping,-18.97,Credit,Chase,Prime
+1001,2023,August,15,08/15/2023,mud bay,grocery,-49.96,Credit,Chase,Prime
+1002,2023,August,14,08/14/2023,safeway,grocery,-4.99,Credit,Chase,Prime
+1003,2023,August,14,08/14/2023,costco,grocery,-40.76,Credit,Chase,Prime
+1004,2023,August,13,08/13/2023,grid bar,dining,-54.51,Credit,Chase,Prime
+1005,2023,August,14,08/14/2023,costco,grocery,-53.46,Credit,Chase,Prime
+1006,2023,August,10,08/10/2023,in-n-out,dining,-17.62,Credit,Chase,Prime
+1007,2023,August,10,08/10/2023,dsw,shopping,-27.57,Credit,Chase,Prime
+1008,2023,August,10,08/10/2023,safeway,grocery,-61.24,Credit,Chase,Prime
+1009,2023,August,10,08/10/2023,costco,grocery,-25.72,Credit,Chase,Prime
+1011,2023,August,08,08/08/2023,home depot,shopping,-26.5,Credit,Chase,Prime
+1012,2023,August,08,08/08/2023,home depot,shopping,-48.93,Credit,Chase,Prime
+1014,2023,August,07,08/07/2023,in-n-out,dining,-20.26,Credit,Chase,Prime
+1015,2023,August,08,08/08/2023,66 standard plumbing,shopping,-21.55,Credit,Chase,Prime
+1016,2023,August,05,08/05/2023,u-haul,shopping,12.0,Credit,Chase,Prime
+1017,2023,August,05,08/05/2023,u-haul,shopping,7.0,Credit,Chase,Prime
+1018,2023,August,07,08/07/2023,costco,grocery,-53.72,Credit,Chase,Prime
+1019,2023,August,05,08/05/2023,u-haul,shopping,-7.0,Credit,Chase,Prime
+1020,2023,August,05,08/05/2023,costco,grocery,-33.81,Credit,Chase,Prime
+1021,2023,August,05,08/05/2023,costco,grocery,-4.48,Credit,Chase,Prime
+1023,2023,August,03,08/03/2023,u-haul,shopping,-13.95,Credit,Chase,Prime
+1024,2023,August,03,08/03/2023,robnett's hardware,dining,-5.49,Credit,Chase,Prime
+1025,2023,August,04,08/04/2023,taste of sichuan,dining,-53.85,Credit,Chase,Prime
+1026,2023,August,03,08/03/2023,wisecracks cafe,dining,-36.98,Credit,Chase,Prime
+1027,2023,August,04,08/04/2023,dutch bros,dining,-5.45,Credit,Chase,Prime
+1028,2023,August,04,08/04/2023,u-haul,shopping,-90.0,Credit,Chase,Prime
+1029,2023,August,02,08/02/2023,fedex,shopping,-14.66,Credit,Chase,Prime
+1030,2023,August,03,08/03/2023,wal-mart,shopping,-3.48,Credit,Chase,Prime
+1031,2023,August,02,08/02/2023,amazon,shopping,-30.99,Credit,Chase,Prime
+1032,2023,August,02,08/02/2023,amazon,shopping,-16.94,Credit,Chase,Prime
+1033,2023,August,02,08/02/2023,fedex,shopping,-4.99,Credit,Chase,Prime
+1035,2023,July,29,07/29/2023,costco,grocery,-43.87,Credit,Chase,Prime
+1036,2023,July,29,07/29/2023,costco,grocery,-27.48,Credit,Chase,Prime
+1037,2023,July,29,07/29/2023,costco,grocery,-9.95,Credit,Chase,Prime
+1038,2023,July,26,07/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+1039,2023,July,25,07/25/2023,mcdonalds,dining,-4.78,Credit,Chase,Prime
+1041,2023,July,23,07/23/2023,inkwell,shopping,-11.45,Credit,Chase,Prime
+1042,2023,July,19,07/19/2023,sugoi sushi,dining,-32.0,Credit,Chase,Prime
+1044,2023,July,16,07/16/2023,safeway,grocery,-9.71,Credit,Chase,Prime
+1045,2023,July,14,07/14/2023,amazon,shopping,-42.94,Credit,Chase,Prime
+1046,2023,July,15,07/15/2023,mcmenamins,dining,-62.35,Credit,Chase,Prime
+1047,2023,July,13,07/13/2023,costco,grocery,-20.19,Credit,Chase,Prime
+1048,2023,July,14,07/14/2023,amazon,shopping,-35.45,Credit,Chase,Prime
+1049,2023,July,12,07/12/2023,monroe international market,grocery,-6.98,Credit,Chase,Prime
+1050,2023,July,12,07/12/2023,amazon,shopping,-45.0,Credit,Chase,Prime
+1051,2023,July,10,07/10/2023,steam,shopping,-14.99,Credit,Chase,Prime
+1052,2023,July,08,07/08/2023,wal-mart,shopping,-15.73,Credit,Chase,Prime
+1053,2023,July,07,07/07/2023,safeway,grocery,-4.99,Credit,Chase,Prime
+1054,2023,July,06,07/06/2023,rite aid,shopping,-39.99,Credit,Chase,Prime
+1055,2023,July,05,07/05/2023,costco,grocery,-42.28,Credit,Chase,Prime
+1056,2023,July,03,07/03/2023,dutch bros,dining,-8.45,Credit,Chase,Prime
+1057,2023,July,02,07/02/2023,costco,grocery,-120.0,Credit,Chase,Prime
+1058,2023,July,02,07/02/2023,costco,grocery,-17.88,Credit,Chase,Prime
+1059,2023,July,01,07/01/2023,matt & mandy's family,dining,-32.92,Credit,Chase,Prime
+1060,2023,July,01,07/01/2023,dutch bros,dining,-14.5,Credit,Chase,Prime
+1061,2023,July,01,07/01/2023,steam,shopping,-15.88,Credit,Chase,Prime
+1062,2023,June,28,06/28/2023,mcdonalds,dining,-1.0,Credit,Chase,Prime
+1063,2023,June,26,06/26/2023,dutch bros,dining,-4.45,Credit,Chase,Prime
+1064,2023,June,26,06/26/2023,power kia,shopping,-380.84,Credit,Chase,Prime
+1065,2023,June,26,06/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+1066,2023,June,23,06/23/2023,marriott,travel,-10.0,Credit,Chase,Prime
+1067,2023,June,25,06/25/2023,door dash,dining,-9.27,Credit,Chase,Prime
+1068,2023,June,24,06/24/2023,pdx sliders,dining,-59.2,Credit,Chase,Prime
+1069,2023,June,22,06/22/2023,stanfords restaurant,dining,-175.22,Credit,Chase,Prime
+1070,2023,June,21,06/21/2023,space needle gift shop,shopping,-9.91,Credit,Chase,Prime
+1071,2023,June,22,06/22/2023,goodwill,shopping,-14.33,Credit,Chase,Prime
+1072,2023,June,21,06/21/2023,goodwill,shopping,-19.82,Credit,Chase,Prime
+1073,2023,June,20,06/20/2023,piroshky piroshky,dining,-31.01,Credit,Chase,Prime
+1074,2023,June,21,06/21/2023,funko everett,shopping,-61.48,Credit,Chase,Prime
+1075,2023,June,21,06/21/2023,funko everett,shopping,-61.56,Credit,Chase,Prime
+1076,2023,June,20,06/20/2023,market spice,grocery,-12.83,Credit,Chase,Prime
+1077,2023,June,19,06/19/2023,wisecracks cafe,dining,-42.43,Credit,Chase,Prime
+1078,2023,June,19,06/19/2023,cannon beach hardware,dining,-20.51,Credit,Chase,Prime
+1079,2023,June,20,06/20/2023,golden age collectables,shopping,-9.91,Credit,Chase,Prime
+1080,2023,June,19,06/19/2023,tillamook icecream,dining,-13.0,Credit,Chase,Prime
+1082,2023,June,16,06/16/2023,jamba juice,dining,-3.89,Credit,Chase,Prime
+1083,2023,June,17,06/17/2023,chase travel,travel,-161.9,Credit,Chase,Prime
+1084,2023,June,15,06/15/2023,mcdonalds,dining,-12.99,Credit,Chase,Prime
+1086,2023,June,12,06/12/2023,in-n-out,dining,-14.4,Credit,Chase,Prime
+1087,2023,June,13,06/13/2023,subway,dining,-7.39,Credit,Chase,Prime
+1088,2023,June,11,06/11/2023,amazon,shopping,-17.15,Credit,Chase,Prime
+1089,2023,June,08,06/08/2023,grub,dining,-24.12,Credit,Chase,Prime
+1090,2023,June,09,06/09/2023,prime video,shopping,5.99,Credit,Chase,Prime
+1091,2023,June,09,06/09/2023,mcdonalds,dining,-1.39,Credit,Chase,Prime
+1092,2023,June,09,06/09/2023,mcdonalds,dining,-4.3,Credit,Chase,Prime
+1093,2023,June,06,06/06/2023,ikenohana,dining,-61.45,Credit,Chase,Prime
+1094,2023,June,06,06/06/2023,prime video,shopping,-5.99,Credit,Chase,Prime
+1095,2023,June,06,06/06/2023,amazon,shopping,-9.99,Credit,Chase,Prime
+1096,2023,May,26,05/26/2023,amazon,shopping,-21.99,Credit,Chase,Prime
+1097,2023,May,26,05/26/2023,amazon prime,shopping,-7.5,Credit,Chase,Prime
+1098,2025,February,19,02/19/2025,banfield,subscription,-72.25,Credit,Chase,Reserve
+1100,2025,February,15,02/15/2025,hertz,travel,-180.0,Credit,Chase,Reserve
+1101,2025,January,24,01/24/2025,amazon,shopping,-11.29,Credit,Chase,Reserve
+1103,2025,January,19,01/19/2025,banfield,subscription,-72.25,Credit,Chase,Reserve
+1104,2025,January,10,01/10/2025,uber eats,dining,-35.51,Credit,Chase,Reserve
+1105,2025,January,09,01/09/2025,apple,shopping,-699.0,Credit,Chase,Reserve
+1106,2025,January,07,01/07/2025,hertz,travel,-1.22,Credit,Chase,Reserve
+1107,2025,January,08,01/08/2025,uber eats,dining,-32.27,Credit,Chase,Reserve
+1108,2025,January,06,01/06/2025,uber eats,dining,-58.31,Credit,Chase,Reserve
+1109,2025,January,06,01/06/2025,lyft,travel,-10.58,Credit,Chase,Reserve
+1110,2025,January,05,01/05/2025,enterprise,travel,-49.36,Credit,Chase,Reserve
+1111,2025,January,04,01/04/2025,state parks discover pas,travel,-35.0,Credit,Chase,Reserve
+1112,2024,December,28,12/28/2024,hertz,travel,-207.91,Credit,Chase,Reserve
+1113,2024,December,27,12/27/2024,alamo,travel,-487.55,Credit,Chase,Reserve
+1114,2024,December,26,12/26/2024,lyft,travel,-131.16,Credit,Chase,Reserve
+1115,2024,December,23,12/23/2024,train,travel,-2.9,Credit,Chase,Reserve
+1116,2024,December,24,12/24/2024,train,travel,-8.5,Credit,Chase,Reserve
+1117,2024,December,24,12/24/2024,train,travel,-2.9,Credit,Chase,Reserve
+1118,2024,December,24,12/24/2024,delta air,travel,-35.0,Credit,Chase,Reserve
+1119,2024,December,24,12/24/2024,train,travel,-2.1,Credit,Chase,Reserve
+1120,2024,December,24,12/24/2024,delta air,travel,-80.0,Credit,Chase,Reserve
+1121,2024,December,24,12/24/2024,delta air,travel,-35.0,Credit,Chase,Reserve
+1122,2024,December,24,12/24/2024,delta air,travel,-35.0,Credit,Chase,Reserve
+1123,2024,December,24,12/24/2024,delta air,travel,-35.0,Credit,Chase,Reserve
+1124,2024,December,24,12/24/2024,train,travel,-12.0,Credit,Chase,Reserve
+1125,2024,December,23,12/23/2024,train,travel,-2.9,Credit,Chase,Reserve
+1126,2024,December,24,12/24/2024,train,travel,-2.9,Credit,Chase,Reserve
+1127,2024,December,24,12/24/2024,train,travel,-8.5,Credit,Chase,Reserve
+1128,2024,December,24,12/24/2024,train,travel,-2.9,Credit,Chase,Reserve
+1129,2024,December,23,12/23/2024,train,travel,-2.9,Credit,Chase,Reserve
+1130,2024,December,23,12/23/2024,train,travel,-2.75,Credit,Chase,Reserve
+1131,2024,December,23,12/23/2024,train,travel,-2.75,Credit,Chase,Reserve
+1132,2024,December,23,12/23/2024,train,travel,-2.75,Credit,Chase,Reserve
+1133,2024,December,23,12/23/2024,train,travel,-2.75,Credit,Chase,Reserve
+1134,2024,December,23,12/23/2024,train,travel,-2.9,Credit,Chase,Reserve
+1135,2024,December,22,12/22/2024,train,travel,-2.9,Credit,Chase,Reserve
+1136,2024,December,22,12/22/2024,train,travel,-2.9,Credit,Chase,Reserve
+1137,2024,December,22,12/22/2024,train,travel,-2.9,Credit,Chase,Reserve
+1138,2024,December,22,12/22/2024,train,travel,-2.9,Credit,Chase,Reserve
+1139,2024,December,21,12/21/2024,train,travel,-2.9,Credit,Chase,Reserve
+1140,2024,December,22,12/22/2024,train,travel,-2.75,Credit,Chase,Reserve
+1141,2024,December,21,12/21/2024,train,travel,-2.9,Credit,Chase,Reserve
+1142,2024,December,21,12/21/2024,train,travel,-2.9,Credit,Chase,Reserve
+1143,2024,December,22,12/22/2024,train,travel,-2.9,Credit,Chase,Reserve
+1144,2024,December,21,12/21/2024,train,travel,-2.9,Credit,Chase,Reserve
+1145,2024,December,21,12/21/2024,train,travel,-2.9,Credit,Chase,Reserve
+1146,2024,December,21,12/21/2024,train,travel,-2.9,Credit,Chase,Reserve
+1147,2024,December,21,12/21/2024,train,travel,-2.75,Credit,Chase,Reserve
+1148,2024,December,21,12/21/2024,train,travel,-2.75,Credit,Chase,Reserve
+1149,2024,December,21,12/21/2024,train,travel,-2.75,Credit,Chase,Reserve
+1150,2024,December,21,12/21/2024,train,travel,-2.75,Credit,Chase,Reserve
+1151,2024,December,22,12/22/2024,statue cruises,travel,-125.0,Credit,Chase,Reserve
+1152,2024,December,19,12/19/2024,train,travel,-2.9,Credit,Chase,Reserve
+1153,2024,December,19,12/19/2024,train,travel,-2.9,Credit,Chase,Reserve
+1154,2024,December,19,12/19/2024,train,travel,-2.75,Credit,Chase,Reserve
+1155,2024,December,19,12/19/2024,banfield,subscription,-72.25,Credit,Chase,Reserve
+1156,2024,December,19,12/19/2024,train,travel,-2.75,Credit,Chase,Reserve
+1157,2024,December,19,12/19/2024,train,travel,-2.75,Credit,Chase,Reserve
+1158,2024,December,19,12/19/2024,train,travel,-2.75,Credit,Chase,Reserve
+1159,2024,December,18,12/18/2024,train,travel,-8.5,Credit,Chase,Reserve
+1160,2024,December,18,12/18/2024,train,travel,-2.9,Credit,Chase,Reserve
+1161,2024,December,18,12/18/2024,train,travel,-8.5,Credit,Chase,Reserve
+1162,2024,December,18,12/18/2024,hertz,travel,-87.35,Credit,Chase,Reserve
+1163,2024,December,19,12/19/2024,train,travel,-2.9,Credit,Chase,Reserve
+1164,2024,December,15,12/15/2024,savin hill,shopping,-2.4,Credit,Chase,Reserve
+1165,2024,December,15,12/15/2024,savin hill,shopping,-2.4,Credit,Chase,Reserve
+1166,2024,December,15,12/15/2024,savin hill,shopping,-2.4,Credit,Chase,Reserve
+1167,2024,December,15,12/15/2024,savin hill,shopping,-2.4,Credit,Chase,Reserve
+1168,2024,December,15,12/15/2024,savin hill,shopping,-2.4,Credit,Chase,Reserve
+1169,2024,December,15,12/15/2024,kenmore,travel,-2.4,Credit,Chase,Reserve
+1170,2024,December,15,12/15/2024,kenmore,travel,-4.8,Credit,Chase,Reserve
+1171,2024,December,15,12/15/2024,savin hill,shopping,-2.4,Credit,Chase,Reserve
+1172,2024,December,14,12/14/2024,savin hill,shopping,-11.0,Credit,Chase,Reserve
+1173,2024,December,14,12/14/2024,costco,grocery,-148.74,Credit,Chase,Reserve
+1174,2024,December,14,12/14/2024,savin hill,shopping,-11.0,Credit,Chase,Reserve
+1175,2024,December,11,12/11/2024,lyft,travel,-34.69,Credit,Chase,Reserve
+1176,2024,December,09,12/09/2024,train,travel,-2.9,Credit,Chase,Reserve
+1177,2024,December,10,12/10/2024,train,travel,-2.9,Credit,Chase,Reserve
+1178,2024,December,09,12/09/2024,train,travel,-2.9,Credit,Chase,Reserve
+1179,2024,December,09,12/09/2024,train,travel,-2.9,Credit,Chase,Reserve
+1180,2024,December,09,12/09/2024,train,travel,-2.9,Credit,Chase,Reserve
+1181,2024,December,10,12/10/2024,train,travel,-2.9,Credit,Chase,Reserve
+1183,2024,December,09,12/09/2024,delta air,travel,-35.0,Credit,Chase,Reserve
+1184,2024,December,09,12/09/2024,delta air,travel,-35.0,Credit,Chase,Reserve
+1185,2024,December,03,12/03/2024,apple,shopping,-1199.0,Credit,Chase,Reserve
+1187,2024,October,01,10/01/2024,tiktok,shopping,39.99,Credit,Chase,Reserve
+1189,2024,November,19,11/19/2024,banfield,subscription,-72.25,Credit,Chase,Reserve
+1190,2024,November,07,11/07/2024,b&h photo,shopping,-1723.0,Credit,Chase,Reserve
+1192,2024,September,08,09/08/2024,birkenstock,shopping,77.45,Credit,Chase,Reserve
+1193,2024,October,31,10/31/2024,costco,grocery,-10.82,Credit,Chase,Reserve
+1194,2024,October,31,10/31/2024,hertz,travel,-446.46,Credit,Chase,Reserve
+1196,2024,October,24,10/24/2024,safeway,grocery,-22.54,Credit,Chase,Reserve
+1197,2024,October,27,10/27/2024,gnc,shopping,-144.43,Credit,Chase,Reserve
+1198,2024,October,19,10/19/2024,banfield,subscription,-72.25,Credit,Chase,Reserve
+1199,2024,October,18,10/18/2024,uber eats,dining,-5.85,Credit,Chase,Reserve
+1201,2024,October,14,10/14/2024,tiktok,shopping,19.36,Credit,Chase,Reserve
+1202,2024,October,14,10/14/2024,fred meyer,grocery,-27.06,Credit,Chase,Reserve
+1203,2024,October,15,10/15/2024,etsy,shopping,-40.0,Credit,Chase,Reserve
+1204,2024,October,13,10/13/2024,la naranja,dining,-16.0,Credit,Chase,Reserve
+1205,2024,October,13,10/13/2024,memory den,dining,-100.75,Credit,Chase,Reserve
+1206,2024,October,13,10/13/2024,tall boy fish chips,dining,-17.0,Credit,Chase,Reserve
+1207,2024,October,12,10/12/2024,fred meyer,grocery,-54.36,Credit,Chase,Reserve
+1208,2024,October,11,10/11/2024,fred meyer,grocery,-45.02,Credit,Chase,Reserve
+1209,2024,October,12,10/12/2024,denny's,dining,-27.78,Credit,Chase,Reserve
+1210,2024,October,08,10/08/2024,sephora,shopping,-94.4,Credit,Chase,Reserve
+1211,2024,October,08,10/08/2024,muji,shopping,-2.9,Credit,Chase,Reserve
+1212,2024,October,08,10/08/2024,wendy's,dining,-24.76,Credit,Chase,Reserve
+1213,2024,October,08,10/08/2024,sichuan taste,dining,-37.9,Credit,Chase,Reserve
+1214,2024,October,08,10/08/2024,chase travel,travel,-194.47,Credit,Chase,Reserve
+1215,2024,October,09,10/09/2024,visible,utility,-25.0,Credit,Chase,Reserve
+1216,2024,October,09,10/09/2024,visible,utility,-25.0,Credit,Chase,Reserve
+1217,2024,October,08,10/08/2024,chase travel,travel,-158.47,Credit,Chase,Reserve
+1218,2024,October,06,10/06/2024,wingstop,dining,-16.99,Credit,Chase,Reserve
+1219,2024,October,06,10/06/2024,bubble n tea,dining,-6.0,Credit,Chase,Reserve
+1220,2024,October,05,10/05/2024,apple,shopping,400.0,Credit,Chase,Reserve
+1221,2024,October,04,10/04/2024,stardust diner,dining,-12.86,Credit,Chase,Reserve
+1222,2024,October,04,10/04/2024,chase travel,travel,-158.47,Credit,Chase,Reserve
+1223,2024,October,03,10/03/2024,mcdonalds,dining,-1.49,Credit,Chase,Reserve
+1224,2024,October,03,10/03/2024,lavender creek gems,shopping,-2210.0,Credit,Chase,Reserve
+1226,2024,October,03,10/03/2024,chase travel,travel,-673.92,Credit,Chase,Reserve
+1227,2024,October,01,10/01/2024,tiktok,shopping,-66.21,Credit,Chase,Reserve
+1228,2024,September,29,09/29/2024,washington square,shopping,-58.0,Credit,Chase,Reserve
+1229,2024,September,27,09/27/2024,nopo paws,shopping,-33.0,Credit,Chase,Reserve
+1230,2024,September,27,09/27/2024,safeway,grocery,-26.01,Credit,Chase,Reserve
+1233,2024,September,25,09/25/2024,staples,shopping,9.99,Credit,Chase,Reserve
+1234,2024,September,25,09/25/2024,staples,shopping,-9.99,Credit,Chase,Reserve
+1235,2024,September,25,09/25/2024,wal-mart,shopping,-2.83,Credit,Chase,Reserve
+1237,2024,September,23,09/23/2024,apple,shopping,-1099.0,Credit,Chase,Reserve
+1238,2024,September,23,09/23/2024,etsy,shopping,-39.9,Credit,Chase,Reserve
+1239,2024,September,21,09/21/2024,schwieterts icecream,dining,-4.99,Credit,Chase,Reserve
+1240,2024,September,21,09/21/2024,tis the season,shopping,-3.99,Credit,Chase,Reserve
+1241,2024,September,21,09/21/2024,mos seafood,dining,-47.7,Credit,Chase,Reserve
+1242,2024,September,21,09/21/2024,tiptons,shopping,-12.99,Credit,Chase,Reserve
+1243,2024,September,21,09/21/2024,north coast leather,shopping,-44.95,Credit,Chase,Reserve
+1244,2024,September,20,09/20/2024,trader joe s,grocery,-10.99,Credit,Chase,Reserve
+1245,2024,September,20,09/20/2024,chewy,subscription,-39.64,Credit,Chase,Reserve
+1246,2024,September,21,09/21/2024,apple,shopping,-1099.0,Credit,Chase,Reserve
+1247,2024,September,19,09/19/2024,safeway,grocery,-19.89,Credit,Chase,Reserve
+1248,2024,September,19,09/19/2024,recreation,travel,-20.0,Credit,Chase,Reserve
+1249,2024,September,21,09/21/2024,seaside confections,dining,-9.5,Credit,Chase,Reserve
+1250,2024,September,21,09/21/2024,target,shopping,-21.0,Credit,Chase,Reserve
+1251,2024,September,20,09/20/2024,uwajimaya,grocery,-56.5,Credit,Chase,Reserve
+1252,2024,September,20,09/20/2024,safeway,grocery,-13.94,Credit,Chase,Reserve
+1253,2024,September,18,09/18/2024,jack in the box,dining,-5.41,Credit,Chase,Reserve
+1254,2024,September,19,09/19/2024,banfield,subscription,-72.25,Credit,Chase,Reserve
+1255,2024,September,18,09/18/2024,dutch bros,dining,-13.89,Credit,Chase,Reserve
+1256,2024,September,19,09/19/2024,jack in the box,dining,-10.81,Credit,Chase,Reserve
+1257,2024,September,18,09/18/2024,dollar tree,shopping,-13.5,Credit,Chase,Reserve
+1258,2024,September,18,09/18/2024,target,shopping,-28.27,Credit,Chase,Reserve
+1259,2024,September,18,09/18/2024,michaels,shopping,-29.98,Credit,Chase,Reserve
+1260,2024,September,18,09/18/2024,target,shopping,-40.27,Credit,Chase,Reserve
+1261,2024,September,15,09/15/2024,dutch bros,dining,-19.35,Credit,Chase,Reserve
+1262,2024,September,15,09/15/2024,ikea,shopping,-10.97,Credit,Chase,Reserve
+1263,2024,September,14,09/14/2024,asian family market,grocery,-26.72,Credit,Chase,Reserve
+1264,2024,September,15,09/15/2024,target,shopping,-5.48,Credit,Chase,Reserve
+1265,2024,September,15,09/15/2024,ikea,shopping,-10.98,Credit,Chase,Reserve
+1266,2024,September,12,09/12/2024,trader joe s,grocery,-37.6,Credit,Chase,Reserve
+1267,2024,September,14,09/14/2024,thai bloom,dining,-15.0,Credit,Chase,Reserve
+1268,2024,September,13,09/13/2024,sichuan taste,dining,-65.9,Credit,Chase,Reserve
+1269,2024,September,14,09/14/2024,the frying scotsman,dining,-14.5,Credit,Chase,Reserve
+1270,2024,September,12,09/12/2024,panda express,dining,-23.54,Credit,Chase,Reserve
+1271,2024,September,12,09/12/2024,daiso,shopping,-58.05,Credit,Chase,Reserve
+1272,2024,September,11,09/11/2024,target,shopping,-11.17,Credit,Chase,Reserve
+1274,2024,September,07,09/07/2024,sorya,grocery,-9.97,Credit,Chase,Reserve
+1275,2024,September,08,09/08/2024,tj maxx,shopping,-13.99,Credit,Chase,Reserve
+1276,2024,September,08,09/08/2024,target,shopping,-23.18,Credit,Chase,Reserve
+1277,2024,September,07,09/07/2024,trader joe s,grocery,-49.87,Credit,Chase,Reserve
+1278,2024,September,08,09/08/2024,birkenstock,shopping,-77.45,Credit,Chase,Reserve
+1279,2024,September,06,09/06/2024,staples,shopping,-6.49,Credit,Chase,Reserve
+1280,2024,September,06,09/06/2024,safeway,grocery,-27.53,Credit,Chase,Reserve
+1281,2024,September,06,09/06/2024,costco,grocery,-3.98,Credit,Chase,Reserve
+1282,2024,September,06,09/06/2024,goodwill,shopping,-6.99,Credit,Chase,Reserve
+1283,2024,September,06,09/06/2024,homegoods,shopping,-23.97,Credit,Chase,Reserve
+1284,2024,September,04,09/04/2024,daiso,shopping,-23.86,Credit,Chase,Reserve
+1285,2024,September,03,09/03/2024,airbnb,travel,68.01,Credit,Chase,Reserve
+1286,2024,September,02,09/02/2024,pistils nursery,shopping,-53.0,Credit,Chase,Reserve
+1287,2024,September,01,09/01/2024,target,shopping,-54.39,Credit,Chase,Reserve
+1288,2024,August,31,08/31/2024,safeway,grocery,-18.06,Credit,Chase,Reserve
+1289,2024,September,01,09/01/2024,domino's,dining,-10.99,Credit,Chase,Reserve
+1290,2024,August,31,08/31/2024,asian family market,grocery,-39.75,Credit,Chase,Reserve
+1291,2024,August,30,08/30/2024,target,shopping,-28.02,Credit,Chase,Reserve
+1292,2024,August,30,08/30/2024,wolfs head,dining,-35.5,Credit,Chase,Reserve
+1293,2024,August,31,08/31/2024,costco,grocery,-25.85,Credit,Chase,Reserve
+1294,2024,August,31,08/31/2024,costco,grocery,-55.35,Credit,Chase,Reserve
+1295,2024,August,26,08/26/2024,homegoods,shopping,-9.99,Credit,Chase,Reserve
+1296,2024,August,24,08/24/2024,sichuan taste,dining,-59.85,Credit,Chase,Reserve
+1297,2024,August,24,08/24/2024,dutch bros,dining,-13.46,Credit,Chase,Reserve
+1298,2024,August,24,08/24/2024,otaku import export,shopping,-20.95,Credit,Chase,Reserve
+1299,2024,August,24,08/24/2024,memory den,dining,-12.75,Credit,Chase,Reserve
+1300,2024,August,23,08/23/2024,boomers burgers,dining,-25.9,Credit,Chase,Reserve
+1301,2024,August,22,08/22/2024,fred-meyer,grocery,-38.15,Credit,Chase,Reserve
+1302,2024,August,22,08/22/2024,asian family market,grocery,-27.7,Credit,Chase,Reserve
+1303,2024,August,22,08/22/2024,uwajimaya,grocery,-31.05,Credit,Chase,Reserve
+1304,2024,August,22,08/22/2024,costco,grocery,-45.65,Credit,Chase,Reserve
+1305,2024,August,22,08/22/2024,costco,grocery,-125.17,Credit,Chase,Reserve
+1306,2024,August,19,08/19/2024,dutch bros,dining,-13.56,Credit,Chase,Reserve
+1307,2024,August,19,08/19/2024,safeway,grocery,-15.51,Credit,Chase,Reserve
+1308,2024,August,19,08/19/2024,petsmart,grocery,-21.67,Credit,Chase,Reserve
+1309,2024,August,19,08/19/2024,banfield,subscription,-72.25,Credit,Chase,Reserve
+1310,2024,August,19,08/19/2024,banfield,subscription,-87.36,Credit,Chase,Reserve
+1311,2024,August,17,08/17/2024,trader joe s,grocery,-28.82,Credit,Chase,Reserve
+1312,2024,August,17,08/17/2024,safeway,grocery,-51.59,Credit,Chase,Reserve
+1313,2024,August,17,08/17/2024,hmart,grocery,-89.09,Credit,Chase,Reserve
+1314,2024,August,15,08/15/2024,mcdonalds,dining,-1.49,Credit,Chase,Reserve
+1315,2024,August,17,08/17/2024,uber eats,dining,-21.03,Credit,Chase,Reserve
+1316,2024,August,15,08/15/2024,pge,utility,-65.8,Credit,Chase,Reserve
+1318,2024,August,15,08/15/2024,airbnb,travel,-68.01,Credit,Chase,Reserve
+1319,2024,August,15,08/15/2024,rugs usa,shopping,-225.95,Credit,Chase,Reserve
+1320,2024,August,12,08/12/2024,boomers burgers,dining,-28.95,Credit,Chase,Reserve
+1321,2024,August,11,08/11/2024,xfinity mobile,utility,-68.32,Credit,Chase,Reserve
+1322,2024,August,09,08/09/2024,safeway,grocery,-31.89,Credit,Chase,Reserve
+1323,2024,August,09,08/09/2024,bubble n tea,dining,-6.0,Credit,Chase,Reserve
+1324,2024,August,09,08/09/2024,chipotle,dining,-18.95,Credit,Chase,Reserve
+1325,2024,August,10,08/10/2024,xfinity internet,utility,-17.43,Credit,Chase,Reserve
+1327,2024,August,10,08/10/2024,tj maxx,shopping,-4.99,Credit,Chase,Reserve
+1328,2024,August,09,08/09/2024,west end rent,utility,-119.93,Credit,Chase,Reserve
+1329,2024,August,09,08/09/2024,costco,grocery,-33.01,Credit,Chase,Reserve
+1330,2024,August,09,08/09/2024,costco,grocery,-81.62,Credit,Chase,Reserve
+1331,2024,August,10,08/10/2024,homegoods,shopping,-91.96,Credit,Chase,Reserve
+1332,2024,August,09,08/09/2024,cinemark,shopping,-24.78,Credit,Chase,Reserve
+1333,2024,August,09,08/09/2024,xfinity internet,utility,-30.0,Credit,Chase,Reserve
+1334,2024,August,08,08/08/2024,amazon,shopping,-81.93,Credit,Chase,Reserve
+1335,2024,August,08,08/08/2024,amazon,shopping,-8.19,Credit,Chase,Reserve
+1337,2024,August,04,08/04/2024,hmart,grocery,-37.07,Credit,Chase,Reserve
+1338,2024,August,04,08/04/2024,safeway,grocery,-18.31,Credit,Chase,Reserve
+1339,2024,August,05,08/05/2024,uber eats,dining,-6.03,Credit,Chase,Reserve
+1340,2024,August,04,08/04/2024,target,shopping,-36.6,Credit,Chase,Reserve
+1341,2024,August,05,08/05/2024,usps,shopping,-6.7,Credit,Chase,Reserve
+1342,2024,August,05,08/05/2024,usps,shopping,-1.1,Credit,Chase,Reserve
+1343,2024,August,04,08/04/2024,costco,grocery,-174.95,Credit,Chase,Reserve
+1344,2024,August,04,08/04/2024,uber eats,dining,-58.31,Credit,Chase,Reserve
+1346,2024,August,03,08/03/2024,jaybee's,dining,-41.8,Credit,Chase,Reserve
+1347,2024,August,01,08/01/2024,home depot,shopping,-9.48,Credit,Chase,Reserve
+1348,2024,August,02,08/02/2024,home depot,shopping,-26.96,Credit,Chase,Reserve
+1349,2024,August,03,08/03/2024,costco,grocery,-40.93,Credit,Chase,Reserve
+1350,2024,August,03,08/03/2024,costco,grocery,396.98,Credit,Chase,Reserve
+1351,2024,August,02,08/02/2024,costco,grocery,-19.2,Credit,Chase,Reserve
+1352,2024,August,01,08/01/2024,u-haul,shopping,-41.39,Credit,Chase,Reserve
+1353,2024,August,03,08/03/2024,costco,grocery,-3.99,Credit,Chase,Reserve
+1354,2024,August,02,08/02/2024,u-haul,shopping,-155.92,Credit,Chase,Reserve
+1355,2024,August,02,08/02/2024,u-haul,shopping,-8.95,Credit,Chase,Reserve
+1356,2024,August,01,08/01/2024,pge,utility,-69.62,Credit,Chase,Reserve
+1357,2024,August,01,08/01/2024,fred-meyer,grocery,-28.06,Credit,Chase,Reserve
+1358,2024,August,01,08/01/2024,sichuan taste,dining,-51.45,Credit,Chase,Reserve
+1359,2024,July,31,07/31/2024,tea & tea,dining,-6.5,Credit,Chase,Reserve
+1360,2024,July,31,07/31/2024,amazon,shopping,-44.94,Credit,Chase,Reserve
+1362,2024,July,29,07/29/2024,amazon,shopping,-33.92,Credit,Chase,Reserve
+1363,2024,July,28,07/28/2024,home depot,shopping,-31.01,Credit,Chase,Reserve
+1364,2024,July,28,07/28/2024,safeway,grocery,-5.59,Credit,Chase,Reserve
+1365,2024,July,29,07/29/2024,amazon,shopping,-3.97,Credit,Chase,Reserve
+1366,2024,July,28,07/28/2024,home depot,shopping,-13.92,Credit,Chase,Reserve
+1367,2024,July,28,07/28/2024,costco,grocery,-7.99,Credit,Chase,Reserve
+1368,2024,July,27,07/27/2024,bubble n tea,dining,-6.0,Credit,Chase,Reserve
+1369,2024,July,28,07/28/2024,amazon,shopping,-21.8,Credit,Chase,Reserve
+1370,2024,July,25,07/25/2024,prose rent,utility,-47.95,Credit,Chase,Reserve
+1371,2024,July,26,07/26/2024,five guys,dining,-19.47,Credit,Chase,Reserve
+1372,2024,July,25,07/25/2024,home depot,shopping,-38.36,Credit,Chase,Reserve
+1373,2024,July,27,07/27/2024,chipotle,dining,-20.95,Credit,Chase,Reserve
+1374,2024,July,26,07/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Reserve
+1375,2024,July,26,07/26/2024,dollar tree,shopping,-6.5,Credit,Chase,Reserve
+1376,2024,July,26,07/26/2024,sushi chiyo,dining,-10.05,Credit,Chase,Reserve
+1377,2024,July,25,07/25/2024,target,shopping,-4.68,Credit,Chase,Reserve
+1378,2024,July,23,07/23/2024,dutch bros,dining,-5.25,Credit,Chase,Reserve
+1379,2024,July,21,07/21/2024,asian family market,grocery,-19.76,Credit,Chase,Reserve
+1380,2024,July,20,07/20/2024,mud bay,grocery,-60.99,Credit,Chase,Reserve
+1381,2024,July,21,07/21/2024,costco,grocery,-6.48,Credit,Chase,Reserve
+1382,2024,July,21,07/21/2024,tj maxx,shopping,-24.95,Credit,Chase,Reserve
+1383,2024,July,21,07/21/2024,amazon,shopping,-1.37,Credit,Chase,Reserve
+1384,2024,July,21,07/21/2024,costco,grocery,-89.17,Credit,Chase,Reserve
+1385,2024,July,19,07/19/2024,uwajimaya,grocery,-60.35,Credit,Chase,Reserve
+1386,2024,July,18,07/18/2024,mcdonalds,dining,-5.19,Credit,Chase,Reserve
+1387,2024,July,18,07/18/2024,safeway,grocery,-46.75,Credit,Chase,Reserve
+1388,2024,July,18,07/18/2024,fred-meyer,grocery,-24.42,Credit,Chase,Reserve
+1390,2024,July,15,07/15/2024,global entry,travel,-100.0,Credit,Chase,Reserve
+1391,2024,July,14,07/14/2024,dutch bros,dining,-11.4,Credit,Chase,Reserve
+1393,2024,July,12,07/12/2024,asian family market,grocery,-20.23,Credit,Chase,Reserve
+1394,2024,July,12,07/12/2024,safeway,grocery,-61.37,Credit,Chase,Reserve
+1395,2024,July,12,07/12/2024,costco,grocery,-42.5,Credit,Chase,Reserve
+1396,2024,July,12,07/12/2024,xfinity mobile,utility,-68.18,Credit,Chase,Reserve
+1397,2024,July,12,07/12/2024,costco,grocery,-142.06,Credit,Chase,Reserve
+1398,2024,July,12,07/12/2024,costco,grocery,-3.0,Credit,Chase,Reserve
+1399,2024,July,12,07/12/2024,costco,grocery,19.99,Credit,Chase,Reserve
+1400,2024,July,12,07/12/2024,banfield,subscription,-215.94,Credit,Chase,Reserve
+1401,2024,July,11,07/11/2024,uber eats,dining,-17.56,Credit,Chase,Reserve
+1402,2024,July,09,07/09/2024,xfinity internet,utility,-30.0,Credit,Chase,Reserve
+1403,2024,July,07,07/07/2024,office depot,shopping,-10.99,Credit,Chase,Reserve
+1404,2024,July,07,07/07/2024,tj maxx,shopping,-14.0,Credit,Chase,Reserve
+1405,2024,July,06,07/06/2024,safeway,grocery,-15.26,Credit,Chase,Reserve
+1406,2024,July,06,07/06/2024,iconicst,shopping,-8.63,Credit,Chase,Reserve
+1407,2024,July,06,07/06/2024,atlanta airport,dining,-4.32,Credit,Chase,Reserve
+1408,2024,July,06,07/06/2024,atlanta airport,dining,-24.27,Credit,Chase,Reserve
+1409,2024,July,05,07/05/2024,batavia,dining,-12.68,Credit,Chase,Reserve
+1410,2024,July,05,07/05/2024,batavia,dining,-100.81,Credit,Chase,Reserve
+1411,2024,July,02,07/02/2024,hudson st,travel,-9.99,Credit,Chase,Reserve
+1412,2024,July,02,07/02/2024,safeway,grocery,-21.24,Credit,Chase,Reserve
+1413,2024,July,03,07/03/2024,tillamook market,dining,-17.11,Credit,Chase,Reserve
+1414,2024,July,03,07/03/2024,food truck,dining,-9.37,Credit,Chase,Reserve
+1417,2024,July,02,07/02/2024,train,travel,-2.8,Credit,Chase,Reserve
+1418,2024,July,02,07/02/2024,mikiko mochi donuts,dining,-20.5,Credit,Chase,Reserve
+1420,2024,July,02,07/02/2024,train,travel,-2.8,Credit,Chase,Reserve
+1421,2024,June,30,06/30/2024,safeway,grocery,-19.55,Credit,Chase,Reserve
+1422,2024,July,01,07/01/2024,chase reserve,subscription,-550.0,Credit,Chase,Reserve
+1423,2024,June,30,06/30/2024,auntie anne's,dining,-8.99,Credit,Chase,Reserve
+1424,2024,June,30,06/30/2024,tj maxx,shopping,-22.98,Credit,Chase,Reserve
+1425,2024,June,30,06/30/2024,uwajimaya,grocery,-13.66,Credit,Chase,Reserve
+1426,2024,June,30,06/30/2024,fred-meyer,grocery,-17.66,Credit,Chase,Reserve
+1427,2024,June,29,06/29/2024,usps,shopping,-1.39,Credit,Chase,Reserve
+1428,2024,June,30,06/30/2024,american eagle,shopping,-19.98,Credit,Chase,Reserve
+1429,2024,June,29,06/29/2024,tj maxx,shopping,-59.95,Credit,Chase,Reserve
+1430,2024,June,29,06/29/2024,costco,grocery,-124.89,Credit,Chase,Reserve
+1431,2024,June,29,06/29/2024,hmart,grocery,-26.15,Credit,Chase,Reserve
+1432,2024,June,30,06/30/2024,calvin klein,shopping,-62.0,Credit,Chase,Reserve
+1434,2024,June,26,06/26/2024,amazon prime,shopping,-6.99,Credit,Chase,Reserve
+1436,2024,June,23,06/23/2024,dutch bros,dining,-11.4,Credit,Chase,Reserve
+1437,2024,June,23,06/23/2024,nonna emilia,dining,-49.87,Credit,Chase,Reserve
+1438,2024,June,22,06/22/2024,steam,shopping,-39.99,Credit,Chase,Reserve
+1439,2024,June,21,06/21/2024,panda express,dining,-10.4,Credit,Chase,Reserve
+1441,2024,June,21,06/21/2024,costco,grocery,-146.48,Credit,Chase,Reserve
+1442,2024,June,21,06/21/2024,fred-meyer,grocery,-22.96,Credit,Chase,Reserve
+1443,2024,June,21,06/21/2024,burger king,dining,-5.99,Credit,Chase,Reserve
+1444,2024,June,21,06/21/2024,asian family market,grocery,-48.51,Credit,Chase,Reserve
+1445,2024,June,21,06/21/2024,usps,shopping,-7.89,Credit,Chase,Reserve
+1446,2024,June,21,06/21/2024,safeway,grocery,-34.93,Credit,Chase,Reserve
+1447,2024,June,18,06/18/2024,trader joe s,grocery,-4.78,Credit,Chase,Reserve
+1448,2024,June,16,06/16/2024,chipotle,dining,-20.9,Credit,Chase,Reserve
+1449,2024,June,16,06/16/2024,tj maxx,shopping,-37.96,Credit,Chase,Reserve
+1450,2024,June,16,06/16/2024,jack in the box,dining,-29.3,Credit,Chase,Reserve
+1451,2024,June,15,06/15/2024,donut king,dining,-11.99,Credit,Chase,Reserve
+1452,2024,June,15,06/15/2024,fred-meyer,grocery,-49.8,Credit,Chase,Reserve
+1453,2024,June,13,06/13/2024,el dorado irrigation,utility,-125.57,Credit,Chase,Reserve
+1454,2024,June,12,06/12/2024,amazon,shopping,28.44,Credit,Chase,Reserve
+1455,2024,June,09,06/09/2024,xin ding dumpling house,dining,-50.85,Credit,Chase,Reserve
+1456,2024,June,10,06/10/2024,pge,utility,-53.78,Credit,Chase,Reserve
+1457,2024,June,10,06/10/2024,el dorado irrigation,utility,-125.57,Credit,Chase,Reserve
+1458,2024,June,10,06/10/2024,usps,shopping,-15.77,Credit,Chase,Reserve
+1459,2024,June,09,06/09/2024,fred-meyer,grocery,-219.97,Credit,Chase,Reserve
+1460,2024,June,10,06/10/2024,amazon,shopping,-6.59,Credit,Chase,Reserve
+1461,2024,June,09,06/09/2024,otaku import export,shopping,-40.9,Credit,Chase,Reserve
+1462,2024,June,07,06/07/2024,mud bay,grocery,-16.48,Credit,Chase,Reserve
+1463,2024,June,08,06/08/2024,asian family market,grocery,-50.64,Credit,Chase,Reserve
+1464,2024,June,09,06/09/2024,costco,grocery,-147.93,Credit,Chase,Reserve
+1465,2024,June,10,06/10/2024,gnc,shopping,-204.69,Credit,Chase,Reserve
+1466,2024,June,09,06/09/2024,amazon,shopping,-28.44,Credit,Chase,Reserve
+1467,2024,June,08,06/08/2024,fresh fish poke,dining,-18.7,Credit,Chase,Reserve
+1468,2024,June,08,06/08/2024,we feast,dining,-18.7,Credit,Chase,Reserve
+1469,2024,June,08,06/08/2024,costco,grocery,-38.45,Credit,Chase,Reserve
+1470,2024,June,08,06/08/2024,costco,grocery,-163.74,Credit,Chase,Reserve
+1472,2024,June,07,06/07/2024,qfc,dining,-4.0,Credit,Chase,Reserve
+1473,2024,June,07,06/07/2024,fred-meyer,grocery,-18.77,Credit,Chase,Reserve
+1474,2024,June,07,06/07/2024,qfc,dining,-5.65,Credit,Chase,Reserve
+1475,2024,June,08,06/08/2024,gmart,grocery,-17.44,Credit,Chase,Reserve
+1476,2024,June,07,06/07/2024,ups,shopping,-3.5,Credit,Chase,Reserve
+1479,2023,September,25,09/25/2023,kindle,subscription,210.0,Debit,BofA,Savings
+1481,2023,October,05,10/05/2023,interest,utility,0.01,Debit,BofA,Savings
+1485,2023,November,06,11/06/2023,interest,utility,0.03,Debit,BofA,Savings
+1486,2023,November,24,11/24/2023,parking,travel,8.0,Debit,BofA,Savings
+1490,2023,December,06,12/06/2023,monthly maintenance fee,utility,-8.0,Debit,BofA,Savings
+1494,2024,January,05,01/05/2024,interest,utility,0.01,Debit,BofA,Savings
+1496,2024,January,08,01/08/2024,monthly maintenance fee,utility,-8.0,Debit,BofA,Savings
+1505,2024,February,05,02/05/2024,interest,utility,0.01,Debit,BofA,Savings
+1506,2024,February,06,02/06/2024,monthly maintenance fee,utility,-8.0,Debit,BofA,Savings
+1507,2024,February,13,02/13/2024,monthly maintenance fee refund,utility,8.0,Debit,BofA,Savings
+1512,2024,March,06,03/06/2024,interest,utility,0.01,Debit,BofA,Savings
+1513,2024,March,07,03/07/2024,monthly maintenance fee,utility,-8.0,Debit,BofA,Savings
+1514,2024,March,14,03/14/2024,amazon,shopping,83.03,Debit,BofA,Savings
+1515,2024,March,26,03/26/2024,robinhood,dining,-30.0,Debit,BofA,Savings
+1516,2024,March,27,03/27/2024,amazon,shopping,67.0,Debit,BofA,Savings
+1524,2024,May,02,05/02/2024,interest,utility,89.0,Debit,BofA,Savings
+1526,2024,May,07,05/07/2024,interest,utility,0.01,Debit,BofA,Savings
+1532,2024,June,04,06/04/2024,interest,utility,0.01,Debit,BofA,Savings
+1535,2024,July,01,07/01/2024,interest,utility,25.88,Debit,BofA,Savings
+1536,2024,July,08,07/08/2024,interest,utility,0.01,Debit,BofA,Savings
+1538,2024,July,22,07/22/2024,monthly maintenance fee refund,utility,8.0,Debit,BofA,Savings
+1546,2024,August,07,08/07/2024,interest,utility,0.01,Debit,BofA,Savings
+1547,2024,August,08,08/08/2024,monthly maintenance fee,utility,-8.0,Debit,BofA,Savings
+1558,2024,September,05,09/05/2024,interest,utility,0.01,Debit,BofA,Savings
+1559,2024,September,16,09/16/2024,michaels,shopping,71.11,Debit,BofA,Savings
+1560,2024,September,23,09/23/2024,michaels,shopping,129.14,Debit,BofA,Savings
+1562,2024,September,30,09/30/2024,michaels,shopping,15.0,Debit,BofA,Savings
+1565,2024,October,07,10/07/2024,michaels,shopping,86.67,Debit,BofA,Savings
+1566,2024,October,07,10/07/2024,interest,utility,0.01,Debit,BofA,Savings
+1568,2024,October,09,10/09/2024,amazon,shopping,61.5,Debit,BofA,Savings
+1570,2024,October,18,10/18/2024,michaels,shopping,147.64,Debit,BofA,Savings
+1572,2024,October,28,10/28/2024,michaels,shopping,21.74,Debit,BofA,Savings
+1573,2024,October,31,10/31/2024,costco,grocery,-117.43,Debit,BofA,Savings
+1574,2024,November,01,11/01/2024,michaels,shopping,172.91,Debit,BofA,Savings
+1575,2024,November,01,11/01/2024,michaels,shopping,39.45,Debit,BofA,Savings
+1577,2024,November,01,11/01/2024,michaels,shopping,-86.67,Debit,BofA,Savings
+1578,2024,November,04,11/04/2024,interest,utility,30.45,Debit,BofA,Savings
+1579,2024,November,04,11/04/2024,interest,utility,0.01,Debit,BofA,Savings
+1580,2024,November,07,11/07/2024,robinhood,dining,-25.0,Debit,BofA,Savings
+1581,2024,November,07,11/07/2024,robinhood,dining,-25.0,Debit,BofA,Savings
+1582,2024,November,08,11/08/2024,robinhood,dining,-10.0,Debit,BofA,Savings
+1584,2024,November,21,11/21/2024,michaels,shopping,82.83,Debit,BofA,Savings
+1586,2024,December,05,12/05/2024,interest,utility,0.01,Debit,BofA,Savings
+1587,2024,December,11,12/11/2024,michaels,shopping,52.38,Debit,BofA,Savings
+1588,2024,December,13,12/13/2024,michaels,shopping,781.86,Debit,BofA,Savings
+1592,2025,January,02,01/02/2025,interest,utility,33.59,Debit,BofA,Savings
+1594,2025,January,07,01/07/2025,interest,utility,0.01,Debit,BofA,Savings
+1595,2025,January,10,01/10/2025,michaels,shopping,806.07,Debit,BofA,Savings
+1598,2025,January,14,01/14/2025,michaels,shopping,234.42,Debit,BofA,Savings
+1605,2025,February,04,02/04/2025,interest,utility,0.01,Debit,BofA,Savings
+1606,2025,February,06,02/06/2025,michaels,shopping,807.79,Debit,BofA,Savings
+1607,2025,February,06,02/06/2025,michaels,shopping,795.28,Debit,BofA,Savings
+1609,2025,March,03,03/03/2025,interest,utility,28.13,Debit,BofA,Savings
+1610,2025,March,06,03/06/2025,interest,utility,0.02,Debit,BofA,Savings
